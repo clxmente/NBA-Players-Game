@@ -15,6 +15,7 @@ export default function Home() {
 
   // Team Selection States
   const [currTeam, setCurrTeam] = useState("ATL");
+  const [playersArr, setPlayersArr] = useState([]);
 
   // Start/Timer Button States
   const [timerVal, setTimerVal] = useState("Start Game");
@@ -62,6 +63,7 @@ export default function Home() {
   }
 
   // Players map
+  // TODO: Convert this to use API calls instead of data.json
   const players_arr = Data.filter(player => player.TEAM===currTeam).map((data, id) => { // filter the whole player array data to players with team == currTeam
     if (data.JERSEY_NUM) {
       var jersey_no = "#" + data.JERSEY_NUM;
