@@ -2,8 +2,8 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
   content: [
-    "./pages/**/*.{js, jsx}",
-    "./components/**/*.{js, jsx}"
+    "./pages/**/*.js",
+    "./components/**/*.jsx"
   ],
   theme: {
     extend: {
@@ -12,5 +12,7 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/forms"),
+  ],
 }
