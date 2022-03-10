@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import axios from "axios";
 import { useState } from 'react';
 import Countdown from 'react-countdown';
 import PlayerBox from '../components/PlayerBox';
@@ -31,17 +32,19 @@ export default function Home() {
         return <span>{minutes}:{seconds}</span>;
     }
   }
-  const queryData = (e) => {
+  const queryAPI = (e) => {
     e.preventDefault();
-    if (Data.filter(player => player.FULL_NAME.toLowerCase() === name.toLowerCase()).length > 0) { // check if player exists
 
-      score++;
-      console.log("CURRENT SCORE: " + score)
-
-      let curr_player_data = Data.find(player => player.FULL_NAME.toLowerCase() === name.toLowerCase());
-      if (curr_player_data.TEAM != currTeam) { setCurrTeam(curr_player_data.TEAM) } // switch grid to player team if you guess correct player on another team
-
-    } else { console.log("NO PLAYER WITH NAME: " + name) }
+    // make the API call
+    axios.get(`/api/players/${name}`).then(
+        res => {
+            console.log(res.status)
+            if (res.status === 200) { 
+                score++;
+                if (res.data[0].TEAM != currTeam) { setCurrTeam(res.data[0].TEAM) } // switch boxes to team if player correct and on another team
+            }
+        }
+    ).catch(err => { console.log(err); })
     setName(""); // clear field after enter
   }
 
@@ -75,7 +78,6 @@ export default function Home() {
         <title>NBA Player Guess</title>
         <meta name="description" content="Name as many NBA players as you can within the time limit!" />
         <link rel="icon" href="/basketball-ball.png" />
-        <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
       </Head>
 
       <main>
@@ -87,7 +89,7 @@ export default function Home() {
         <div className='flex justify-center items-center'>
           {/* Player Name Form */}
           <div className='flex justify-center'>
-            <form className='block md:flex md:items-center' onSubmit={queryData}>
+            <form className='block md:flex md:items-center' onSubmit={queryAPI}>
               <div className='flex border-b border-[#17408B] py-2'>
                 <input
                   className='appearance-none bg-transparent border-none text-gray-700 mr-3 py-1 px-2 focus:outline-none focus:ring-0'
