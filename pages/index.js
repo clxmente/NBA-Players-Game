@@ -254,6 +254,7 @@ export default function Home() {
   const queryAPI = (e) => {
     e.preventDefault();
 
+    if (!name) { return; } // no name in field
     // make the API call
     axios.get(`/api/players/${name}`).then(
         res => {
