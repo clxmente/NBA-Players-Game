@@ -5,6 +5,7 @@ import Countdown from 'react-countdown';
 import PlayerBox from '../components/PlayerBox';
 import Data from "../data/players.json"; // player data json file
 import Dropdown from '../components/Dropdown';
+import GuessedPlayerBox from '../components/GuessedPlayerBox';
 
 const teams = [
   {
@@ -234,6 +235,9 @@ export default function Home() {
   // Start/Timer Button States
   const [timerVal, setTimerVal] = useState("Start Game");
   const [timerDisabled, setTimerDisabled] = useState(false);
+
+  // player guess list tracker
+  const [guessedPlayers, setGuessedPlayers] = useState([]);
   
   // react-countdown timer renderer function
   const renderer = ({ formatted: {minutes, seconds}, completed}) => {
@@ -255,8 +259,13 @@ export default function Home() {
         res => {
             console.log(res.status)
             if (res.status === 200) { 
-              score++;
-              if (res.data[0].TEAM != currTeam) { setSelected(teams.find(abbrev => abbrev.abbreviation === res.data[0].TEAM)); setCurrTeam(res.data[0].TEAM); } // switch boxes to team if player correct and on another team
+              if (guessedPlayers.includes(name.toLowerCase())) {
+                console.log("Player already in guess")
+              } else {
+                score++;
+                setGuessedPlayers([name, ...guessedPlayers])
+                if (res.data[0].TEAM != currTeam) { setSelected(teams.find(abbrev => abbrev.abbreviation === res.data[0].TEAM)); setCurrTeam(res.data[0].TEAM); } // switch boxes to team if player correct and on another team
+              }
             }
         }
     ).catch(err => { console.log(err); })
@@ -285,6 +294,12 @@ export default function Home() {
 
     return (
       <PlayerBox key={id} name={data.FULL_NAME} team={data.TEAM} number={jersey_no} position={data.POS} />
+    )
+  })
+
+  const guessed_players = guessedPlayers.map((pname) => {
+    return (
+      <GuessedPlayerBox key={pname} person={pname} />
     )
   })
 
@@ -340,10 +355,19 @@ export default function Home() {
         {/* End Input/Submit */}
 
         {/* dropdown */}
-        <div className='px-5'><Dropdown selected={selected} setSelected={setSelected} teams={teams} /></div>
+        <div className='px-5'>
+          <Dropdown selected={selected} setSelected={setSelected} teams={teams} />
+          {score}
+        </div>
         {/* Player Boxes */}
         <div className="py-10 grid grid-cols-1 md:grid-cols-5 gap-4 px-5">
           {players_arr}
+        </div>
+
+        <div>
+          <div className='px-5 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6'>
+            {guessed_players}
+          </div>
         </div>
       </main>
     </div>
