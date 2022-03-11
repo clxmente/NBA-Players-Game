@@ -2,10 +2,13 @@ import Head from 'next/head';
 import axios from "axios";
 import { useState } from 'react';
 import Countdown from 'react-countdown';
+
+// Component imports
 import PlayerBox from '../components/PlayerBox';
 import Data from "../data/players.json"; // player data json file
 import Dropdown from '../components/Dropdown';
 import GuessedPlayerBox from '../components/GuessedPlayerBox';
+import ScoreDisplay from '../components/ScoreDisplay';
 
 const teams = [
   {
@@ -356,9 +359,11 @@ export default function Home() {
         {/* End Input/Submit */}
 
         {/* dropdown */}
-        <div className='px-5'>
-          <Dropdown selected={selected} setSelected={setSelected} teams={teams} />
-          {score}
+        <div className='px-5 pt-5'>
+          <ScoreDisplay currScore={score} />
+          <div>
+            <Dropdown selected={selected} setSelected={setSelected} teams={teams} />
+          </div>
         </div>
         {/* Player Boxes */}
         <div className="py-10 grid grid-cols-1 md:grid-cols-5 gap-4 px-5">
