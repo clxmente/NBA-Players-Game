@@ -344,6 +344,7 @@ export default function Home() {
                   type="text"
                   placeholder="NBA Player Name"
                   value={name}
+                  maxLength="24"
                   onInput={e => {setName(e.target.value)}}
                 />
                 <button
