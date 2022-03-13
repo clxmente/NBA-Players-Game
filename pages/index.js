@@ -298,7 +298,7 @@ export default function Home() {
     to our liking. */
     if (submitBtnDisabled === true) { setSubmitBtnDisabled(false); }
     setTimerDisabled(true);
-    setTimerVal(<Countdown date={Date.now() + 30000} zeroPadTime={2} renderer={renderer} onComplete={() => {setTimerDisabled(false); setSubmitBtnDisabled(true); console.log("FINAL SCORE: " + score)}} />);
+    setTimerVal(<Countdown date={Date.now() + 450000} zeroPadTime={2} renderer={renderer} onComplete={() => {setTimerDisabled(false); setSubmitBtnDisabled(true); console.log("FINAL SCORE: " + score)}} />);
   }
 
   // Players map
