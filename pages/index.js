@@ -263,12 +263,13 @@ export default function Home() {
       res => {
         console.log(res.status)
         if (res.status === 200) { 
+          if (!res.data[0].TEAM) { return; } // player doesn't have a team somehow???? ex; tacko fall
+
           if ( guessedPlayers.some( player_object => player_object.FULL_NAME.toLowerCase() === name.toLowerCase() ) ) {
             console.log("Player already in guess")
           } else { // player hasn't been guessed
             score++;
             setGuessedPlayers([res.data[0], ...guessedPlayers])
-            if(!res.data[0].TEAM) {return; } // ex: tacko fall has no team??????
             if (res.data[0].TEAM != currTeam) { setSelected(teams.find(abbrev => abbrev.abbreviation === res.data[0].TEAM)); setCurrTeam(res.data[0].TEAM); } // switch boxes to team if player correct and on another team
           }
         }
@@ -293,7 +294,7 @@ export default function Home() {
     /*  After click set the button text to a countdown timer. 
     The date prop decides how long the countdown is. We get the current
     time and add 300000 milliseconds (5 minutes) to set the timer to 5
-    minutes.
+    minutes. 450000 ms = 7.5 minutes
     zeroPadTime{2} pads the time to appear as 00:00:00.
     The renderer prop uses the renderer function to format the countdown
     to our liking. */
