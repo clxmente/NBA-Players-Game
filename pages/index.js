@@ -277,13 +277,15 @@ export default function Home() {
   }
 
   useEffect(() => {
+    document.getElementsByName("player-name").forEach( element => element.value="" );
     updatePlayerCards();
-  }, [guessedPlayers]);
+  }, [guessedPlayers, selected]);
 
   function updatePlayerCards() {
     // whenever a user inputs a name, update the player card
     // to show the name of the guessed player.
-    guessedPlayers.forEach( player_object => document.getElementById(player_object.FULL_NAME.toLowerCase()).value = player_object.FULL_NAME )
+    let currTeamPlayers = guessedPlayers.filter( player_object => player_object.TEAM === selected.abbreviation );
+    currTeamPlayers.forEach( player_object => document.getElementById(player_object.FULL_NAME.toLowerCase()).value = player_object.FULL_NAME )
   }
 
   function startGameFunc() {
