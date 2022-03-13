@@ -331,12 +331,12 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className="text-lg md:text-xl font-semibold tracking-wide break-words flex justify-center py-7 px-3 md:px-0 text-white">
+        <h1 className="text-lg md:text-3xl font-bold tracking-wide break-words flex justify-center py-7 px-5 text-white">
           How Many NBA Players Can You Name Within The Time Limit?
         </h1>
         
         {/* Start Input/Submit */}
-        <div className='flex justify-center items-center'>
+        <div className='flex justify-center items-center px-5'>
           {/* Player Name Form */}
           <div className='flex justify-center'>
             <form className='block md:flex md:items-center' onSubmit={queryAPI}>
@@ -358,9 +358,9 @@ export default function Home() {
                 </button>
               </div>
               {/* Start BTN */}
-              <div className='flex justify-end'>
+              <div className='block md:flex justify-end'>
               <button
-                className="flex-shrink-0 bg-[#C9082A] hover:bg-[#8D061D] border-[#C9082A] hover:border-[#8D061D] text-sm border-4 text-white py-1 px-7 rounded mt-5 md:mt-0 md:ml-8 disabled:hover:bg-[#C9082A] disabled:hover:cursor-not-allowed disabled:hover:border-[#C9082A]"
+                className="flex-shrink-0 bg-[#C9082A] hover:bg-[#8D061D] border-[#C9082A] hover:border-[#8D061D] text-sm border-4 text-white py-1 px-7 rounded my-5 md:my-0 md:mx-8 disabled:hover:bg-[#C9082A] disabled:hover:cursor-not-allowed disabled:hover:border-[#C9082A]"
                 disabled={timerDisabled}
                 type="button"
                 onClick={startGameFunc}
@@ -368,6 +368,7 @@ export default function Home() {
                 {timerVal}
               </button>
               {/* End Start BTN */}
+              <TimeSelect timestate={currTimer} setTime={setCurrTimer} disabledState={timerDisabled} />
               </div>
             </form>
           </div>
@@ -376,13 +377,10 @@ export default function Home() {
 
         {/* dropdown */}
         <div className='px-5 pt-5'>
-          <div className='flex justify-center items-end'>
+          <div className='flex justify-center items-end my-5'>
             <ScoreDisplay currScore={score} />
-            <TimeSelect setFunc={setCurrTimer} timeState={currTimer} disabledState={timerDisabled} />
           </div>
-          <div className='mt-28 sm:mt-0'>
-            <Dropdown selected={selected} setSelected={setSelected} teams={teams} />
-          </div>
+          <Dropdown selected={selected} setSelected={setSelected} teams={teams} />
         </div>
         {/* Player Boxes */}
         <div className="py-10 grid grid-cols-1 md:grid-cols-5 gap-4 px-5">
