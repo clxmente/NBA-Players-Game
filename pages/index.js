@@ -268,6 +268,7 @@ export default function Home() {
           } else { // player hasn't been guessed
             score++;
             setGuessedPlayers([res.data[0], ...guessedPlayers])
+            if(!res.data[0].TEAM) {return; } // ex: tacko fall has no team??????
             if (res.data[0].TEAM != currTeam) { setSelected(teams.find(abbrev => abbrev.abbreviation === res.data[0].TEAM)); setCurrTeam(res.data[0].TEAM); } // switch boxes to team if player correct and on another team
           }
         }
