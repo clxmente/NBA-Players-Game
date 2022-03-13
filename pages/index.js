@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import axios from "axios";
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Countdown from 'react-countdown';
 
 // Component imports
@@ -260,20 +260,32 @@ export default function Home() {
     if (!name) { return; } // no name in field
     // make the API call
     axios.get(`/api/players/${name}`).then(
-        res => {
-            console.log(res.status)
-            if (res.status === 200) { 
-              if (guessedPlayers.includes(name.toLowerCase())) {
-                console.log("Player already in guess")
-              } else {
-                score++;
-                setGuessedPlayers([name, ...guessedPlayers])
-                if (res.data[0].TEAM != currTeam) { setSelected(teams.find(abbrev => abbrev.abbreviation === res.data[0].TEAM)); setCurrTeam(res.data[0].TEAM); } // switch boxes to team if player correct and on another team
-              }
-            }
+      res => {
+        console.log(res.status)
+        if (res.status === 200) { 
+          if ( guessedPlayers.some( player_object => player_object.FULL_NAME.toLowerCase() === name.toLowerCase() ) ) {
+            console.log("Player already in guess")
+          } else { // player hasn't been guessed
+            score++;
+            setGuessedPlayers([res.data[0], ...guessedPlayers])
+            if (res.data[0].TEAM != currTeam) { setSelected(teams.find(abbrev => abbrev.abbreviation === res.data[0].TEAM)); setCurrTeam(res.data[0].TEAM); } // switch boxes to team if player correct and on another team
+          }
         }
+      }
     ).catch(err => { console.log(err); })
     setName(""); // clear field after enter
+  }
+
+  useEffect(() => {
+    document.getElementsByName("player-name").forEach( element => element.value="" );
+    updatePlayerCards();
+  }, [guessedPlayers, selected]);
+
+  function updatePlayerCards() {
+    // whenever a user inputs a name, update the player card
+    // to show the name of the guessed player.
+    let currTeamPlayers = guessedPlayers.filter( player_object => player_object.TEAM === selected.abbreviation );
+    currTeamPlayers.forEach( player_object => document.getElementById(player_object.FULL_NAME.toLowerCase()).value = player_object.FULL_NAME )
   }
 
   function startGameFunc() {
@@ -301,9 +313,9 @@ export default function Home() {
     )
   })
 
-  const guessed_players = guessedPlayers.map((pname) => {
+  const guessed_players = guessedPlayers.map((pobj) => {
     return (
-      <GuessedPlayerBox key={pname} person={pname} />
+      <GuessedPlayerBox key={pobj.FULL_NAME.toLowerCase()} person={pobj.FULL_NAME} />
     )
   })
 
