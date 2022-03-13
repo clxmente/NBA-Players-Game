@@ -9,6 +9,7 @@ import Data from "../data/players.json"; // player data json file
 import Dropdown from '../components/Dropdown';
 import GuessedPlayerBox from '../components/GuessedPlayerBox';
 import ScoreDisplay from '../components/ScoreDisplay';
+import TimeSelect from '../components/TimeSelect';
 
 const teams = [
   {
@@ -237,6 +238,7 @@ export default function Home() {
   // Start/Timer Button States
   const [timerVal, setTimerVal] = useState("Start Game");
   const [timerDisabled, setTimerDisabled] = useState(false);
+  const [currTimer, setCurrTimer] = useState(1200000); // 20 minutes default
 
   // player guess list tracker
   const [guessedPlayers, setGuessedPlayers] = useState([]);
@@ -299,7 +301,7 @@ export default function Home() {
     to our liking. */
     if (submitBtnDisabled === true) { setSubmitBtnDisabled(false); }
     setTimerDisabled(true);
-    setTimerVal(<Countdown date={Date.now() + 450000} zeroPadTime={2} renderer={renderer} onComplete={() => {setTimerDisabled(false); setSubmitBtnDisabled(true); console.log("FINAL SCORE: " + score)}} />);
+    setTimerVal(<Countdown date={Date.now() + currTimer} zeroPadTime={2} renderer={renderer} onComplete={() => {setTimerDisabled(false); setSubmitBtnDisabled(true); console.log("FINAL SCORE: " + score)}} />);
   }
 
   // Players map
@@ -374,8 +376,11 @@ export default function Home() {
 
         {/* dropdown */}
         <div className='px-5 pt-5'>
-          <ScoreDisplay currScore={score} />
-          <div>
+          <div className='flex justify-center items-end'>
+            <ScoreDisplay currScore={score} />
+            <TimeSelect setFunc={setCurrTimer} timeState={currTimer} disabledState={timerDisabled} />
+          </div>
+          <div className='mt-28 sm:mt-0'>
             <Dropdown selected={selected} setSelected={setSelected} teams={teams} />
           </div>
         </div>
