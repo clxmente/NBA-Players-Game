@@ -8,4 +8,18 @@ html, body {
   padding: 0;
   margin: 0;
   font-family: 'Inter', sans-serif;
+  background-color: #111827;
 }
+
+@layer components {
+  .time-selection-default {
+    @apply relative inline-flex items-center px-4 py-2 border border-gray-700 bg-gray-800 text-sm font-medium text-white hover:bg-gray-900 focus:z-10 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 disabled:cursor-not-allowed
+  }
+  .time-selection-active {
+    @apply relative inline-flex items-center px-4 py-2 border border-gray-700 bg-gray-800 text-sm font-medium text-red-500 hover:bg-gray-900 focus:z-10 focus:outline-none focus:ring-1 focus:ring-red-500 focus:border-red-500 disabled:cursor-not-allowed
+  }
+
+}
+/*
+border-gray-700 bg-gray-800 text-sm font-medium text-white hover:bg-gray-900 focus:z-10 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500
+*/
