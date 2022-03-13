@@ -232,7 +232,6 @@ export default function Home() {
   const [submitBtnDisabled, setSubmitBtnDisabled] = useState(true);
 
   // Team Selection States
-  const [currTeam, setCurrTeam] = useState("ATL");
   const [selected, setSelected] = useState(teams[0]);
 
   // Start/Timer Button States
@@ -270,7 +269,7 @@ export default function Home() {
           } else { // player hasn't been guessed
             score++;
             setGuessedPlayers([res.data[0], ...guessedPlayers])
-            if (res.data[0].TEAM != currTeam) { setSelected(teams.find(abbrev => abbrev.abbreviation === res.data[0].TEAM)); setCurrTeam(res.data[0].TEAM); } // switch boxes to team if player correct and on another team
+            if (res.data[0].TEAM != selected.abbreviation) { setSelected(teams.find(abbrev => abbrev.abbreviation === res.data[0].TEAM)) } // switch boxes to team if player correct and on another team
           }
         }
       }
