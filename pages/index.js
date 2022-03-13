@@ -331,7 +331,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className="text-lg md:text-xl font-semibold tracking-wide break-words flex justify-center py-7 px-3 md:px-0">
+        <h1 className="text-lg md:text-xl font-semibold tracking-wide break-words flex justify-center py-7 px-3 md:px-0 text-white">
           How Many NBA Players Can You Name Within The Time Limit?
         </h1>
         
@@ -342,7 +342,7 @@ export default function Home() {
             <form className='block md:flex md:items-center' onSubmit={queryAPI}>
               <div className='flex border-b border-[#17408B] py-2'>
                 <input
-                  className='appearance-none bg-transparent border-none text-gray-700 mr-3 py-1 px-2 focus:outline-none focus:ring-0'
+                  className='appearance-none bg-transparent border-none text-gray-50 mr-3 py-1 px-2 focus:outline-none focus:ring-0'
                   type="text"
                   placeholder="NBA Player Name"
                   value={name}
