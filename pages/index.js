@@ -360,7 +360,7 @@ export default function Home() {
               {/* Start BTN */}
               <div className='block md:flex justify-end'>
               <button
-                className="flex-shrink-0 bg-[#C9082A] hover:bg-[#8D061D] border-[#C9082A] hover:border-[#8D061D] text-sm border-4 text-white py-1 px-7 rounded my-5 md:my-0 md:mx-8 disabled:hover:bg-[#C9082A] disabled:hover:cursor-not-allowed disabled:hover:border-[#C9082A]"
+                className="flex-shrink-0 bg-[#C9082A] hover:bg-[#8D061D] border-[#C9082A] hover:border-[#8D061D] text-sm border-4 text-white py-1 px-7 rounded my-5 md:my-0 mr-8 md:mx-8 disabled:hover:bg-[#C9082A] disabled:hover:cursor-not-allowed disabled:hover:border-[#C9082A]"
                 disabled={timerDisabled}
                 type="button"
                 onClick={startGameFunc}
