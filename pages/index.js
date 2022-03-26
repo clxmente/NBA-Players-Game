@@ -10,6 +10,7 @@ import Dropdown from '../components/Dropdown';
 import GuessedPlayerBox from '../components/GuessedPlayerBox';
 import ScoreDisplay from '../components/ScoreDisplay';
 import TimeSelect from '../components/TimeSelect';
+import EndGame from '../components/EndGame';
 
 const teams = [
   {
@@ -242,6 +243,9 @@ export default function Home() {
 
   // player guess list tracker
   const [guessedPlayers, setGuessedPlayers] = useState([]);
+
+  // modal states
+  const [endOpen, setEndOpen] = useState(true);
   
   // react-countdown timer renderer function
   const renderer = ({ formatted: {minutes, seconds}, completed}) => {
@@ -301,11 +305,10 @@ export default function Home() {
     to our liking. */
     if (submitBtnDisabled === true) { setSubmitBtnDisabled(false); }
     setTimerDisabled(true);
-    setTimerVal(<Countdown date={Date.now() + currTimer} zeroPadTime={2} renderer={renderer} onComplete={() => {setTimerDisabled(false); setSubmitBtnDisabled(true); console.log("FINAL SCORE: " + score)}} />);
+    setTimerVal(<Countdown date={Date.now() + 10000} zeroPadTime={2} renderer={renderer} onComplete={() => {setTimerDisabled(false); setSubmitBtnDisabled(true); console.log("FINAL SCORE: " + score)}} />);
   }
 
   // Players map
-  // TODO: Convert this to use API calls instead of data.json
   const players_arr = Data.filter(player => player.TEAM===selected.abbreviation).map((data, id) => { // filter the whole player array data to players with team == currTeam
     if (data.JERSEY_NUM) {
       var jersey_no = "#" + data.JERSEY_NUM;
@@ -331,6 +334,7 @@ export default function Home() {
       </Head>
 
       <main>
+        <EndGame open={endOpen} setOpen={setEndOpen} score={score} players={guessedPlayers} timer={currTimer} />
         <h1 className="text-lg md:text-3xl font-bold tracking-wide break-words flex justify-center py-7 px-5 text-white">
           How Many NBA Players Can You Name Within The Time Limit?
         </h1>
