@@ -248,7 +248,7 @@ export default function Home() {
 
   // modal states
   const [endOpen, setEndOpen] = useState(false);
-  const [linkOpen, setLinkOpen] = useState(false);
+  const [linkOpen, setLinkOpen] = useState(true);
 
   //reCAPTCHA stuff -----------------------------------------------------------
   const [username, setUsername] = useState("");

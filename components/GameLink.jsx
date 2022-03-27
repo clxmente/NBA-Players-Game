@@ -35,8 +35,8 @@ export default function GameLink(props) {
           >
             <div className="relative inline-block align-bottom bg-gray-900 rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-sm sm:w-full sm:p-6">
               <div>
-                <div className="mx-auto flex items-center justify-center h-12 w-12 rounded-full bg-gray-800">
-                  <ShareIcon className="h-6 w-6 text-gray-300" aria-hidden="true" />
+                <div className="mx-auto flex items-center justify-center h-12 w-12 rounded-full bg-gray-300">
+                  <ShareIcon className="h-6 w-6 text-gray-800" aria-hidden="true" />
                 </div>
                 <div className="mt-3 text-center sm:mt-5">
                   <Dialog.Title as="h3" className="text-lg leading-6 font-medium text-white">
@@ -52,7 +52,7 @@ export default function GameLink(props) {
               <div className="mt-5 sm:mt-6">
                 <button
                   type="button"
-                  className="inline-flex justify-center w-full rounded-md border border-gray-700 shadow-sm px-4 py-2 bg-gray-800 text-base items-center font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:text-sm"
+                  className="inline-flex justify-center w-full rounded-md border border-transparent shadow-sm px-4 py-2 bg-indigo-600 text-base items-center font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-none sm:text-sm"
                   onClick={() => {navigator.clipboard.writeText(props.link); props.setOpen(false)} }
                 >
                   <LinkIcon className='text-white h-5 w-5 mr-2' aria-hidden="true" />Copy Game Link
