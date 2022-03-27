@@ -1,7 +1,6 @@
-import { Fragment, useRef, useState, createRef } from 'react'
+import { Fragment, useRef } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { ThumbUpIcon } from '@heroicons/react/outline'
-import ReCAPTCHA from 'react-google-recaptcha';
 
 export default function EndGame(props) {
 

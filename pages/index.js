@@ -12,6 +12,7 @@ import GuessedPlayerBox from '../components/GuessedPlayerBox';
 import ScoreDisplay from '../components/ScoreDisplay';
 import TimeSelect from '../components/TimeSelect';
 import EndGame from '../components/EndGame';
+import GameLink from '../components/GameLink';
 
 const teams = [
   {
@@ -247,10 +248,14 @@ export default function Home() {
 
   // modal states
   const [endOpen, setEndOpen] = useState(false);
+  const [linkOpen, setLinkOpen] = useState(false);
 
   //reCAPTCHA stuff -----------------------------------------------------------
   const [username, setUsername] = useState("");
   const recaptchaRef = useRef();
+
+  // game link to share with friends
+  const [gameLink, setGameLink] = useState("");
 
   const executeCaptcha = () => {
     recaptchaRef.current.execute();
@@ -284,8 +289,10 @@ export default function Home() {
         },
       });
       if (response.status === 201) {
+        // successful 
         const msg = await response.json();
-        alert(msg.message);
+        setGameLink(msg.link);
+        setLinkOpen(true);
         setEndOpen(false);
       } else {
         // throw the error the api returned
@@ -394,6 +401,7 @@ export default function Home() {
           sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_KEY}
           onChange={onReCAPTCHAChange}
         />
+        <GameLink open={linkOpen} setOpen={setLinkOpen} link={gameLink} />
         <EndGame open={endOpen} setOpen={setEndOpen} score={score} players={guessedPlayers} username={username} setUsername={setUsername} executeCaptcha={executeCaptcha} />
         <h1 className="text-lg md:text-3xl font-bold tracking-wide break-words flex justify-center py-7 px-5 text-white">
           How Many NBA Players Can You Name Within The Time Limit?

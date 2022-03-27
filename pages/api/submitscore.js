@@ -35,7 +35,7 @@ export default async function handler (req, res) {
       // generate a game id
       const game_id = uuidv4();
       console.log(body);
-      return res.status(201).json({ message: `Share your game with your friends! http://localhost:3000/games/${game_id}`});
+      return res.status(201).json({ link: `http://localhost:3000/games/${game_id}`});
     }
 
     // false captchaValidation
