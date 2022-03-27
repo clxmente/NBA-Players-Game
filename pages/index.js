@@ -383,7 +383,7 @@ export default function Home() {
           <Dropdown selected={selected} setSelected={setSelected} teams={teams} />
         </div>
         {/* Player Boxes */}
-        <div className="py-10 grid grid-cols-1 md:grid-cols-5 gap-4 px-5">
+        <div className="py-10 grid grid-cols-1 md:grid-cols-5 gap-4 px-32">
           {players_arr}
         </div>
 
