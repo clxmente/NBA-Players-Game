@@ -1,4 +1,5 @@
 import { createClient } from "@supabase/supabase-js";
+import moment from "moment";
 import { v4 as uuidv4 } from "uuid";
 
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_ANON_KEY);
@@ -31,9 +32,19 @@ export default async function handler (req, res) {
       }
     */
     if (captchaValidation.success) {
-      //! SAVE TO DATABASE HERE IF SUCCESS
       // generate a game id
       const game_id = uuidv4();
+      //! SAVE TO DATABASE HERE IF SUCCESS
+      const { data, error } = await supabase
+        .from("games")
+        .insert([{
+          game_id: game_id,
+          username: body.username,
+          score: body.score,
+          guessed_players: JSON.stringify(body.guessed_players),
+          time_setting: body.time_setting,
+          created_at: moment().format('ddd MMM D HH:mm:ss YYYY Z')
+        }])
       console.log(body);
       return res.status(201).json({ link: `http://localhost:3000/games/${game_id}`});
     }

@@ -248,7 +248,7 @@ export default function Home() {
 
   // modal states
   const [endOpen, setEndOpen] = useState(false);
-  const [linkOpen, setLinkOpen] = useState(true);
+  const [linkOpen, setLinkOpen] = useState(false);
 
   //reCAPTCHA stuff -----------------------------------------------------------
   const [username, setUsername] = useState("");
@@ -366,7 +366,7 @@ export default function Home() {
     to our liking. */
     if (submitBtnDisabled === true) { setSubmitBtnDisabled(false); }
     setTimerDisabled(true);
-    setTimerVal(<Countdown date={Date.now() + 10000} zeroPadTime={2} renderer={renderer} onComplete={() => {setTimerDisabled(false); setSubmitBtnDisabled(true); setEndOpen(true); }} />);
+    setTimerVal(<Countdown date={Date.now() + currTimer} zeroPadTime={2} renderer={renderer} onComplete={() => {setTimerDisabled(false); setSubmitBtnDisabled(true); setEndOpen(true); }} />);
   }
 
   // Players map
