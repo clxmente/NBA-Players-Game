@@ -245,7 +245,7 @@ export default function Home() {
   const [guessedPlayers, setGuessedPlayers] = useState([]);
 
   // modal states
-  const [endOpen, setEndOpen] = useState(true);
+  const [endOpen, setEndOpen] = useState(false);
   
   // react-countdown timer renderer function
   const renderer = ({ formatted: {minutes, seconds}, completed}) => {
@@ -305,7 +305,7 @@ export default function Home() {
     to our liking. */
     if (submitBtnDisabled === true) { setSubmitBtnDisabled(false); }
     setTimerDisabled(true);
-    setTimerVal(<Countdown date={Date.now() + 10000} zeroPadTime={2} renderer={renderer} onComplete={() => {setTimerDisabled(false); setSubmitBtnDisabled(true); console.log("FINAL SCORE: " + score)}} />);
+    setTimerVal(<Countdown date={Date.now() + 10000} zeroPadTime={2} renderer={renderer} onComplete={() => {setTimerDisabled(false); setSubmitBtnDisabled(true); console.log("FINAL SCORE: " + score); setEndOpen(true)}} />);
   }
 
   // Players map

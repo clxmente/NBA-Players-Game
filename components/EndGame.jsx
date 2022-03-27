@@ -1,13 +1,19 @@
-import { Fragment, useRef, useState } from 'react'
+import { Fragment, useRef, useState, createRef } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { ThumbUpIcon } from '@heroicons/react/outline'
+import ReCAPTCHA from 'react-google-recaptcha';
 
 export default function EndGame(props) {
   const [username, setUsername] = useState("");
+  const recaptchaRef = useRef();
 
-  const cancelButtonRef = useRef(null)
+  const cancelButtonRef = useRef(null);
 
-  async function submitScore() {
+  const executeCaptcha = () => {
+    recaptchaRef.current.execute();
+  }
+
+  const onReCAPTCHAChange = async (captchaCode) => {
     var time_setting = "";
     if (props.timer === 1200000) {
       time_setting = "20m";
@@ -17,20 +23,37 @@ export default function EndGame(props) {
       time_setting = "7m30s";
     }
 
-    let response = await fetch("/api/submitscore", {
-      method: "POST",
-      body: {
-        "username": username,
-        "score": props.score,
-        "time_setting": time_setting 
-      },
-      headers: {
-        "Content-Type": "application/json",
-      },
-    })
+    const obj = {
+      "username": username,
+      "score": props.score,
+      "time_setting": time_setting,
+      "captcha": captchaCode
+    }
 
-    const data = await response.json();
-    return;
+    if (!captchaCode) { return; } // reCAPTCHA expired?
+    try {
+      const response = await fetch("/api/submitscore", {
+        method: "POST",
+        body: JSON.stringify(obj),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+      if (response.status === 201) {
+        const msg = await response.json();
+        alert(msg.message);
+        props.setOpen(false);
+      } else {
+        // throw the error the api returned
+        const error = await response.json();
+        throw new Error(error.message);
+      }
+    } catch (error) { alert(error?.message || "Something went wrong") }
+    finally {
+      // reset the reCAPTCHA
+      recaptchaRef.current.reset();
+      setUsername("");
+    }
   }
 
   return (
@@ -91,6 +114,12 @@ export default function EndGame(props) {
                         This will appear on the leaderboards!
                       </p>
                     </div>
+                    <ReCAPTCHA
+                      ref={recaptchaRef}
+                      size="invisible"
+                      sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_KEY}
+                      onChange={onReCAPTCHAChange}
+                    />
                   </div>
                 </div>
               </div>
@@ -98,9 +127,9 @@ export default function EndGame(props) {
                 <button
                   type="button"
                   className="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-indigo-600 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:col-start-2 sm:text-sm"
-                  onClick={() => props.setOpen(false)}
+                  onClick={() => { executeCaptcha(); }}
                 >
-                  Deactivate
+                  Submit Score
                 </button>
                 <button
                   type="button"
