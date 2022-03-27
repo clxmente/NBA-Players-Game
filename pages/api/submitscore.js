@@ -34,12 +34,13 @@ export default async function handler (req, res) {
       //! SAVE TO DATABASE HERE IF SUCCESS
       // generate a game id
       const game_id = uuidv4();
+      console.log(body);
       return res.status(201).json({ message: `Share your game with your friends! http://localhost:3000/games/${game_id}`});
     }
 
     // false captchaValidation
     return res.statsu(422).json({
-      message: "Unprocessable request, Invalid captcha code"
+      message: "called func ?"
     });
 
   } catch (error) {

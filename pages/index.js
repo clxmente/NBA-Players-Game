@@ -1,7 +1,8 @@
 import Head from 'next/head';
 import axios from "axios";
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Countdown from 'react-countdown';
+import ReCAPTCHA from 'react-google-recaptcha';
 
 // Component imports
 import PlayerBox from '../components/PlayerBox';
@@ -246,6 +247,59 @@ export default function Home() {
 
   // modal states
   const [endOpen, setEndOpen] = useState(false);
+
+  //reCAPTCHA stuff -----------------------------------------------------------
+  const [username, setUsername] = useState("");
+  const recaptchaRef = useRef();
+
+  const executeCaptcha = () => {
+    recaptchaRef.current.execute();
+  }
+
+  const onReCAPTCHAChange = async (captchaCode) => {
+    var time_setting = "";
+    if (currTimer === 1200000) {
+      time_setting = "20m";
+    } else if (currTimer === 750000) {
+      time_setting = "12m30s";
+    } else if (currTimer === 450000) {
+      time_setting = "7m30s";
+    }
+
+    const obj = {
+      "username": username,
+      "score": score,
+      "time_setting": time_setting,
+      "guessed_players": guessedPlayers,
+      "captcha": captchaCode
+    }
+
+    if (!captchaCode) { return; } // reCAPTCHA expired?
+    try {
+      const response = await fetch("/api/submitscore", {
+        method: "POST",
+        body: JSON.stringify(obj),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+      if (response.status === 201) {
+        const msg = await response.json();
+        alert(msg.message);
+        setEndOpen(false);
+      } else {
+        // throw the error the api returned
+        const error = await response.json();
+        throw new Error(error.message);
+      }
+    } catch (error) { alert(error?.message || "Something went wrong") }
+    finally {
+      // reset the reCAPTCHA
+      recaptchaRef.current.reset();
+      setUsername("");
+    }
+  }
+  // --------------------------------------------------------------------------
   
   // react-countdown timer renderer function
   const renderer = ({ formatted: {minutes, seconds}, completed}) => {
@@ -305,7 +359,7 @@ export default function Home() {
     to our liking. */
     if (submitBtnDisabled === true) { setSubmitBtnDisabled(false); }
     setTimerDisabled(true);
-    setTimerVal(<Countdown date={Date.now() + 10000} zeroPadTime={2} renderer={renderer} onComplete={() => {setTimerDisabled(false); setSubmitBtnDisabled(true); console.log("FINAL SCORE: " + score); setEndOpen(true)}} />);
+    setTimerVal(<Countdown date={Date.now() + 10000} zeroPadTime={2} renderer={renderer} onComplete={() => {setTimerDisabled(false); setSubmitBtnDisabled(true); setEndOpen(true); }} />);
   }
 
   // Players map
@@ -334,7 +388,13 @@ export default function Home() {
       </Head>
 
       <main>
-        <EndGame open={endOpen} setOpen={setEndOpen} score={score} players={guessedPlayers} timer={currTimer} />
+        <ReCAPTCHA
+          ref={recaptchaRef}
+          size="invisible"
+          sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_KEY}
+          onChange={onReCAPTCHAChange}
+        />
+        <EndGame open={endOpen} setOpen={setEndOpen} score={score} players={guessedPlayers} username={username} setUsername={setUsername} executeCaptcha={executeCaptcha} />
         <h1 className="text-lg md:text-3xl font-bold tracking-wide break-words flex justify-center py-7 px-5 text-white">
           How Many NBA Players Can You Name Within The Time Limit?
         </h1>

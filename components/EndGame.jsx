@@ -4,57 +4,8 @@ import { ThumbUpIcon } from '@heroicons/react/outline'
 import ReCAPTCHA from 'react-google-recaptcha';
 
 export default function EndGame(props) {
-  const [username, setUsername] = useState("");
-  const recaptchaRef = useRef();
 
   const cancelButtonRef = useRef(null);
-
-  const executeCaptcha = () => {
-    recaptchaRef.current.execute();
-  }
-
-  const onReCAPTCHAChange = async (captchaCode) => {
-    var time_setting = "";
-    if (props.timer === 1200000) {
-      time_setting = "20m";
-    } else if (props.timer === 750000) {
-      time_setting = "12m30s";
-    } else if (props.timer === 450000) {
-      time_setting = "7m30s";
-    }
-
-    const obj = {
-      "username": username,
-      "score": props.score,
-      "time_setting": time_setting,
-      "captcha": captchaCode
-    }
-
-    if (!captchaCode) { return; } // reCAPTCHA expired?
-    try {
-      const response = await fetch("/api/submitscore", {
-        method: "POST",
-        body: JSON.stringify(obj),
-        headers: {
-          "Content-Type": "application/json",
-        },
-      });
-      if (response.status === 201) {
-        const msg = await response.json();
-        alert(msg.message);
-        props.setOpen(false);
-      } else {
-        // throw the error the api returned
-        const error = await response.json();
-        throw new Error(error.message);
-      }
-    } catch (error) { alert(error?.message || "Something went wrong") }
-    finally {
-      // reset the reCAPTCHA
-      recaptchaRef.current.reset();
-      setUsername("");
-    }
-  }
 
   return (
     <Transition.Root show={props.open} as={Fragment}>
@@ -106,20 +57,14 @@ export default function EndGame(props) {
                         className={"shadow-sm focus:ring-indigo-500 focus:border-indigo-500 w-full md:w-3/4 sm:text-sm border-gray-700 bg-gray-800 rounded-md text-white"}
                         placeholder={"username"}
                         autoComplete={"off"}
-                        value={username}
-                        onInput={e => setUsername(e.target.value)}
+                        value={props.username}
+                        onInput={e => props.setUsername(e.target.value)}
                         maxLength={15}
                         />
                       <p className="mt-2 text-sm text-gray-500" id="username-description">
                         This will appear on the leaderboards!
                       </p>
                     </div>
-                    <ReCAPTCHA
-                      ref={recaptchaRef}
-                      size="invisible"
-                      sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_KEY}
-                      onChange={onReCAPTCHAChange}
-                    />
                   </div>
                 </div>
               </div>
@@ -127,7 +72,7 @@ export default function EndGame(props) {
                 <button
                   type="button"
                   className="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-indigo-600 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:col-start-2 sm:text-sm"
-                  onClick={() => { executeCaptcha(); }}
+                  onClick={() => { props.executeCaptcha(); }}
                 >
                   Submit Score
                 </button>
