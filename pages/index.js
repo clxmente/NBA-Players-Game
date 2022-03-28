@@ -249,7 +249,7 @@ export default function Home() {
         />
         <GameLink open={linkOpen} setOpen={setLinkOpen} link={gameLink} />
         <EndGame open={endOpen} setOpen={setEndOpen} score={score} players={guessedPlayers} username={username} setUsername={setUsername} executeCaptcha={executeCaptcha} />
-        <h1 className="text-lg md:text-3xl font-bold tracking-wide break-words flex justify-center py-7 px-5 text-white">
+        <h1 className="text-lg md:text-3xl font-bold tracking-wide break-words flex justify-center py-7 text-white">
           How Many NBA Players Can You Name Within The Time Limit?
         </h1>
 
