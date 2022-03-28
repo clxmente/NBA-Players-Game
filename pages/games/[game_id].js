@@ -86,7 +86,7 @@ const Game = ({ score, username, time_setting, guessed_players }) => {
 export async function getServerSideProps({ query }) {
   // Fetch game data from API
   const game_id = query.game_id;
-  const res = await fetch(`http://localhost:3000/api/games/${game_id}`);
+  const res = await fetch(`https://nba-game.solorio.dev/api/games/${game_id}`);
   const data = await res.json();
   
   const { score, guessed_players, time_setting, username } = data[0];
