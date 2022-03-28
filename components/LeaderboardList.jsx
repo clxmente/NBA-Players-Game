@@ -1,4 +1,4 @@
-import { CalendarIcon, ChevronRightIcon, ClockIcon, InformationCircleIcon } from '@heroicons/react/solid';
+import { CalendarIcon, ChevronRightIcon, FireIcon, InformationCircleIcon } from '@heroicons/react/solid';
 import moment from 'moment';
 import Link from 'next/link';
 import { FaCrown } from "react-icons/fa";
@@ -12,9 +12,9 @@ const crownColor = {
 export default function LeaderboardList(props) {
   return (
     <div className="shadow overflow-hidden">
-      <ul role="list" className="space-y-7">
+      <ul role="list" className="space-y-4">
         {props.data.map((entry, index) => (
-          <li key={entry.game_id} className="bg-gray-800 border border-1 border-gray-700 rounded-md hover:bg-gray-900">
+          <li key={entry.game_id} className="bg-gray-800 border border-1 border-gray-700 rounded-md hover:bg-[#18212F]">
             <Link href={`https://nba-game.solorio.dev/games/${entry.game_id}`} passHref>
               <a className="block">
                 <div className="flex items-center px-4 py-4 sm:px-6">
@@ -39,8 +39,8 @@ export default function LeaderboardList(props) {
                             {moment(entry.created_at, moment.ISO_8601).local().format("ddd MMM DD, YYYY @ hh:mm A")}
                           </p>
                           <p className="mt-2 flex items-center text-sm text-gray-500">
-                            <ClockIcon className="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-500" aria-hidden="true" />
-                            Time Setting: {entry.time_setting}
+                            <FireIcon className="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-500" aria-hidden="true" />
+                            Difficulty: {entry.difficulty}
                           </p>
                         </div>
                       </div>

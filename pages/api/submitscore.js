@@ -42,7 +42,7 @@ export default async function handler (req, res) {
           username: body.username,
           score: body.score,
           guessed_players: JSON.stringify(body.guessed_players),
-          time_setting: body.time_setting,
+          difficulty: body.difficulty,
           created_at: moment().format('ddd MMM D HH:mm:ss YYYY Z')
         }])
       console.log(body);

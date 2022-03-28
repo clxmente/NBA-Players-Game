@@ -9,7 +9,7 @@ import GuessedPlayerBox from "../../components/GuessedPlayerBox";
 import Data from "../../data/players.json"; // player data json file
 import { teams } from "../../data/teams";
 
-const Game = ({ score, username, time_setting, guessed_players }) => {
+const Game = ({ score, username, difficulty, guessed_players }) => {
 
   // Team Selection State
   const [selected, setSelected] = useState(teams[0]);
@@ -64,7 +64,7 @@ const Game = ({ score, username, time_setting, guessed_players }) => {
         <div className='px-5 pt-5'>
           <div className='mb-5 md:mb-0 block md:flex justify-center md:items-end'>
             <div className="mb-3 flex justify-start"><ScoreDisplay currScore={score} /></div>
-            <div className="bg-gray-800 border border-1 border-gray-700 text-white ml-0 md:ml-3 mb-3 font-medium px-7 py-2 flex md:block justify-center rounded-lg">Time Setting: {time_setting}</div>
+            <div className="bg-gray-800 border border-1 border-gray-700 text-white ml-0 md:ml-3 mb-3 font-medium px-7 py-2 flex md:block justify-center rounded-lg">Difficulty: {difficulty}</div>
           </div>
           <Dropdown selected={selected} setSelected={setSelected} teams={teams} />
         </div>
@@ -89,9 +89,9 @@ export async function getServerSideProps({ query }) {
   const res = await fetch(`https://nba-game.solorio.dev/api/games/${game_id}`);
   const data = await res.json();
   
-  const { score, guessed_players, time_setting, username } = data[0];
+  const { score, guessed_players, difficulty, username } = data[0];
 
-  return { props: { game_id, score, guessed_players, time_setting, username } };
+  return { props: { game_id, score, guessed_players, difficulty, username } };
 }
 
 export default Game;

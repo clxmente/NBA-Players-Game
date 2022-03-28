@@ -12,7 +12,6 @@ import GuessedPlayerBox from "../components/GuessedPlayerBox";
 import ScoreDisplay from "../components/ScoreDisplay";
 import EndGame from "../components/EndGame";
 import GameLink from "../components/GameLink";
-import TimeSelect from "../components/TimeSelect";
 import { teams } from "../data/teams";
 
 let score = 0;
@@ -28,7 +27,6 @@ export default function Home() {
   // Start/Timer Button States
   const [timerVal, setTimerVal] = useState("Start Game");
   const [timerDisabled, setTimerDisabled] = useState(false);
-  const [currTimer, setCurrTimer] = useState(1200000); // 20 minutes default
 
   // player guess list tracker
   const [guessedPlayers, setGuessedPlayers] = useState([]);
@@ -49,19 +47,11 @@ export default function Home() {
   }
 
   const onReCAPTCHAChange = async (captchaCode) => {
-    var time_setting = "";
-    if (currTimer === 1200000) {
-      time_setting = "20m";
-    } else if (currTimer === 750000) {
-      time_setting = "12m30s";
-    } else if (currTimer === 450000) {
-      time_setting = "7m30s";
-    }
 
     const obj = {
       "username": username,
       "score": score,
-      "time_setting": time_setting,
+      "difficulty": "normal",
       "guessed_players": guessedPlayers,
       "captcha": captchaCode
     }
@@ -175,8 +165,7 @@ export default function Home() {
   function startGameFunc() {
     /*  After click set the button text to a countdown timer. 
     The date prop decides how long the countdown is. We get the current
-    time and add 300000 milliseconds (5 minutes) to set the timer to 5
-    minutes. 450000 ms = 7.5 minutes
+    time and add 1200000 milliseconds to set the timer to 20 minutes
     zeroPadTime{2} pads the time to appear as 00:00:00.
     The renderer prop uses the renderer function to format the countdown
     to our liking. */
@@ -186,7 +175,7 @@ export default function Home() {
     setTimerDisabled(true);
     setTimerVal(
       <Countdown
-        date={Date.now() + currTimer}
+        date={Date.now() + 1200000}
         zeroPadTime={2}
         renderer={renderer}
         onComplete={() => {
@@ -288,11 +277,6 @@ export default function Home() {
                   {timerVal}
                 </button>
                 {/* End Start BTN */}
-                <TimeSelect
-                  timestate={currTimer}
-                  setTime={setCurrTimer}
-                  disabledState={timerDisabled}
-                />
               </div>
             </form>
           </div>

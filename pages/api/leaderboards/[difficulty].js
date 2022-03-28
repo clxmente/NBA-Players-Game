@@ -5,18 +5,18 @@ export default async function handler(req, res) {
 
   if (req.method !== "GET") { res.status(405).send({ message: "Only GET requests allowed" }); return;}
 
-  const { time_setting } = req.query;
+  const { difficulty } = req.query;
   
   const { data, error } = await supabase
   .from("games")
   .select(`
     game_id,
     score,
-    time_setting,
+    difficulty,
     created_at,
     username
   `)
-  .eq("time_setting", time_setting)
+  .eq("difficulty", difficulty)
   .order("score", {ascending: false});
   
   if (error) { throw error; }
