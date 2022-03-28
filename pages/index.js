@@ -366,7 +366,7 @@ export default function Home() {
     to our liking. */
     if (submitBtnDisabled === true) { setSubmitBtnDisabled(false); }
     setTimerDisabled(true);
-    setTimerVal(<Countdown date={Date.now() + currTimer} zeroPadTime={2} renderer={renderer} onComplete={() => {setTimerDisabled(false); setSubmitBtnDisabled(true); setEndOpen(true); }} />);
+    setTimerVal(<Countdown date={Date.now() + 20000} zeroPadTime={2} renderer={renderer} onComplete={() => {setTimerDisabled(false); setSubmitBtnDisabled(true); setEndOpen(true); }} />);
   }
 
   // Players map
@@ -390,6 +390,9 @@ export default function Home() {
     <div>
       <Head>
         <title>NBA Player Guess</title>
+        <meta name="og:title" content="NBA Player Guess" />
+        <meta name="og:image" content="https://cdn-icons-png.flaticon.com/512/889/889442.png" />
+        <meta name="og:description" content="Name as many NBA players as you can within the time limit!" />
         <meta name="description" content="Name as many NBA players as you can within the time limit!" />
         <link rel="icon" href="/basketball-ball.png" />
       </Head>
