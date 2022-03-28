@@ -15,8 +15,8 @@ import GameLink from "../components/GameLink";
 import TimeSelect from "../components/TimeSelect";
 import { teams } from "../data/teams";
 
+let score = 0;
 export default function Home() {
-  let score = 0;
 
   // Input Field States
   const [name, setName] = useState("");
