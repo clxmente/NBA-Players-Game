@@ -186,7 +186,7 @@ export default function Home() {
     setTimerDisabled(true);
     setTimerVal(
       <Countdown
-        date={Date.now() + currTimer}
+        date={Date.now() + 15000}
         zeroPadTime={2}
         renderer={renderer}
         onComplete={() => {
