@@ -34,7 +34,7 @@ export default async function handler (req, res) {
     if (captchaValidation.success) {
       // generate a game id
       const game_id = uuidv4();
-      //! SAVE TO DATABASE HERE IF SUCCESS
+      // SAVE TO DATABASE HERE IF SUCCESS
       const { data, error } = await supabase
         .from("games")
         .insert([{
@@ -46,7 +46,7 @@ export default async function handler (req, res) {
           created_at: moment().format('ddd MMM D HH:mm:ss YYYY Z')
         }])
       console.log(body);
-      return res.status(201).json({ link: `http://localhost:3000/games/${game_id}`});
+      return res.status(201).json({ link: `https://nba-game.solorio.dev/games/${game_id}`});
     }
 
     // false captchaValidation

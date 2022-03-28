@@ -199,7 +199,6 @@ export default function Home() {
   }
 
   // Players map
-  // TODO: Convert this to use API calls instead of data.json
   const players_arr = Data.filter(
     (player) => player.TEAM === selected.abbreviation
   ).map((data, id) => {
