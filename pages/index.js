@@ -366,7 +366,7 @@ export default function Home() {
     to our liking. */
     if (submitBtnDisabled === true) { setSubmitBtnDisabled(false); }
     setTimerDisabled(true);
-    setTimerVal(<Countdown date={Date.now() + 20000} zeroPadTime={2} renderer={renderer} onComplete={() => {setTimerDisabled(false); setSubmitBtnDisabled(true); setEndOpen(true); }} />);
+    setTimerVal(<Countdown date={Date.now() + currTimer} zeroPadTime={2} renderer={renderer} onComplete={() => {setTimerDisabled(false); setSubmitBtnDisabled(true); setEndOpen(true); }} />);
   }
 
   // Players map
