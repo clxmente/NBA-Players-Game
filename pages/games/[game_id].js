@@ -49,7 +49,7 @@ const Game = ({ score, username, time_setting, guessed_players }) => {
   return(
     <div className="flex justify-center">
       <Head>
-        <title>{username}'s Game</title>
+        <title>{username}&apos;s Game</title>
         <meta name="og:image" content="https://cdn-icons-png.flaticon.com/512/889/889442.png" />
         <meta name="og:description" content="Check out my game to see how many NBA players I guessed within 20 minutes!" />
         <link rel="icon" href="/basketball-ball.png" />
@@ -57,7 +57,7 @@ const Game = ({ score, username, time_setting, guessed_players }) => {
 
       <main className="w-[80%]">
         <h1 className="text-2xl md:text-3xl font-bold tracking-wide break-words flex justify-center py-7 px-5 text-white">
-          {username}'s Game
+          {username}&apos;s Game
         </h1>
 
         {/* dropdown */}
