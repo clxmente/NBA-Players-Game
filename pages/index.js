@@ -1,7 +1,8 @@
 import Head from "next/head";
 import axios from "axios";
-import { useState, useEffect, useReducer } from "react";
-import Countdown from "react-countdown";
+import { useState, useEffect, useRef } from 'react';
+import Countdown from 'react-countdown';
+import ReCAPTCHA from 'react-google-recaptcha';
 
 // Component imports
 import PlayerBox from "../components/PlayerBox";
@@ -9,6 +10,8 @@ import Data from "../data/players.json"; // player data json file
 import Dropdown from "../components/Dropdown";
 import GuessedPlayerBox from "../components/GuessedPlayerBox";
 import ScoreDisplay from "../components/ScoreDisplay";
+import EndGame from "../components/EndGame";
+import GameLink from "../components/GameLink";
 import TimeSelect from "../components/TimeSelect";
 import { teams } from "../data/teams";
 
@@ -30,6 +33,68 @@ export default function Home() {
   // player guess list tracker
   const [guessedPlayers, setGuessedPlayers] = useState([]);
 
+  // modal states
+  const [endOpen, setEndOpen] = useState(false);
+  const [linkOpen, setLinkOpen] = useState(false);
+
+  //reCAPTCHA stuff -----------------------------------------------------------
+  const [username, setUsername] = useState("");
+  const recaptchaRef = useRef();
+
+  // game link to share with friends
+  const [gameLink, setGameLink] = useState("");
+
+  const executeCaptcha = () => {
+    recaptchaRef.current.execute();
+  }
+
+  const onReCAPTCHAChange = async (captchaCode) => {
+    var time_setting = "";
+    if (currTimer === 1200000) {
+      time_setting = "20m";
+    } else if (currTimer === 750000) {
+      time_setting = "12m30s";
+    } else if (currTimer === 450000) {
+      time_setting = "7m30s";
+    }
+
+    const obj = {
+      "username": username,
+      "score": score,
+      "time_setting": time_setting,
+      "guessed_players": guessedPlayers,
+      "captcha": captchaCode
+    }
+
+    if (!captchaCode) { return; } // reCAPTCHA expired?
+    try {
+      const response = await fetch("/api/submitscore", {
+        method: "POST",
+        body: JSON.stringify(obj),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+      if (response.status === 201) {
+        // successful 
+        const msg = await response.json();
+        setGameLink(msg.link);
+        setLinkOpen(true);
+        setEndOpen(false);
+      } else {
+        // throw the error the api returned
+        const error = await response.json();
+        throw new Error(error.message);
+      }
+    } catch (error) { alert(error?.message || "Something went wrong") }
+    finally {
+      // reset the reCAPTCHA
+      recaptchaRef.current.reset();
+      setUsername("");
+    }
+  }
+  // --------------------------------------------------------------------------
+  
   // react-countdown timer renderer function
   const renderer = ({ formatted: { minutes, seconds }, completed }) => {
     /* formatted: takes the formatted componenets based on the props.
@@ -121,13 +186,13 @@ export default function Home() {
     setTimerDisabled(true);
     setTimerVal(
       <Countdown
-        date={Date.now() + currTimer}
+        date={Date.now() + 15000}
         zeroPadTime={2}
         renderer={renderer}
         onComplete={() => {
           setTimerDisabled(false);
           setSubmitBtnDisabled(true);
-          console.log("FINAL SCORE: " + score);
+          setEndOpen(true);
         }}
       />
     );
@@ -169,14 +234,22 @@ export default function Home() {
     <div className="flex justify-center">
       <Head>
         <title>NBA Player Guess</title>
-        <meta
-          name="description"
-          content="Name as many NBA players as you can within the time limit!"
-        />
+        <meta name="og:title" content="NBA Player Guess" />
+        <meta name="og:image" content="https://cdn-icons-png.flaticon.com/512/889/889442.png" />
+        <meta name="og:description" content="Name as many NBA players as you can within the time limit!" />
+        <meta name="description" content="Name as many NBA players as you can within the time limit!" />
         <link rel="icon" href="/basketball-ball.png" />
       </Head>
 
       <main className="w-[80%]">
+        <ReCAPTCHA
+          ref={recaptchaRef}
+          size="invisible"
+          sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_KEY}
+          onChange={onReCAPTCHAChange}
+        />
+        <GameLink open={linkOpen} setOpen={setLinkOpen} link={gameLink} />
+        <EndGame open={endOpen} setOpen={setEndOpen} score={score} players={guessedPlayers} username={username} setUsername={setUsername} executeCaptcha={executeCaptcha} />
         <h1 className="text-lg md:text-3xl font-bold tracking-wide break-words flex justify-center py-7 px-5 text-white">
           How Many NBA Players Can You Name Within The Time Limit?
         </h1>
