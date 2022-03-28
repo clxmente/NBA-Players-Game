@@ -6,8 +6,7 @@ export default async function handler(req, res) {
   if (req.method !== "GET") { res.status(405).send({ message: "Only GET requests allowed" }); return;}
 
   const { game_id } = req.query;
-
-  console.log(game_id);
+  
   const { data, error } = await supabase
   .from("games")
   .select("*").eq("game_id", game_id);
