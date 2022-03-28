@@ -63,15 +63,17 @@ export default function NavBar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex justify-between items-center border-b-2 border-gray-700 py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <a href="#">
-              <span className="sr-only">Home</span>
-              {/* <HomeIcon className="h-8 w-auto sm:h-10 text-gray-300" /> */}
-              <img
-                className="h-8 w-auto sm:h-10"
-                src="https://cdn-icons-png.flaticon.com/512/889/889442.png"
-                alt="Basketball Icon"
-              />
-            </a>
+            <Link href={"/"} passHref>
+              <a>
+                <span className="sr-only">Home</span>
+                {/* <HomeIcon className="h-8 w-auto sm:h-10 text-gray-300" /> */}
+                <img
+                  className="h-8 w-auto sm:h-10"
+                  src="https://cdn-icons-png.flaticon.com/512/889/889442.png"
+                  alt="Basketball Icon"
+                />
+              </a>
+            </Link>
           </div>
           <div className="-mr-2 -my-2 md:hidden">
             <Popover.Button className="bg-gray-900 rounded-md p-2 inline-flex items-center justify-center text-gray-300 hover:text-gray-500 hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -117,7 +119,7 @@ export default function NavBar() {
                                 <item.icon className={`flex-shrink-0 h-6 w-6 ${diff_colors[index]}`} aria-hidden="true" />
                                 <div className="ml-4">
                                   <p className="text-base font-medium text-gray-200">{item.name}</p>
-                                  <p className="mt-1 text-sm text-gray-400">{item.description}</p>
+                                  <p className="mt-1 text-sm text-gray-400">{item.description} { index != 1 ? <span className="italic text-indigo-400 text-sm">Work In Progress.</span> : ""} </p>
                                 </div>
                               </a>
                             </Link>
@@ -203,11 +205,11 @@ export default function NavBar() {
             <div className="pt-5 pb-6 px-5">
               <div className="flex items-center justify-between">
                 <div>
-                  <img
-                    className="h-8 w-auto"
-                    src="https://cdn-icons-png.flaticon.com/512/889/889442.png"
-                    alt="Basketball Icon"
-                  />
+                    <img
+                      className="h-8 w-auto"
+                      src="https://cdn-icons-png.flaticon.com/512/889/889442.png"
+                      alt="Basketball Icon"
+                    />
                 </div>
                 <div className="-mr-2">
                   <Popover.Button className="bg-gray-700 rounded-md p-2 inline-flex items-center justify-center text-white hover:text-gray-400 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
