@@ -17,6 +17,14 @@ const Game = ({ score, username, difficulty, guessed_players }) => {
   // Convert from JSONB to JSON object
   const parsed_player_list = JSON.parse(guessed_players);
 
+  // Players map
+  const players_arr = Data.filter(player => player.TEAM===selected.abbreviation).map((data, id) => { // filter the whole player array data to players with team == currTeam
+    var jersey_no = "#" + data.JERSEY_NUM;
+    return (
+      <PlayerBox key={id} slug={data.PLAYER_SLUG} height={data.HEIGHT} number={jersey_no} position={data.POS} />
+    )
+  })
+
   useEffect(() => {
     document.getElementsByName("player-name").forEach( element => element.value="" );
     updatePlayerCards();
@@ -25,20 +33,16 @@ const Game = ({ score, username, difficulty, guessed_players }) => {
   function updatePlayerCards() {
     // whenever a user inputs a name, update the player card
     // to show the name of the guessed player.
-    let currTeamPlayers = parsed_player_list.filter( player_object => player_object.TEAM === selected.abbreviation );
-    currTeamPlayers.forEach( player_object => document.getElementById(player_object.FULL_NAME.toLowerCase()).value = player_object.FULL_NAME )
+    let currTeamPlayers = parsed_player_list.filter(
+      (player_object) => player_object.TEAM === selected.abbreviation
+    );
+    currTeamPlayers.forEach(
+      (player_object) =>
+        (document.getElementById(player_object.PLAYER_SLUG).value =
+          player_object.FULL_NAME)
+    );
   }
 
-  // Players map
-  const players_arr = Data.filter(player => player.TEAM===selected.abbreviation).map((data, id) => { // filter the whole player array data to players with team == currTeam
-    if (data.JERSEY_NUM) {
-      var jersey_no = "#" + data.JERSEY_NUM;
-    } else { jersey_no = "-"}
-
-    return (
-      <PlayerBox key={id} name={data.FULL_NAME} team={data.TEAM} number={jersey_no} position={data.POS} />
-    )
-  })
 
   return(
     <div className="flex justify-center">
@@ -78,7 +82,7 @@ const Game = ({ score, username, difficulty, guessed_players }) => {
 export async function getServerSideProps({ query }) {
   // Fetch game data from API
   const game_id = query.game_id;
-  const res = await fetch(`https://nba-game.solorio.dev/api/games/${game_id}`);
+  const res = await fetch(`http://nba-game.solorio.dev/api/games/${game_id}`);
   const data = await res.json();
   
   const { score, guessed_players, difficulty, username } = data[0];

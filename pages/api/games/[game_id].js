@@ -12,5 +12,5 @@ export default async function handler(req, res) {
   .select("*").eq("game_id", game_id);
   
   if (error) { throw error; }
-  res.status(201).send(data);
+  res.status(200).send(data);
 }
