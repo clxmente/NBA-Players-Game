@@ -13,6 +13,7 @@ import ScoreDisplay from "../components/ScoreDisplay";
 import EndGame from "../components/EndGame";
 import GameLink from "../components/GameLink";
 import { teams } from "../data/teams";
+import GuessedPlayers from "../components/GuessedPlayers";
 
 let score = 0;
 export default function Hard() {
@@ -226,7 +227,7 @@ export default function Hard() {
         <link rel="icon" href="/basketball-ball.png" />
       </Head>
 
-      <main className="w-[80%]">
+      <main className="w-[80%] mb-7">
         <ReCAPTCHA
           ref={recaptchaRef}
           size="invisible"
@@ -299,11 +300,7 @@ export default function Hard() {
           {players_arr}
         </div>
 
-        <div>
-          <div className="px-5 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 mb-10">
-            {guessed_players}
-          </div>
-        </div>
+        <GuessedPlayers guessed_list={guessedPlayers} />
       </main>
     </div>
   );
