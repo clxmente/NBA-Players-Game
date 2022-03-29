@@ -11,11 +11,12 @@
   "dependencies": {
     "@headlessui/react": "^1.5.0",
     "@heroicons/react": "^1.0.6",
-    "@supabase/supabase-js": "^1.32.2",
+    "@supabase/supabase-js": "^1.33.1",
     "@tailwindcss/forms": "^0.5.0",
     "axios": "^0.26.1",
+    "minimist": "1.2.6",
     "moment": "^2.29.1",
-    "next": "12.1.0",
+    "next": "12.1.2",
     "react": "17.0.2",
     "react-countdown": "^2.3.2",
     "react-dom": "17.0.2",
@@ -25,10 +26,10 @@
   },
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.0",
-    "autoprefixer": "^10.4.2",
-    "eslint": "8.10.0",
-    "eslint-config-next": "12.1.0",
-    "postcss": "^8.4.8",
+    "autoprefixer": "^10.4.4",
+    "eslint": "8.12.0",
+    "eslint-config-next": "12.1.2",
+    "postcss": "^8.4.12",
     "tailwindcss": "^3.0.23"
   }
 }
