@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import PlayerBox from "../../components/PlayerBox";
 import ScoreDisplay from "../../components/ScoreDisplay";
 import Dropdown from "../../components/Dropdown";
-import GuessedPlayerBox from "../../components/GuessedPlayerBox";
+import GuessedPlayers from "../../components/GuessedPlayers";
 
 import Data from "../../data/players.json"; // player data json file
 import { teams } from "../../data/teams";
@@ -40,12 +40,6 @@ const Game = ({ score, username, difficulty, guessed_players }) => {
     )
   })
 
-  const guessedPlayers = parsed_player_list.map((pobj) => {
-    return (
-      <GuessedPlayerBox key={pobj.FULL_NAME.toLowerCase()} person={pobj.FULL_NAME} />
-    )
-  })
-
   return(
     <div className="flex justify-center">
       <Head>
@@ -73,11 +67,7 @@ const Game = ({ score, username, difficulty, guessed_players }) => {
           {players_arr}
         </div>
 
-        <div>
-          <div className='px-5 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 mb-10'>
-            {guessedPlayers}
-          </div>
-        </div>
+        <GuessedPlayers guessed_list={parsed_player_list} />
       </main>
     </div>
   )
