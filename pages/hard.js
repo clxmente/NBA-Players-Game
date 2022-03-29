@@ -5,7 +5,7 @@ import Countdown from 'react-countdown';
 import ReCAPTCHA from 'react-google-recaptcha';
 
 // Component imports
-import PlayerBoxEasy from "../components/PlayerBoxEasy";
+import PlayerBoxHard from "../components/PlayerBoxHard";
 import Data from "../data/players.json"; // player data json file
 import Dropdown from "../components/Dropdown";
 import GuessedPlayerBox from "../components/GuessedPlayerBox";
@@ -15,7 +15,7 @@ import GameLink from "../components/GameLink";
 import { teams } from "../data/teams";
 
 let score = 0;
-export default function Easy() {
+export default function Hard() {
 
   // Input Field States
   const [name, setName] = useState("");
@@ -51,7 +51,7 @@ export default function Easy() {
     const obj = {
       "username": username,
       "score": score,
-      "difficulty": "easy",
+      "difficulty": "hard",
       "guessed_players": guessedPlayers,
       "captcha": captchaCode
     }
@@ -198,17 +198,10 @@ export default function Easy() {
   ).map((data, id) => {
     // filter the whole player array data to players with team == currTeam
     if (!data.JERSEY_NUM) { return; }
-
-    var jersey_no = "#" + data.JERSEY_NUM;
-
     return (
-      <PlayerBoxEasy
+      <PlayerBoxHard
         key={id}
-        nba_id={data.NBA_ID}
         name={data.FULL_NAME}
-        team={data.TEAM}
-        number={jersey_no}
-        position={data.POS}
       />
     );
   });
@@ -225,11 +218,11 @@ export default function Easy() {
   return (
     <div className="flex justify-center">
       <Head>
-        <title>NBA Player Guess: Easy</title>
+        <title>NBA Player Guess: Hard Mode</title>
         <meta name="og:title" content="NBA Player Guess" />
         <meta name="og:image" content="https://cdn-icons-png.flaticon.com/512/889/889442.png" />
-        <meta name="og:description" content="Name as many NBA players as you can within the time limit! Look at the player images and try to name as many as you can!" />
-        <meta name="description" content="Name as many NBA players as you can within the time limit! Look at the player images and try to name as many as you can!" />
+        <meta name="og:description" content="Name as many NBA players as you can within the time limit, with no hints!" />
+        <meta name="description" content="Name as many NBA players as you can within the time limit, with no hints!" />
         <link rel="icon" href="/basketball-ball.png" />
       </Head>
 
@@ -246,7 +239,7 @@ export default function Easy() {
           How Many NBA Players Can You Name Within The Time Limit?
         </h1>
         <p className="text-gray-300 text-sm sm:text-base text-center pb-7">
-          You are currently playing on <span className="text-green-400 italic">easy</span> difficulty. You have 12m30s to name as many players as you can once you hit start!
+          You are currently playing on <span className="text-red-500 italic">hard</span> difficulty. You have 20 minutes to name as many players as you can once you hit start!
         </p>
 
         {/* Start Input/Submit */}
@@ -302,7 +295,7 @@ export default function Easy() {
           />
         </div>
         {/* Player Boxes */}
-        <div className="py-10 grid grid-cols-2 md:grid-cols-4 xl:grid-cols-7 gap-4 px-5">
+        <div className="py-10 grid grid-cols-2 md:grid-cols-4 xl:grid-cols-5 gap-4 px-5">
           {players_arr}
         </div>
 

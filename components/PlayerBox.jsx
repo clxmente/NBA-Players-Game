@@ -1,7 +1,4 @@
 function PlayerBox(props) {
-  // Find a way to have the value empty until the user enters the right name.
-  // possibly use the id=props.name to find the correct element.
-  // setState? useRef?
   return ( 
     <div>
       <div className="mt-1 block rounded-md">
