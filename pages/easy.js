@@ -8,7 +8,7 @@ import ReCAPTCHA from 'react-google-recaptcha';
 import PlayerBoxEasy from "../components/PlayerBoxEasy";
 import Data from "../data/players.json"; // player data json file
 import Dropdown from "../components/Dropdown";
-import GuessedPlayerBox from "../components/GuessedPlayerBox";
+import GuessedPlayers from "../components/GuessedPlayers";
 import ScoreDisplay from "../components/ScoreDisplay";
 import EndGame from "../components/EndGame";
 import GameLink from "../components/GameLink";
@@ -213,15 +213,6 @@ export default function Easy() {
     );
   });
 
-  const guessed_players = guessedPlayers.map((pobj) => {
-    return (
-      <GuessedPlayerBox
-        key={pobj.FULL_NAME.toLowerCase()}
-        person={pobj.FULL_NAME}
-      />
-    );
-  });
-
   return (
     <div className="flex justify-center">
       <Head>
@@ -306,11 +297,7 @@ export default function Easy() {
           {players_arr}
         </div>
 
-        <div>
-          <div className="px-5 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 mb-10">
-            {guessed_players}
-          </div>
-        </div>
+        <GuessedPlayers guessed_list={guessedPlayers} />
       </main>
     </div>
   );

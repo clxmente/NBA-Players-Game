@@ -8,7 +8,6 @@ import ReCAPTCHA from 'react-google-recaptcha';
 import PlayerBoxHard from "../components/PlayerBoxHard";
 import Data from "../data/players.json"; // player data json file
 import Dropdown from "../components/Dropdown";
-import GuessedPlayerBox from "../components/GuessedPlayerBox";
 import ScoreDisplay from "../components/ScoreDisplay";
 import EndGame from "../components/EndGame";
 import GameLink from "../components/GameLink";
@@ -203,15 +202,6 @@ export default function Hard() {
       <PlayerBoxHard
         key={id}
         name={data.FULL_NAME}
-      />
-    );
-  });
-
-  const guessed_players = guessedPlayers.map((pobj) => {
-    return (
-      <GuessedPlayerBox
-        key={pobj.FULL_NAME.toLowerCase()}
-        person={pobj.FULL_NAME}
       />
     );
   });
