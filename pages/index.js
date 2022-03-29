@@ -109,7 +109,7 @@ export default function Home() {
     } // no name in field
     // make the API call
     axios
-      .get(`/api/players/${name}`)
+      .get(`/api/players/${name.toLowerCase().replace(/ /g, "-")}`) // replace all spaces with a dash
       .then((res) => {
         console.log(res.status);
         if (res.status === 200) {
@@ -120,7 +120,7 @@ export default function Home() {
           if (
             guessedPlayers.some(
               (player_object) =>
-                player_object.FULL_NAME.toLowerCase() === name.toLowerCase()
+                player_object.PLAYER_SLUG === name.toLowerCase().replace(/ /g, "-") // replace all spaces with a dash
             )
           ) {
             console.log("Player already in guess");
@@ -157,7 +157,7 @@ export default function Home() {
     );
     currTeamPlayers.forEach(
       (player_object) =>
-        (document.getElementById(player_object.FULL_NAME.toLowerCase()).value =
+        (document.getElementById(player_object.PLAYER_SLUG).value =
           player_object.FULL_NAME)
     );
   }
@@ -206,8 +206,8 @@ export default function Home() {
     return (
       <PlayerBox
         key={id}
-        name={data.FULL_NAME}
-        team={data.TEAM}
+        slug={data.PLAYER_SLUG}
+        height={data.HEIGHT}
         number={jersey_no}
         position={data.POS}
       />
@@ -238,7 +238,8 @@ export default function Home() {
           How Many NBA Players Can You Name Within The Time Limit?
         </h1>
         <p className="text-gray-300 text-sm sm:text-base text-center pb-7">
-          You are currently playing on <span className="text-orange-500 italic">normal</span> difficulty. You have 20 minutes to name as many players as you can once you hit start!
+          You are currently playing on <span className="text-orange-500 italic">normal</span> difficulty. You have <span className="underline">20 minutes</span> to name as many players as you can once you hit start!
+          <br></br>Don&apos;t worry about apostrophes, hyphens, or periods in player names.
         </p>
 
         {/* Start Input/Submit */}

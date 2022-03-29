@@ -45,7 +45,9 @@ const Game = ({ score, username, difficulty, guessed_players }) => {
       <Head>
         <title>{username}&apos;s Game</title>
         <meta name="og:image" content="https://cdn-icons-png.flaticon.com/512/889/889442.png" />
+        <meta name="og:title" content={`${username}'s Game`} />
         <meta name="og:description" content="Check out my game to see how many NBA players I guessed within 20 minutes!" />
+        <meta name="description" content="Check out my game to see how many NBA players I guessed within 20 minutes!" />
         <link rel="icon" href="/basketball-ball.png" />
       </Head>
 

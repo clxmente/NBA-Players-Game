@@ -109,7 +109,7 @@ export default function Easy() {
     } // no name in field
     // make the API call
     axios
-      .get(`/api/players/${name}`)
+      .get(`/api/players/${name.toLowerCase().replace(/ /g, "-")}`) // replace all spaces with a dash
       .then((res) => {
         console.log(res.status);
         if (res.status === 200) {
@@ -120,7 +120,7 @@ export default function Easy() {
           if (
             guessedPlayers.some(
               (player_object) =>
-                player_object.FULL_NAME.toLowerCase() === name.toLowerCase()
+                player_object.PLAYER_SLUG === name.toLowerCase().replace(/ /g, "-") // replace all spaces with a dash
             )
           ) {
             console.log("Player already in guess");
@@ -157,7 +157,7 @@ export default function Easy() {
     );
     currTeamPlayers.forEach(
       (player_object) =>
-        (document.getElementById(player_object.FULL_NAME.toLowerCase()).value =
+        (document.getElementById(player_object.PLAYER_SLUG).value =
           player_object.FULL_NAME)
     );
   }
@@ -205,8 +205,8 @@ export default function Easy() {
       <PlayerBoxEasy
         key={id}
         nba_id={data.NBA_ID}
-        name={data.FULL_NAME}
-        team={data.TEAM}
+        slug={data.PLAYER_SLUG}
+        height={data.HEIGHT}
         number={jersey_no}
         position={data.POS}
       />
@@ -237,7 +237,8 @@ export default function Easy() {
           How Many NBA Players Can You Name Within The Time Limit?
         </h1>
         <p className="text-gray-300 text-sm sm:text-base text-center pb-7">
-          You are currently playing on <span className="text-green-400 italic">easy</span> difficulty. You have 12m30s to name as many players as you can once you hit start!
+          You are currently playing on <span className="text-green-400 italic">easy</span> difficulty. You have <span className="underline">12m30s</span> to name as many players as you can once you hit start!
+          <br></br>Don&apos;t worry about apostrophes, hyphens, or periods in player names.
         </p>
 
         {/* Start Input/Submit */}
