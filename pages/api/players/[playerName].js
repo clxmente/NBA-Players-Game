@@ -6,7 +6,7 @@ import Data from "../../../data/players.json";
 export default function handler(req, res) {
   const { playerName } = req.query;
 
-  var player_data = Data.filter(player => player.FULL_NAME.toLowerCase() === playerName.toLowerCase());
+  var player_data = Data.filter(player => player.PLAYER_SLUG === playerName);
 
   if (player_data.length > 0) {
     // player exists so return player data
