@@ -163,6 +163,10 @@ export default function Home() {
   }
 
   function startGameFunc() {
+    // First reset all states when they start the game
+    setGuessedPlayers([]);
+    score = 0;
+    
     /*  After click set the button text to a countdown timer. 
     The date prop decides how long the countdown is. We get the current
     time and add 1200000 milliseconds to set the timer to 20 minutes
