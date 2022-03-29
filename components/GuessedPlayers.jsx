@@ -31,9 +31,9 @@ function GuessedPlayers(props) {
           />
         </div>
       </div>
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 mb-10">
+      <div className="grid grid-cols-2 gap-4 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 mb-10">
         {filtered.map((object) =>{
-          return <GuessedPlayerBox key={object.FULL_NAME} person={object.FULL_NAME} />
+          return <GuessedPlayerBox key={object.FULL_NAME} person={object.FULL_NAME} nba_id={object.NBA_ID} />
         })}
       </div>
     </div>
