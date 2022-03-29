@@ -9,7 +9,7 @@ export default function GuessedPlayerBox(props) {
   const [isLoading, setLoading] = useState(true);
   return (
     <div>
-      <div className="w-full overflow-hidden rounded-t-md border-gray-700 border border-b-0">
+      <div className="w-full overflow-hidden rounded-t-md border-gray-700 border border-b-0 justify-center flex">
         <Image
           alt="player image"
           src={`https://cdn.nba.com/headshots/nba/latest/1040x760/${props.nba_id}.png`}
