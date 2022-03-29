@@ -238,9 +238,12 @@ export default function Home() {
         />
         <GameLink open={linkOpen} setOpen={setLinkOpen} link={gameLink} />
         <EndGame open={endOpen} setOpen={setEndOpen} score={score} players={guessedPlayers} username={username} setUsername={setUsername} executeCaptcha={executeCaptcha} />
-        <h1 className="text-lg md:text-3xl font-bold tracking-wide break-words flex justify-center py-7 text-white text-center">
+        <h1 className="text-xl md:text-3xl font-bold tracking-wide break-words flex justify-center pt-7 text-white text-center pb-3">
           How Many NBA Players Can You Name Within The Time Limit?
         </h1>
+        <p className="text-gray-300 text-sm sm:text-base text-center pb-7">
+          You are currently playing on <span className="text-orange-500 italic">normal</span> difficulty. You have 20 minutes to name as many players as you can once you hit start!
+        </p>
 
         {/* Start Input/Submit */}
         <div className="flex justify-center items-center px-5">
