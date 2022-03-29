@@ -183,6 +183,7 @@ export default function Home() {
         zeroPadTime={2}
         renderer={renderer}
         onComplete={() => {
+          window.scrollTo(0,0); // scroll to the top of the page so reCAPTCHA doesn't get cut off
           setTimerDisabled(false);
           setSubmitBtnDisabled(true);
           setEndOpen(true);

@@ -166,7 +166,7 @@ export default function Home() {
     // First reset all states when they start the game
     setGuessedPlayers([]);
     score = 0;
-    
+
     /*  After click set the button text to a countdown timer. 
     The date prop decides how long the countdown is. We get the current
     time and add 1200000 milliseconds to set the timer to 20 minutes
@@ -183,6 +183,7 @@ export default function Home() {
         zeroPadTime={2}
         renderer={renderer}
         onComplete={() => {
+          window.scrollTo(0,0); // scroll to the top of the page so reCAPTCHA doesn't get cut off
           setTimerDisabled(false);
           setSubmitBtnDisabled(true);
           setEndOpen(true);
