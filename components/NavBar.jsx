@@ -48,7 +48,7 @@ const leaderboard_items = [
   {
     name: 'Global Rankings: Hard Mode',
     description: 'View all the scores for hard mode.',
-    href: 'leaderboards/hard',
+    href: '/leaderboards/hard',
     icon: GlobeIcon,
   }
 ]
