@@ -169,7 +169,7 @@ export default function Hard() {
 
     /*  After click set the button text to a countdown timer. 
     The date prop decides how long the countdown is. We get the current
-    time and add 750000 milliseconds to set the timer to 12m30s
+    time and add 1200000 milliseconds to set the timer to 20 minutes
     zeroPadTime{2} pads the time to appear as 00:00:00.
     The renderer prop uses the renderer function to format the countdown
     to our liking. */
@@ -179,7 +179,7 @@ export default function Hard() {
     setTimerDisabled(true);
     setTimerVal(
       <Countdown
-        date={Date.now() + 750000}
+        date={Date.now() + 1200000}
         zeroPadTime={2}
         renderer={renderer}
         onComplete={() => {
