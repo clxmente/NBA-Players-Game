@@ -119,7 +119,7 @@ export default function NavBar() {
                                 <item.icon className={`flex-shrink-0 h-6 w-6 ${diff_colors[index]}`} aria-hidden="true" />
                                 <div className="ml-4">
                                   <p className="text-base font-medium text-gray-200">{item.name}</p>
-                                  <p className="mt-1 text-sm text-gray-400">{item.description} { index != 1 ? <span className="italic text-indigo-400 text-sm">Work In Progress.</span> : ""} </p>
+                                  <p className="mt-1 text-sm text-gray-400">{item.description}</p>
                                 </div>
                               </a>
                             </Link>
