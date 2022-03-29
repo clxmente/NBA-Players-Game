@@ -1,17 +1,29 @@
 import Image from "next/image";
+import { useState } from "react";
 
+function classNames(...classes) {
+  return classes.filter(Boolean).join(' ')
+}
 
 function PlayerBoxEasy(props) {
+  const [isLoading, setLoading] = useState(true);
+  
   return ( 
     <div>
       <div className="mt-1 block rounded-md">
-        <div className="rounded-tl-md rounded-tr-md border-gray-700 border border-b-0">
+        <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden xl:aspect-w-3 xl:aspect-h-2 rounded-tl-md rounded-tr-md border-gray-700 border border-b-0">
           <Image
             alt="player image"
             src={`https://cdn.nba.com/headshots/nba/latest/1040x760/${props.nba_id}.png`}
-            layout="intrinsic"
-            width={271}
-            height={200}
+            layout="fill"
+            objectFit="cover"
+            className={classNames(
+              "hover:opacity-75 duration-700 ease-in-out",
+              isLoading
+                ? "grayscale blur-2xl scale-110"
+                : "grayscale-0 blur-0 scale-100"
+            )}
+            onLoadingComplete={() => setLoading(false)}
           />
         </div>
         <input type={"text"} name={"player-name"} id={props.name.toLowerCase()} 
