@@ -183,8 +183,8 @@ export default function NavBar() {
               )}
             </Popover>
             <Link href={"https://solorio.dev/"} passHref>
-              <a className="text-base font-medium text-gray-500 hover:text-gray-600">
-                About the developer
+              <a className="text-base font-medium text-gray-500 hover:text-sky-600">
+                {"About the Developer \u2197"}
               </a>
             </Link>
           </Popover.Group>
@@ -241,8 +241,8 @@ export default function NavBar() {
                   </Link>
                 ))}
                 <Link href={"https://solorio.dev/"} passHref>
-                  <a className="text-base font-medium text-gray-200 hover:text-gray-400">
-                    About the developer
+                  <a className="text-base font-medium text-gray-200 hover:text-sky-400">
+                    {"About the Developer \u2197"}
                   </a>
                 </Link>
               </div>

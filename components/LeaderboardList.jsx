@@ -22,7 +22,7 @@ export default function LeaderboardList(props) {
                     <div className="flex-shrink-0">
                       { index+1 < 4 ? 
                         <FaCrown className={`h-6 w-6 ${crownColor[index+1]}`} /> 
-                        : <p className="text-white font-bold text-lg">{index + 1}</p>}
+                        : <p className="text-white font-bold text-lg tabular-nums">{index + 1}</p>}
                     </div>
                     <div className="min-w-0 flex-1 px-4 md:grid md:grid-cols-2 md:gap-4">
                       <div>
