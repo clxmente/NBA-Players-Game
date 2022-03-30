@@ -157,7 +157,7 @@ export default function Easy() {
     );
     currTeamPlayers.forEach(
       (player_object) =>
-        (document.getElementById(player_object.PLAYER_SLUG).value =
+        (document.getElementById(player_object.NBA_ID).value =
           player_object.FULL_NAME)
     );
   }
@@ -195,7 +195,7 @@ export default function Easy() {
   // Players map
   const players_arr = Data.filter(
     (player) => player.TEAM === selected.abbreviation
-  ).map((data, id) => {
+  ).map((data) => {
     // filter the whole player array data to players with team == currTeam
     if (!data.JERSEY_NUM) { return; }
 
@@ -203,9 +203,8 @@ export default function Easy() {
 
     return (
       <PlayerBoxEasy
-        key={id}
+        key={data.NBA_ID}
         nba_id={data.NBA_ID}
-        slug={data.PLAYER_SLUG}
         height={data.HEIGHT}
         number={jersey_no}
         position={data.POS}

@@ -157,7 +157,7 @@ export default function Home() {
     );
     currTeamPlayers.forEach(
       (player_object) =>
-        (document.getElementById(player_object.PLAYER_SLUG).value =
+        (document.getElementById(player_object.NBA_ID).value =
           player_object.FULL_NAME)
     );
   }
@@ -195,7 +195,7 @@ export default function Home() {
   // Players map
   const players_arr = Data.filter(
     (player) => player.TEAM === selected.abbreviation
-  ).map((data, id) => {
+  ).map((data) => {
     // filter the whole player array data to players with team == currTeam
     if (data.JERSEY_NUM) {
       var jersey_no = "#" + data.JERSEY_NUM;
@@ -205,8 +205,8 @@ export default function Home() {
 
     return (
       <PlayerBox
-        key={id}
-        slug={data.PLAYER_SLUG}
+        key={data.NBA_ID}
+        nba_id={data.NBA_ID}
         height={data.HEIGHT}
         number={jersey_no}
         position={data.POS}
