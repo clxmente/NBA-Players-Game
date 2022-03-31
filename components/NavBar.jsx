@@ -212,7 +212,7 @@ export default function NavBar() {
                     />
                 </div>
                 <div className="-mr-2">
-                  <Popover.Button className="bg-gray-700 rounded-md p-2 inline-flex items-center justify-center text-white hover:text-gray-400 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                  <Popover.Button className="bg-gray-700 rounded-md p-2 inline-flex items-center justify-center text-white hover:text-gray-400 hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                     <span className="sr-only">Close menu</span>
                     <XIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
@@ -220,14 +220,16 @@ export default function NavBar() {
               </div>
               <div className="mt-6">
                 <nav className="grid gap-y-8">
-                  {game_diffs.map((item, index) => (
-                    <Link key={item.name} href={item.href} passHref>
-                      <a className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
-                        <item.icon className={`flex-shrink-0 h-6 w-6 ${diff_colors[index]}`} aria-hidden="true" />
-                        <span className="ml-3 text-base font-medium text-gray-200">{item.name}</span>
-                      </a>
-                    </Link>
-                  ))}
+                  <Popover.Button className="grid gap-y-8">
+                    {game_diffs.map((item, index) => (
+                      <Link key={item.name} href={item.href} passHref>
+                        <a className='-m-3 p-3 flex items-center rounded-md hover:bg-gray-800'>
+                          <item.icon className={`flex-shrink-0 h-6 w-6 ${diff_colors[index]}`} aria-hidden="true" />
+                          <span className="ml-3 text-base font-medium text-gray-200">{item.name}</span>
+                        </a>
+                      </Link>
+                    ))}
+                  </Popover.Button>
                 </nav>
               </div>
             </div>
