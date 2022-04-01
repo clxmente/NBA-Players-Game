@@ -21,7 +21,7 @@ const Game = ({ score, username, difficulty, guessed_players }) => {
   const players_arr = Data.filter(player => player.TEAM===selected.abbreviation).map((data, id) => { // filter the whole player array data to players with team == currTeam
     var jersey_no = "#" + data.JERSEY_NUM;
     return (
-      <PlayerBox key={id} slug={data.PLAYER_SLUG} height={data.HEIGHT} number={jersey_no} position={data.POS} />
+      <PlayerBox key={id} nba_id={data.NBA_ID} height={data.HEIGHT} number={jersey_no} position={data.POS} />
     )
   })
 
@@ -38,7 +38,7 @@ const Game = ({ score, username, difficulty, guessed_players }) => {
     );
     currTeamPlayers.forEach(
       (player_object) =>
-        (document.getElementById(player_object.PLAYER_SLUG).value =
+        (document.getElementById(player_object.NBA_ID).value =
           player_object.FULL_NAME)
     );
   }
