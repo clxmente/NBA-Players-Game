@@ -31,15 +31,21 @@ const Game = ({ score, username, difficulty, guessed_players }) => {
   }, [selected]);
 
   function updatePlayerCards() {
-    // whenever a user inputs a name, update the player card
-    // to show the name of the guessed player.
+    // first set all guessed players to a border style of red
+    Data.filter(player => player.TEAM === selected.abbreviation).forEach(player_obj => {
+      document.getElementById(player_obj.NBA_ID).value = player_obj.FULL_NAME;
+      document.getElementById(player_obj.NBA_ID).style.border = "1px solid #f87171"
+    })
+
+    // then set all guessed players to green.
     let currTeamPlayers = parsed_player_list.filter(
       (player_object) => player_object.TEAM === selected.abbreviation
     );
     currTeamPlayers.forEach(
-      (player_object) =>
-        (document.getElementById(player_object.NBA_ID).value =
-          player_object.FULL_NAME)
+      (player_object) => {
+        document.getElementById(player_object.NBA_ID).value = player_object.FULL_NAME;
+        document.getElementById(player_object.NBA_ID).style.border = "1px solid #4ade80";
+      }
     );
   }
 
