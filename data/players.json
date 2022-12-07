@@ -27,22 +27,22 @@
         "TEAM": "MIA"
     },
     {
+        "NBA_ID": 1630534,
+        "FULL_NAME": "Ochai Agbaji",
+        "PLAYER_SLUG": "ochai-agbaji",
+        "HEIGHT": "6-5",
+        "JERSEY_NUM": "30",
+        "POS": "G",
+        "TEAM": "UTA"
+    },
+    {
         "NBA_ID": 1630583,
         "FULL_NAME": "Santi Aldama",
         "PLAYER_SLUG": "santi-aldama",
-        "HEIGHT": "6-11",
+        "HEIGHT": "7-0",
         "JERSEY_NUM": "7",
         "POS": "F-C",
         "TEAM": "MEM"
-    },
-    {
-        "NBA_ID": 200746,
-        "FULL_NAME": "LaMarcus Aldridge",
-        "PLAYER_SLUG": "lamarcus-aldridge",
-        "HEIGHT": "6-11",
-        "JERSEY_NUM": "21",
-        "POS": "C-F",
-        "TEAM": "BKN"
     },
     {
         "NBA_ID": 1629638,
@@ -58,7 +58,7 @@
         "FULL_NAME": "Grayson Allen",
         "PLAYER_SLUG": "grayson-allen",
         "HEIGHT": "6-4",
-        "JERSEY_NUM": "7",
+        "JERSEY_NUM": "12",
         "POS": "G",
         "TEAM": "MIL"
     },
@@ -66,7 +66,7 @@
         "NBA_ID": 1628386,
         "FULL_NAME": "Jarrett Allen",
         "PLAYER_SLUG": "jarrett-allen",
-        "HEIGHT": "6-10",
+        "HEIGHT": "6-9",
         "JERSEY_NUM": "31",
         "POS": "C",
         "TEAM": "CLE"
@@ -81,49 +81,40 @@
         "TEAM": "NOP"
     },
     {
-        "NBA_ID": 1626147,
-        "FULL_NAME": "Justin Anderson",
-        "PLAYER_SLUG": "justin-anderson",
-        "HEIGHT": "6-5",
-        "JERSEY_NUM": "10",
-        "POS": "F-G",
-        "TEAM": "IND"
-    },
-    {
         "NBA_ID": 203937,
         "FULL_NAME": "Kyle Anderson",
         "PLAYER_SLUG": "kyle-anderson",
         "HEIGHT": "6-9",
-        "JERSEY_NUM": "1",
+        "JERSEY_NUM": "5",
         "POS": "F-G",
-        "TEAM": "MEM"
+        "TEAM": "MIN"
     },
     {
         "NBA_ID": 203507,
         "FULL_NAME": "Giannis Antetokounmpo",
         "PLAYER_SLUG": "giannis-antetokounmpo",
-        "HEIGHT": "6-11",
+        "HEIGHT": "7-0",
         "JERSEY_NUM": "34",
         "POS": "F",
         "TEAM": "MIL"
     },
     {
+        "NBA_ID": 1628961,
+        "FULL_NAME": "Kostas Antetokounmpo",
+        "PLAYER_SLUG": "kostas-antetokounmpo",
+        "HEIGHT": "6-10",
+        "JERSEY_NUM": "37",
+        "POS": "F",
+        "TEAM": "CHI"
+    },
+    {
         "NBA_ID": 203648,
         "FULL_NAME": "Thanasis Antetokounmpo",
         "PLAYER_SLUG": "thanasis-antetokounmpo",
-        "HEIGHT": "6-6",
+        "HEIGHT": "6-7",
         "JERSEY_NUM": "43",
         "POS": "F",
         "TEAM": "MIL"
-    },
-    {
-        "NBA_ID": 2546,
-        "FULL_NAME": "Carmelo Anthony",
-        "PLAYER_SLUG": "carmelo-anthony",
-        "HEIGHT": "6-7",
-        "JERSEY_NUM": "7",
-        "POS": "F",
-        "TEAM": "LAL"
     },
     {
         "NBA_ID": 1630175,
@@ -136,7 +127,7 @@
     },
     {
         "NBA_ID": 1628384,
-        "FULL_NAME": "OG Anunoby",
+        "FULL_NAME": "O.G. Anunoby",
         "PLAYER_SLUG": "og-anunoby",
         "HEIGHT": "6-7",
         "JERSEY_NUM": "3",
@@ -153,24 +144,6 @@
         "TEAM": "NYK"
     },
     {
-        "NBA_ID": 2772,
-        "FULL_NAME": "Trevor Ariza",
-        "PLAYER_SLUG": "trevor-ariza",
-        "HEIGHT": "6-8",
-        "JERSEY_NUM": "1",
-        "POS": "F",
-        "TEAM": "LAL"
-    },
-    {
-        "NBA_ID": 201571,
-        "FULL_NAME": "D.J. Augustin",
-        "PLAYER_SLUG": "dj-augustin",
-        "HEIGHT": "5-11",
-        "JERSEY_NUM": "4",
-        "POS": "G",
-        "TEAM": "LAL"
-    },
-    {
         "NBA_ID": 1630166,
         "FULL_NAME": "Deni Avdija",
         "PLAYER_SLUG": "deni-avdija",
@@ -183,7 +156,7 @@
         "NBA_ID": 1629028,
         "FULL_NAME": "Deandre Ayton",
         "PLAYER_SLUG": "deandre-ayton",
-        "HEIGHT": "6-11",
+        "HEIGHT": "7-0",
         "JERSEY_NUM": "22",
         "POS": "C",
         "TEAM": "PHX"
@@ -192,26 +165,44 @@
         "NBA_ID": 1628962,
         "FULL_NAME": "Udoka Azubuike",
         "PLAYER_SLUG": "udoka-azubuike",
-        "HEIGHT": "7-0",
+        "HEIGHT": "6-11",
         "JERSEY_NUM": "20",
         "POS": "C-F",
         "TEAM": "UTA"
     },
     {
+        "NBA_ID": 1630641,
+        "FULL_NAME": "Ibou Badji",
+        "PLAYER_SLUG": "ibou-badji",
+        "HEIGHT": "7-1",
+        "JERSEY_NUM": "41",
+        "POS": "C",
+        "TEAM": "POR"
+    },
+    {
         "NBA_ID": 1628963,
         "FULL_NAME": "Marvin Bagley III",
         "PLAYER_SLUG": "marvin-bagley-iii",
-        "HEIGHT": "6-11",
+        "HEIGHT": "6-10",
         "JERSEY_NUM": "35",
         "POS": "F",
         "TEAM": "DET"
+    },
+    {
+        "NBA_ID": 1631116,
+        "FULL_NAME": "Patrick Baldwin Jr.",
+        "PLAYER_SLUG": "patrick-baldwin-jr",
+        "HEIGHT": "6-9",
+        "JERSEY_NUM": "7",
+        "POS": "F",
+        "TEAM": "GSW"
     },
     {
         "NBA_ID": 1630163,
         "FULL_NAME": "LaMelo Ball",
         "PLAYER_SLUG": "lamelo-ball",
         "HEIGHT": "6-7",
-        "JERSEY_NUM": "2",
+        "JERSEY_NUM": "1",
         "POS": "G",
         "TEAM": "CHA"
     },
@@ -229,8 +220,17 @@
         "FULL_NAME": "Mo Bamba",
         "PLAYER_SLUG": "mo-bamba",
         "HEIGHT": "7-0",
-        "JERSEY_NUM": "5",
+        "JERSEY_NUM": "11",
         "POS": "C",
+        "TEAM": "ORL"
+    },
+    {
+        "NBA_ID": 1631094,
+        "FULL_NAME": "Paolo Banchero",
+        "PLAYER_SLUG": "paolo-banchero",
+        "HEIGHT": "6-10",
+        "JERSEY_NUM": "5",
+        "POS": "F",
         "TEAM": "ORL"
     },
     {
@@ -252,6 +252,15 @@
         "TEAM": "TOR"
     },
     {
+        "NBA_ID": 1631230,
+        "FULL_NAME": "Dominick Barlow",
+        "PLAYER_SLUG": "dominick-barlow",
+        "HEIGHT": "6-9",
+        "JERSEY_NUM": "26",
+        "POS": "F",
+        "TEAM": "SAS"
+    },
+    {
         "NBA_ID": 203084,
         "FULL_NAME": "Harrison Barnes",
         "PLAYER_SLUG": "harrison-barnes",
@@ -264,7 +273,7 @@
         "NBA_ID": 1630567,
         "FULL_NAME": "Scottie Barnes",
         "PLAYER_SLUG": "scottie-barnes",
-        "HEIGHT": "6-7",
+        "HEIGHT": "6-8",
         "JERSEY_NUM": "4",
         "POS": "F",
         "TEAM": "TOR"
@@ -285,16 +294,16 @@
         "HEIGHT": "6-5",
         "JERSEY_NUM": "5",
         "POS": "G",
-        "TEAM": "DEN"
+        "TEAM": "WAS"
     },
     {
         "NBA_ID": 1629646,
         "FULL_NAME": "Charles Bassey",
         "PLAYER_SLUG": "charles-bassey",
         "HEIGHT": "6-9",
-        "JERSEY_NUM": "23",
+        "JERSEY_NUM": "28",
         "POS": "C-F",
-        "TEAM": "PHI"
+        "TEAM": "SAS"
     },
     {
         "NBA_ID": 1628966,
@@ -315,20 +324,11 @@
         "TEAM": "LAC"
     },
     {
-        "NBA_ID": 203145,
-        "FULL_NAME": "Kent Bazemore",
-        "PLAYER_SLUG": "kent-bazemore",
-        "HEIGHT": "6-4",
-        "JERSEY_NUM": "9",
-        "POS": "G-F",
-        "TEAM": "LAL"
-    },
-    {
         "NBA_ID": 1629647,
         "FULL_NAME": "Darius Bazley",
         "PLAYER_SLUG": "darius-bazley",
-        "HEIGHT": "6-8",
-        "JERSEY_NUM": "7",
+        "HEIGHT": "6-9",
+        "JERSEY_NUM": "55",
         "POS": "F",
         "TEAM": "OKC"
     },
@@ -348,15 +348,15 @@
         "HEIGHT": "6-4",
         "JERSEY_NUM": "5",
         "POS": "G",
-        "TEAM": "MIN"
+        "TEAM": "UTA"
     },
     {
-        "NBA_ID": 1627761,
-        "FULL_NAME": "DeAndre' Bembry",
-        "PLAYER_SLUG": "deandre-bembry",
-        "HEIGHT": "6-5",
-        "JERSEY_NUM": "95",
-        "POS": "G-F",
+        "NBA_ID": 1630699,
+        "FULL_NAME": "MarJon Beauchamp",
+        "PLAYER_SLUG": "marjon-beauchamp",
+        "HEIGHT": "6-7",
+        "JERSEY_NUM": "0",
+        "POS": "F",
         "TEAM": "MIL"
     },
     {
@@ -364,7 +364,7 @@
         "FULL_NAME": "Davis Bertans",
         "PLAYER_SLUG": "davis-bertans",
         "HEIGHT": "6-10",
-        "JERSEY_NUM": "42",
+        "JERSEY_NUM": "44",
         "POS": "F",
         "TEAM": "DAL"
     },
@@ -372,10 +372,10 @@
         "NBA_ID": 201976,
         "FULL_NAME": "Patrick Beverley",
         "PLAYER_SLUG": "patrick-beverley",
-        "HEIGHT": "6-1",
-        "JERSEY_NUM": "22",
+        "HEIGHT": "6-2",
+        "JERSEY_NUM": "21",
         "POS": "G",
-        "TEAM": "MIN"
+        "TEAM": "LAL"
     },
     {
         "NBA_ID": 1630180,
@@ -390,7 +390,7 @@
         "NBA_ID": 203920,
         "FULL_NAME": "Khem Birch",
         "PLAYER_SLUG": "khem-birch",
-        "HEIGHT": "6-9",
+        "HEIGHT": "6-8",
         "JERSEY_NUM": "24",
         "POS": "C",
         "TEAM": "TOR"
@@ -399,7 +399,7 @@
         "NBA_ID": 1629048,
         "FULL_NAME": "Goga Bitadze",
         "PLAYER_SLUG": "goga-bitadze",
-        "HEIGHT": "7-0",
+        "HEIGHT": "6-11",
         "JERSEY_NUM": "88",
         "POS": "C-F",
         "TEAM": "IND"
@@ -414,37 +414,19 @@
         "TEAM": "PHX"
     },
     {
-        "NBA_ID": 202357,
-        "FULL_NAME": "Nemanja Bjelica",
-        "PLAYER_SLUG": "nemanja-bjelica",
-        "HEIGHT": "6-9",
-        "JERSEY_NUM": "8",
+        "NBA_ID": 1631205,
+        "FULL_NAME": "Buddy Boeheim",
+        "PLAYER_SLUG": "buddy-boeheim",
+        "HEIGHT": "6-6",
+        "JERSEY_NUM": "27",
         "POS": "F",
-        "TEAM": "GSW"
-    },
-    {
-        "NBA_ID": 202339,
-        "FULL_NAME": "Eric Bledsoe",
-        "PLAYER_SLUG": "eric-bledsoe",
-        "HEIGHT": "6-1",
-        "JERSEY_NUM": "5",
-        "POS": "G",
-        "TEAM": "POR"
-    },
-    {
-        "NBA_ID": 1629833,
-        "FULL_NAME": "Keljin Blevins",
-        "PLAYER_SLUG": "keljin-blevins",
-        "HEIGHT": "6-4",
-        "JERSEY_NUM": "21",
-        "POS": "G",
-        "TEAM": "POR"
+        "TEAM": "DET"
     },
     {
         "NBA_ID": 203992,
         "FULL_NAME": "Bogdan Bogdanovic",
         "PLAYER_SLUG": "bogdan-bogdanovic",
-        "HEIGHT": "6-6",
+        "HEIGHT": "6-5",
         "JERSEY_NUM": "13",
         "POS": "G",
         "TEAM": "ATL"
@@ -456,7 +438,7 @@
         "HEIGHT": "6-7",
         "JERSEY_NUM": "44",
         "POS": "F",
-        "TEAM": "UTA"
+        "TEAM": "DET"
     },
     {
         "NBA_ID": 1629626,
@@ -472,18 +454,9 @@
         "FULL_NAME": "Leandro Bolmaro",
         "PLAYER_SLUG": "leandro-bolmaro",
         "HEIGHT": "6-6",
-        "JERSEY_NUM": "9",
+        "JERSEY_NUM": "10",
         "POS": "F",
-        "TEAM": "MIN"
-    },
-    {
-        "NBA_ID": 1629067,
-        "FULL_NAME": "Isaac Bonga",
-        "PLAYER_SLUG": "isaac-bonga",
-        "HEIGHT": "6-8",
-        "JERSEY_NUM": "17",
-        "POS": "G",
-        "TEAM": "TOR"
+        "TEAM": "UTA"
     },
     {
         "NBA_ID": 1626164,
@@ -517,36 +490,36 @@
         "FULL_NAME": "James Bouknight",
         "PLAYER_SLUG": "james-bouknight",
         "HEIGHT": "6-4",
-        "JERSEY_NUM": "5",
+        "JERSEY_NUM": "2",
         "POS": "G",
         "TEAM": "CHA"
-    },
-    {
-        "NBA_ID": 202340,
-        "FULL_NAME": "Avery Bradley",
-        "PLAYER_SLUG": "avery-bradley",
-        "HEIGHT": "6-3",
-        "JERSEY_NUM": "20",
-        "POS": "G",
-        "TEAM": "LAL"
     },
     {
         "NBA_ID": 1628396,
         "FULL_NAME": "Tony Bradley",
         "PLAYER_SLUG": "tony-bradley",
-        "HEIGHT": "6-10",
+        "HEIGHT": "6-11",
         "JERSEY_NUM": "13",
         "POS": "C-F",
         "TEAM": "CHI"
     },
     {
-        "NBA_ID": 1629649,
-        "FULL_NAME": "Ignas Brazdeikis",
-        "PLAYER_SLUG": "ignas-brazdeikis",
-        "HEIGHT": "6-6",
-        "JERSEY_NUM": "17",
+        "NBA_ID": 1631103,
+        "FULL_NAME": "Malaki Branham",
+        "PLAYER_SLUG": "malaki-branham",
+        "HEIGHT": "6-4",
+        "JERSEY_NUM": "22",
         "POS": "F",
-        "TEAM": "ORL"
+        "TEAM": "SAS"
+    },
+    {
+        "NBA_ID": 1631128,
+        "FULL_NAME": "Christian Braun",
+        "PLAYER_SLUG": "christian-braun",
+        "HEIGHT": "6-6",
+        "JERSEY_NUM": "0",
+        "POS": "G",
+        "TEAM": "DEN"
     },
     {
         "NBA_ID": 1628969,
@@ -556,15 +529,6 @@
         "JERSEY_NUM": "25",
         "POS": "F",
         "TEAM": "PHX"
-    },
-    {
-        "NBA_ID": 1628970,
-        "FULL_NAME": "Miles Bridges",
-        "PLAYER_SLUG": "miles-bridges",
-        "HEIGHT": "6-7",
-        "JERSEY_NUM": "0",
-        "POS": "F",
-        "TEAM": "CHA"
     },
     {
         "NBA_ID": 1629052,
@@ -579,25 +543,16 @@
         "NBA_ID": 1627763,
         "FULL_NAME": "Malcolm Brogdon",
         "PLAYER_SLUG": "malcolm-brogdon",
-        "HEIGHT": "6-5",
-        "JERSEY_NUM": "7",
+        "HEIGHT": "6-4",
+        "JERSEY_NUM": "13",
         "POS": "G",
-        "TEAM": "IND"
-    },
-    {
-        "NBA_ID": 1629717,
-        "FULL_NAME": "Armoni Brooks",
-        "PLAYER_SLUG": "armoni-brooks",
-        "HEIGHT": "6-3",
-        "JERSEY_NUM": "1",
-        "POS": "G",
-        "TEAM": "TOR"
+        "TEAM": "BOS"
     },
     {
         "NBA_ID": 1628415,
         "FULL_NAME": "Dillon Brooks",
         "PLAYER_SLUG": "dillon-brooks",
-        "HEIGHT": "6-7",
+        "HEIGHT": "6-6",
         "JERSEY_NUM": "24",
         "POS": "G-F",
         "TEAM": "MEM"
@@ -607,9 +562,9 @@
         "FULL_NAME": "Bruce Brown",
         "PLAYER_SLUG": "bruce-brown",
         "HEIGHT": "6-4",
-        "JERSEY_NUM": "1",
+        "JERSEY_NUM": "11",
         "POS": "G-F",
-        "TEAM": "BKN"
+        "TEAM": "DEN"
     },
     {
         "NBA_ID": 1627759,
@@ -621,22 +576,22 @@
         "TEAM": "BOS"
     },
     {
+        "NBA_ID": 1631112,
+        "FULL_NAME": "Kendall Brown",
+        "PLAYER_SLUG": "kendall-brown",
+        "HEIGHT": "6-7",
+        "JERSEY_NUM": "10",
+        "POS": "G",
+        "TEAM": "IND"
+    },
+    {
         "NBA_ID": 1629650,
         "FULL_NAME": "Moses Brown",
         "PLAYER_SLUG": "moses-brown",
         "HEIGHT": "7-2",
-        "JERSEY_NUM": "9",
+        "JERSEY_NUM": "6",
         "POS": "C",
-        "TEAM": "CLE"
-    },
-    {
-        "NBA_ID": 1628425,
-        "FULL_NAME": "Sterling Brown",
-        "PLAYER_SLUG": "sterling-brown",
-        "HEIGHT": "6-5",
-        "JERSEY_NUM": "0",
-        "POS": "G-F",
-        "TEAM": "DAL"
+        "TEAM": "LAC"
     },
     {
         "NBA_ID": 1630535,
@@ -648,40 +603,31 @@
         "TEAM": "POR"
     },
     {
-        "NBA_ID": 1629718,
-        "FULL_NAME": "Charlie Brown Jr.",
-        "PLAYER_SLUG": "charlie-brown-jr",
-        "HEIGHT": "6-6",
-        "JERSEY_NUM": "16",
-        "POS": "G",
-        "TEAM": "PHI"
-    },
-    {
         "NBA_ID": 1628972,
         "FULL_NAME": "Troy Brown Jr.",
         "PLAYER_SLUG": "troy-brown-jr",
-        "HEIGHT": "6-6",
+        "HEIGHT": "6-7",
         "JERSEY_NUM": "7",
         "POS": "G-F",
-        "TEAM": "CHI"
+        "TEAM": "LAL"
     },
     {
         "NBA_ID": 1628973,
         "FULL_NAME": "Jalen Brunson",
         "PLAYER_SLUG": "jalen-brunson",
-        "HEIGHT": "6-1",
-        "JERSEY_NUM": "13",
+        "HEIGHT": "6-2",
+        "JERSEY_NUM": "11",
         "POS": "G",
-        "TEAM": "DAL"
+        "TEAM": "NYK"
     },
     {
         "NBA_ID": 1628418,
         "FULL_NAME": "Thomas Bryant",
         "PLAYER_SLUG": "thomas-bryant",
         "HEIGHT": "6-10",
-        "JERSEY_NUM": "13",
+        "JERSEY_NUM": "31",
         "POS": "C-F",
-        "TEAM": "WAS"
+        "TEAM": "LAL"
     },
     {
         "NBA_ID": 203493,
@@ -693,31 +639,13 @@
         "TEAM": "DAL"
     },
     {
-        "NBA_ID": 203504,
-        "FULL_NAME": "Trey Burke",
-        "PLAYER_SLUG": "trey-burke",
-        "HEIGHT": "6-0",
-        "JERSEY_NUM": "3",
-        "POS": "G",
-        "TEAM": "DAL"
-    },
-    {
         "NBA_ID": 202692,
         "FULL_NAME": "Alec Burks",
         "PLAYER_SLUG": "alec-burks",
         "HEIGHT": "6-6",
-        "JERSEY_NUM": "18",
+        "JERSEY_NUM": "5",
         "POS": "G",
-        "TEAM": "NYK"
-    },
-    {
-        "NBA_ID": 1630215,
-        "FULL_NAME": "Jared Butler",
-        "PLAYER_SLUG": "jared-butler",
-        "HEIGHT": "6-3",
-        "JERSEY_NUM": "13",
-        "POS": "G",
-        "TEAM": "UTA"
+        "TEAM": "DET"
     },
     {
         "NBA_ID": 202710,
@@ -729,29 +657,29 @@
         "TEAM": "MIA"
     },
     {
-        "NBA_ID": 1629719,
-        "FULL_NAME": "Devontae Cacok",
-        "PLAYER_SLUG": "devontae-cacok",
-        "HEIGHT": "6-7",
-        "JERSEY_NUM": "18",
+        "NBA_ID": 1631219,
+        "FULL_NAME": "John Butler Jr.",
+        "PLAYER_SLUG": "john-butler-jr",
+        "HEIGHT": "7-0",
+        "JERSEY_NUM": "21",
         "POS": "F",
-        "TEAM": "SAS"
+        "TEAM": "POR"
+    },
+    {
+        "NBA_ID": 1631288,
+        "FULL_NAME": "Jamal Cain",
+        "PLAYER_SLUG": "jamal-cain",
+        "HEIGHT": "6-6",
+        "JERSEY_NUM": "8",
+        "POS": "F",
+        "TEAM": "MIA"
     },
     {
         "NBA_ID": 203484,
         "FULL_NAME": "Kentavious Caldwell-Pope",
         "PLAYER_SLUG": "kentavious-caldwell-pope",
         "HEIGHT": "6-5",
-        "JERSEY_NUM": "1",
-        "POS": "G",
-        "TEAM": "WAS"
-    },
-    {
-        "NBA_ID": 1630267,
-        "FULL_NAME": "Facundo Campazzo",
-        "PLAYER_SLUG": "facundo-campazzo",
-        "HEIGHT": "5-10",
-        "JERSEY_NUM": "7",
+        "JERSEY_NUM": "5",
         "POS": "G",
         "TEAM": "DEN"
     },
@@ -777,8 +705,8 @@
         "NBA_ID": 1630176,
         "FULL_NAME": "Vernon Carey Jr.",
         "PLAYER_SLUG": "vernon-carey-jr",
-        "HEIGHT": "6-9",
-        "JERSEY_NUM": "22",
+        "HEIGHT": "6-10",
+        "JERSEY_NUM": "13",
         "POS": "F-C",
         "TEAM": "WAS"
     },
@@ -810,6 +738,15 @@
         "TEAM": "CHI"
     },
     {
+        "NBA_ID": 1630577,
+        "FULL_NAME": "Julian Champagnie",
+        "PLAYER_SLUG": "julian-champagnie",
+        "HEIGHT": "6-7",
+        "JERSEY_NUM": "55",
+        "POS": "F",
+        "TEAM": "PHI"
+    },
+    {
         "NBA_ID": 1630551,
         "FULL_NAME": "Justin Champagnie",
         "PLAYER_SLUG": "justin-champagnie",
@@ -819,40 +756,31 @@
         "TEAM": "TOR"
     },
     {
-        "NBA_ID": 1629185,
-        "FULL_NAME": "Chris Chiozza",
-        "PLAYER_SLUG": "chris-chiozza",
+        "NBA_ID": 1631113,
+        "FULL_NAME": "Kennedy Chandler",
+        "PLAYER_SLUG": "kennedy-chandler",
         "HEIGHT": "5-11",
-        "JERSEY_NUM": "2",
+        "JERSEY_NUM": "1",
         "POS": "G",
-        "TEAM": "GSW"
+        "TEAM": "MEM"
     },
     {
-        "NBA_ID": 1627737,
-        "FULL_NAME": "Marquese Chriss",
-        "PLAYER_SLUG": "marquese-chriss",
-        "HEIGHT": "6-9",
-        "JERSEY_NUM": "35",
-        "POS": "F",
-        "TEAM": "DAL"
+        "NBA_ID": 1631108,
+        "FULL_NAME": "Max Christie",
+        "PLAYER_SLUG": "max-christie",
+        "HEIGHT": "6-5",
+        "JERSEY_NUM": "10",
+        "POS": "G",
+        "TEAM": "LAL"
     },
     {
         "NBA_ID": 1630528,
         "FULL_NAME": "Josh Christopher",
         "PLAYER_SLUG": "josh-christopher",
-        "HEIGHT": "6-3",
+        "HEIGHT": "6-4",
         "JERSEY_NUM": "9",
         "POS": "G",
         "TEAM": "HOU"
-    },
-    {
-        "NBA_ID": 1629109,
-        "FULL_NAME": "Gary Clark",
-        "PLAYER_SLUG": "gary-clark",
-        "HEIGHT": "6-6",
-        "JERSEY_NUM": "12",
-        "POS": "F",
-        "TEAM": "NOP"
     },
     {
         "NBA_ID": 1629634,
@@ -867,7 +795,7 @@
         "NBA_ID": 203903,
         "FULL_NAME": "Jordan Clarkson",
         "PLAYER_SLUG": "jordan-clarkson",
-        "HEIGHT": "6-4",
+        "HEIGHT": "6-5",
         "JERSEY_NUM": "00",
         "POS": "G",
         "TEAM": "UTA"
@@ -878,7 +806,7 @@
         "PLAYER_SLUG": "nic-claxton",
         "HEIGHT": "6-11",
         "JERSEY_NUM": "33",
-        "POS": "F-C",
+        "POS": "C",
         "TEAM": "BKN"
     },
     {
@@ -927,33 +855,6 @@
         "TEAM": "MIL"
     },
     {
-        "NBA_ID": 1629076,
-        "FULL_NAME": "Tyler Cook",
-        "PLAYER_SLUG": "tyler-cook",
-        "HEIGHT": "6-8",
-        "JERSEY_NUM": "25",
-        "POS": "F",
-        "TEAM": "CHI"
-    },
-    {
-        "NBA_ID": 1630536,
-        "FULL_NAME": "Sharife Cooper",
-        "PLAYER_SLUG": "sharife-cooper",
-        "HEIGHT": "6-1",
-        "JERSEY_NUM": "2",
-        "POS": "G",
-        "TEAM": "ATL"
-    },
-    {
-        "NBA_ID": 202326,
-        "FULL_NAME": "DeMarcus Cousins",
-        "PLAYER_SLUG": "demarcus-cousins",
-        "HEIGHT": "6-10",
-        "JERSEY_NUM": "4",
-        "POS": "C",
-        "TEAM": "DEN"
-    },
-    {
         "NBA_ID": 203496,
         "FULL_NAME": "Robert Covington",
         "PLAYER_SLUG": "robert-covington",
@@ -985,15 +886,15 @@
         "FULL_NAME": "Jarrett Culver",
         "PLAYER_SLUG": "jarrett-culver",
         "HEIGHT": "6-6",
-        "JERSEY_NUM": "23",
+        "JERSEY_NUM": "7",
         "POS": "G-F",
-        "TEAM": "MEM"
+        "TEAM": "ATL"
     },
     {
         "NBA_ID": 1630595,
         "FULL_NAME": "Cade Cunningham",
         "PLAYER_SLUG": "cade-cunningham",
-        "HEIGHT": "6-6",
+        "HEIGHT": "6-7",
         "JERSEY_NUM": "2",
         "POS": "G",
         "TEAM": "DET"
@@ -1002,7 +903,7 @@
         "NBA_ID": 203552,
         "FULL_NAME": "Seth Curry",
         "PLAYER_SLUG": "seth-curry",
-        "HEIGHT": "6-2",
+        "HEIGHT": "6-1",
         "JERSEY_NUM": "30",
         "POS": "G",
         "TEAM": "BKN"
@@ -1017,6 +918,15 @@
         "TEAM": "GSW"
     },
     {
+        "NBA_ID": 1630700,
+        "FULL_NAME": "Dyson Daniels",
+        "PLAYER_SLUG": "dyson-daniels",
+        "HEIGHT": "6-7",
+        "JERSEY_NUM": "11",
+        "POS": "G",
+        "TEAM": "NOP"
+    },
+    {
         "NBA_ID": 203076,
         "FULL_NAME": "Anthony Davis",
         "PLAYER_SLUG": "anthony-davis",
@@ -1026,13 +936,13 @@
         "TEAM": "LAL"
     },
     {
-        "NBA_ID": 202334,
-        "FULL_NAME": "Ed Davis",
-        "PLAYER_SLUG": "ed-davis",
-        "HEIGHT": "6-9",
-        "JERSEY_NUM": "21",
-        "POS": "C-F",
-        "TEAM": "CLE"
+        "NBA_ID": 1631098,
+        "FULL_NAME": "Johnny Davis",
+        "PLAYER_SLUG": "johnny-davis",
+        "HEIGHT": "6-4",
+        "JERSEY_NUM": "1",
+        "POS": "G",
+        "TEAM": "WAS"
     },
     {
         "NBA_ID": 1629056,
@@ -1042,6 +952,24 @@
         "JERSEY_NUM": "3",
         "POS": "G",
         "TEAM": "SAC"
+    },
+    {
+        "NBA_ID": 1631120,
+        "FULL_NAME": "JD Davison",
+        "PLAYER_SLUG": "jd-davison",
+        "HEIGHT": "6-1",
+        "JERSEY_NUM": "20",
+        "POS": "G",
+        "TEAM": "BOS"
+    },
+    {
+        "NBA_ID": 1630620,
+        "FULL_NAME": "Darius Days",
+        "PLAYER_SLUG": "darius-days",
+        "HEIGHT": "6-7",
+        "JERSEY_NUM": "5",
+        "POS": "F",
+        "TEAM": "HOU"
     },
     {
         "NBA_ID": 201942,
@@ -1056,10 +984,19 @@
         "NBA_ID": 203473,
         "FULL_NAME": "Dewayne Dedmon",
         "PLAYER_SLUG": "dewayne-dedmon",
-        "HEIGHT": "7-0",
+        "HEIGHT": "6-10",
         "JERSEY_NUM": "21",
         "POS": "C",
         "TEAM": "MIA"
+    },
+    {
+        "NBA_ID": 203521,
+        "FULL_NAME": "Matthew Dellavedova",
+        "PLAYER_SLUG": "matthew-dellavedova",
+        "HEIGHT": "6-3",
+        "JERSEY_NUM": "8",
+        "POS": "G",
+        "TEAM": "SAC"
     },
     {
         "NBA_ID": 1628978,
@@ -1068,7 +1005,25 @@
         "HEIGHT": "6-4",
         "JERSEY_NUM": "0",
         "POS": "G",
-        "TEAM": "SAC"
+        "TEAM": "GSW"
+    },
+    {
+        "NBA_ID": 1631217,
+        "FULL_NAME": "Moussa Diabate",
+        "PLAYER_SLUG": "moussa-diabate",
+        "HEIGHT": "6-10",
+        "JERSEY_NUM": "25",
+        "POS": "F",
+        "TEAM": "LAC"
+    },
+    {
+        "NBA_ID": 1629603,
+        "FULL_NAME": "Mamadi Diakite",
+        "PLAYER_SLUG": "mamadi-diakite",
+        "HEIGHT": "6-9",
+        "JERSEY_NUM": "21",
+        "POS": "F",
+        "TEAM": "CLE"
     },
     {
         "NBA_ID": 1628977,
@@ -1084,15 +1039,24 @@
         "FULL_NAME": "Gorgui Dieng",
         "PLAYER_SLUG": "gorgui-dieng",
         "HEIGHT": "6-10",
-        "JERSEY_NUM": "10",
+        "JERSEY_NUM": "41",
         "POS": "C",
-        "TEAM": "ATL"
+        "TEAM": "SAS"
+    },
+    {
+        "NBA_ID": 1631172,
+        "FULL_NAME": "Ousmane Dieng",
+        "PLAYER_SLUG": "ousmane-dieng",
+        "HEIGHT": "6-9",
+        "JERSEY_NUM": "13",
+        "POS": "F",
+        "TEAM": "OKC"
     },
     {
         "NBA_ID": 203915,
         "FULL_NAME": "Spencer Dinwiddie",
         "PLAYER_SLUG": "spencer-dinwiddie",
-        "HEIGHT": "6-6",
+        "HEIGHT": "6-5",
         "JERSEY_NUM": "26",
         "POS": "G",
         "TEAM": "DAL"
@@ -1107,10 +1071,19 @@
         "TEAM": "DAL"
     },
     {
+        "NBA_ID": 1628416,
+        "FULL_NAME": "Tyler Dorsey",
+        "PLAYER_SLUG": "tyler-dorsey",
+        "HEIGHT": "6-4",
+        "JERSEY_NUM": "22",
+        "POS": "G",
+        "TEAM": "DAL"
+    },
+    {
         "NBA_ID": 1629652,
         "FULL_NAME": "Luguentz Dort",
         "PLAYER_SLUG": "luguentz-dort",
-        "HEIGHT": "6-3",
+        "HEIGHT": "6-4",
         "JERSEY_NUM": "5",
         "POS": "G",
         "TEAM": "OKC"
@@ -1119,37 +1092,46 @@
         "NBA_ID": 1630245,
         "FULL_NAME": "Ayo Dosunmu",
         "PLAYER_SLUG": "ayo-dosunmu",
-        "HEIGHT": "6-4",
+        "HEIGHT": "6-5",
         "JERSEY_NUM": "12",
         "POS": "G",
         "TEAM": "CHI"
     },
     {
-        "NBA_ID": 1630288,
-        "FULL_NAME": "Jeff Dowtin",
-        "PLAYER_SLUG": "jeff-dowtin",
-        "HEIGHT": "6-3",
-        "JERSEY_NUM": "15",
+        "NBA_ID": 1629653,
+        "FULL_NAME": "Devon Dotson",
+        "PLAYER_SLUG": "devon-dotson",
+        "HEIGHT": "6-1",
+        "JERSEY_NUM": "3",
         "POS": "G",
-        "TEAM": "ORL"
+        "TEAM": "WAS"
+    },
+    {
+        "NBA_ID": 1630288,
+        "FULL_NAME": "Jeff Dowtin Jr.",
+        "PLAYER_SLUG": "jeff-dowtin-jr",
+        "HEIGHT": "6-3",
+        "JERSEY_NUM": "20",
+        "POS": "G",
+        "TEAM": "TOR"
     },
     {
         "NBA_ID": 201609,
         "FULL_NAME": "Goran Dragic",
         "PLAYER_SLUG": "goran-dragic",
-        "HEIGHT": "6-3",
-        "JERSEY_NUM": "9",
+        "HEIGHT": "6-4",
+        "JERSEY_NUM": "7",
         "POS": "G",
-        "TEAM": "BKN"
+        "TEAM": "CHI"
     },
     {
         "NBA_ID": 203083,
         "FULL_NAME": "Andre Drummond",
         "PLAYER_SLUG": "andre-drummond",
-        "HEIGHT": "6-10",
-        "JERSEY_NUM": "0",
+        "HEIGHT": "6-11",
+        "JERSEY_NUM": "3",
         "POS": "C",
-        "TEAM": "BKN"
+        "TEAM": "CHI"
     },
     {
         "NBA_ID": 1630537,
@@ -1170,15 +1152,6 @@
         "TEAM": "BKN"
     },
     {
-        "NBA_ID": 1627739,
-        "FULL_NAME": "Kris Dunn",
-        "PLAYER_SLUG": "kris-dunn",
-        "HEIGHT": "6-3",
-        "JERSEY_NUM": "18",
-        "POS": "G",
-        "TEAM": "POR"
-    },
-    {
         "NBA_ID": 201142,
         "FULL_NAME": "Kevin Durant",
         "PLAYER_SLUG": "kevin-durant",
@@ -1186,6 +1159,24 @@
         "JERSEY_NUM": "7",
         "POS": "F",
         "TEAM": "BKN"
+    },
+    {
+        "NBA_ID": 1631105,
+        "FULL_NAME": "Jalen Duren",
+        "PLAYER_SLUG": "jalen-duren",
+        "HEIGHT": "6-11",
+        "JERSEY_NUM": "0",
+        "POS": "C",
+        "TEAM": "DET"
+    },
+    {
+        "NBA_ID": 1631106,
+        "FULL_NAME": "Tari Eason",
+        "PLAYER_SLUG": "tari-eason",
+        "HEIGHT": "6-8",
+        "JERSEY_NUM": "17",
+        "POS": "F",
+        "TEAM": "HOU"
     },
     {
         "NBA_ID": 1630162,
@@ -1206,22 +1197,13 @@
         "TEAM": "BKN"
     },
     {
-        "NBA_ID": 1629604,
-        "FULL_NAME": "CJ Elleby",
-        "PLAYER_SLUG": "cj-elleby",
-        "HEIGHT": "6-6",
-        "JERSEY_NUM": "16",
-        "POS": "F-G",
-        "TEAM": "POR"
-    },
-    {
-        "NBA_ID": 201961,
-        "FULL_NAME": "Wayne Ellington",
-        "PLAYER_SLUG": "wayne-ellington",
-        "HEIGHT": "6-4",
-        "JERSEY_NUM": "2",
+        "NBA_ID": 1631165,
+        "FULL_NAME": "Keon Ellis",
+        "PLAYER_SLUG": "keon-ellis",
+        "HEIGHT": "6-3",
+        "JERSEY_NUM": "23",
         "POS": "G",
-        "TEAM": "LAL"
+        "TEAM": "SAC"
     },
     {
         "NBA_ID": 203954,
@@ -1236,25 +1218,16 @@
         "NBA_ID": 1629234,
         "FULL_NAME": "Drew Eubanks",
         "PLAYER_SLUG": "drew-eubanks",
-        "HEIGHT": "6-9",
+        "HEIGHT": "6-10",
         "JERSEY_NUM": "24",
         "POS": "F-C",
         "TEAM": "POR"
     },
     {
-        "NBA_ID": 202324,
-        "FULL_NAME": "Derrick Favors",
-        "PLAYER_SLUG": "derrick-favors",
-        "HEIGHT": "6-9",
-        "JERSEY_NUM": "15",
-        "POS": "F",
-        "TEAM": "OKC"
-    },
-    {
         "NBA_ID": 1628981,
         "FULL_NAME": "Bruno Fernando",
         "PLAYER_SLUG": "bruno-fernando",
-        "HEIGHT": "6-9",
+        "HEIGHT": "6-10",
         "JERSEY_NUM": "20",
         "POS": "F-C",
         "TEAM": "HOU"
@@ -1269,15 +1242,6 @@
         "TEAM": "DAL"
     },
     {
-        "NBA_ID": 1630238,
-        "FULL_NAME": "Malik Fitts",
-        "PLAYER_SLUG": "malik-fitts",
-        "HEIGHT": "6-5",
-        "JERSEY_NUM": "8",
-        "POS": "F",
-        "TEAM": "BOS"
-    },
-    {
         "NBA_ID": 1630201,
         "FULL_NAME": "Malachi Flynn",
         "PLAYER_SLUG": "malachi-flynn",
@@ -1287,22 +1251,31 @@
         "TEAM": "TOR"
     },
     {
+        "NBA_ID": 1631323,
+        "FULL_NAME": "Simone Fontecchio",
+        "PLAYER_SLUG": "simone-fontecchio",
+        "HEIGHT": "6-7",
+        "JERSEY_NUM": "16",
+        "POS": "F",
+        "TEAM": "UTA"
+    },
+    {
         "NBA_ID": 1627854,
         "FULL_NAME": "Bryn Forbes",
         "PLAYER_SLUG": "bryn-forbes",
         "HEIGHT": "6-2",
-        "JERSEY_NUM": "6",
+        "JERSEY_NUM": "10",
         "POS": "G",
-        "TEAM": "DEN"
+        "TEAM": "MIN"
     },
     {
         "NBA_ID": 1630235,
         "FULL_NAME": "Trent Forrest",
         "PLAYER_SLUG": "trent-forrest",
         "HEIGHT": "6-4",
-        "JERSEY_NUM": "3",
+        "JERSEY_NUM": "2",
         "POS": "G",
-        "TEAM": "UTA"
+        "TEAM": "ATL"
     },
     {
         "NBA_ID": 203095,
@@ -1344,7 +1317,7 @@
         "NBA_ID": 1629655,
         "FULL_NAME": "Daniel Gafford",
         "PLAYER_SLUG": "daniel-gafford",
-        "HEIGHT": "6-9",
+        "HEIGHT": "6-10",
         "JERSEY_NUM": "21",
         "POS": "F-C",
         "TEAM": "WAS"
@@ -1356,7 +1329,7 @@
         "HEIGHT": "6-10",
         "JERSEY_NUM": "8",
         "POS": "F",
-        "TEAM": "ATL"
+        "TEAM": "BOS"
     },
     {
         "NBA_ID": 1629636,
@@ -1383,14 +1356,14 @@
         "HEIGHT": "6-10",
         "JERSEY_NUM": "55",
         "POS": "C",
-        "TEAM": "DET"
+        "TEAM": "MIN"
     },
     {
         "NBA_ID": 200752,
         "FULL_NAME": "Rudy Gay",
         "PLAYER_SLUG": "rudy-gay",
         "HEIGHT": "6-8",
-        "JERSEY_NUM": "8",
+        "JERSEY_NUM": "22",
         "POS": "F-G",
         "TEAM": "UTA"
     },
@@ -1410,7 +1383,7 @@
         "HEIGHT": "6-9",
         "JERSEY_NUM": "67",
         "POS": "F",
-        "TEAM": "NYK"
+        "TEAM": "WAS"
     },
     {
         "NBA_ID": 1630581,
@@ -1434,10 +1407,19 @@
         "NBA_ID": 1630264,
         "FULL_NAME": "Anthony Gill",
         "PLAYER_SLUG": "anthony-gill",
-        "HEIGHT": "6-7",
+        "HEIGHT": "6-8",
         "JERSEY_NUM": "16",
         "POS": "F",
         "TEAM": "WAS"
+    },
+    {
+        "NBA_ID": 1631221,
+        "FULL_NAME": "Collin Gillespie",
+        "PLAYER_SLUG": "collin-gillespie",
+        "HEIGHT": "6-1",
+        "JERSEY_NUM": "21",
+        "POS": "G",
+        "TEAM": "DEN"
     },
     {
         "NBA_ID": 203497,
@@ -1446,16 +1428,16 @@
         "HEIGHT": "7-1",
         "JERSEY_NUM": "27",
         "POS": "C",
-        "TEAM": "UTA"
+        "TEAM": "MIN"
     },
     {
-        "NBA_ID": 1629164,
-        "FULL_NAME": "Brandon Goodwin",
-        "PLAYER_SLUG": "brandon-goodwin",
-        "HEIGHT": "6-0",
-        "JERSEY_NUM": "00",
+        "NBA_ID": 1630692,
+        "FULL_NAME": "Jordan Goodwin",
+        "PLAYER_SLUG": "jordan-goodwin",
+        "HEIGHT": "6-3",
+        "JERSEY_NUM": "7",
         "POS": "G",
-        "TEAM": "CLE"
+        "TEAM": "WAS"
     },
     {
         "NBA_ID": 203932,
@@ -1491,7 +1473,16 @@
         "HEIGHT": "6-8",
         "JERSEY_NUM": "9",
         "POS": "F",
-        "TEAM": "DET"
+        "TEAM": "POR"
+    },
+    {
+        "NBA_ID": 1631260,
+        "FULL_NAME": "AJ Green",
+        "PLAYER_SLUG": "aj-green",
+        "HEIGHT": "6-5",
+        "JERSEY_NUM": "20",
+        "POS": "G",
+        "TEAM": "MIL"
     },
     {
         "NBA_ID": 201980,
@@ -1500,7 +1491,7 @@
         "HEIGHT": "6-6",
         "JERSEY_NUM": "14",
         "POS": "G",
-        "TEAM": "PHI"
+        "TEAM": "MEM"
     },
     {
         "NBA_ID": 203110,
@@ -1515,17 +1506,17 @@
         "NBA_ID": 203210,
         "FULL_NAME": "JaMychal Green",
         "PLAYER_SLUG": "jamychal-green",
-        "HEIGHT": "6-8",
-        "JERSEY_NUM": "0",
+        "HEIGHT": "6-9",
+        "JERSEY_NUM": "1",
         "POS": "F-C",
-        "TEAM": "DEN"
+        "TEAM": "GSW"
     },
     {
         "NBA_ID": 1630224,
         "FULL_NAME": "Jalen Green",
         "PLAYER_SLUG": "jalen-green",
         "HEIGHT": "6-4",
-        "JERSEY_NUM": "0",
+        "JERSEY_NUM": "4",
         "POS": "G",
         "TEAM": "HOU"
     },
@@ -1551,25 +1542,34 @@
         "NBA_ID": 1630182,
         "FULL_NAME": "Josh Green",
         "PLAYER_SLUG": "josh-green",
-        "HEIGHT": "6-5",
+        "HEIGHT": "6-7",
         "JERSEY_NUM": "8",
         "POS": "G",
         "TEAM": "DAL"
+    },
+    {
+        "NBA_ID": 1631100,
+        "FULL_NAME": "AJ Griffin",
+        "PLAYER_SLUG": "aj-griffin",
+        "HEIGHT": "6-6",
+        "JERSEY_NUM": "14",
+        "POS": "F",
+        "TEAM": "ATL"
     },
     {
         "NBA_ID": 201933,
         "FULL_NAME": "Blake Griffin",
         "PLAYER_SLUG": "blake-griffin",
         "HEIGHT": "6-9",
-        "JERSEY_NUM": "2",
+        "JERSEY_NUM": "91",
         "POS": "F",
-        "TEAM": "BKN"
+        "TEAM": "BOS"
     },
     {
         "NBA_ID": 1629656,
         "FULL_NAME": "Quentin Grimes",
         "PLAYER_SLUG": "quentin-grimes",
-        "HEIGHT": "6-4",
+        "HEIGHT": "6-5",
         "JERSEY_NUM": "6",
         "POS": "G",
         "TEAM": "NYK"
@@ -1620,31 +1620,31 @@
         "TEAM": "PHI"
     },
     {
-        "NBA_ID": 203090,
-        "FULL_NAME": "Maurice Harkless",
-        "PLAYER_SLUG": "maurice-harkless",
-        "HEIGHT": "6-7",
-        "JERSEY_NUM": "8",
-        "POS": "F-G",
-        "TEAM": "SAC"
+        "NBA_ID": 1630702,
+        "FULL_NAME": "Jaden Hardy",
+        "PLAYER_SLUG": "jaden-hardy",
+        "HEIGHT": "6-3",
+        "JERSEY_NUM": "3",
+        "POS": "G",
+        "TEAM": "DAL"
     },
     {
-        "NBA_ID": 1629607,
-        "FULL_NAME": "Jared Harper",
-        "PLAYER_SLUG": "jared-harper",
-        "HEIGHT": "5-10",
-        "JERSEY_NUM": "2",
-        "POS": "G",
-        "TEAM": "NOP"
+        "NBA_ID": 1631199,
+        "FULL_NAME": "Ron Harper Jr.",
+        "PLAYER_SLUG": "ron-harper-jr",
+        "HEIGHT": "6-5",
+        "JERSEY_NUM": "8",
+        "POS": "F",
+        "TEAM": "TOR"
     },
     {
         "NBA_ID": 1626149,
         "FULL_NAME": "Montrezl Harrell",
         "PLAYER_SLUG": "montrezl-harrell",
         "HEIGHT": "6-7",
-        "JERSEY_NUM": "8",
+        "JERSEY_NUM": "5",
         "POS": "F-C",
-        "TEAM": "CHA"
+        "TEAM": "PHI"
     },
     {
         "NBA_ID": 203914,
@@ -1665,6 +1665,15 @@
         "TEAM": "BKN"
     },
     {
+        "NBA_ID": 1630284,
+        "FULL_NAME": "Kevon Harris",
+        "PLAYER_SLUG": "kevon-harris",
+        "HEIGHT": "6-6",
+        "JERSEY_NUM": "7",
+        "POS": "G",
+        "TEAM": "ORL"
+    },
+    {
         "NBA_ID": 202699,
         "FULL_NAME": "Tobias Harris",
         "PLAYER_SLUG": "tobias-harris",
@@ -1677,7 +1686,7 @@
         "NBA_ID": 1628404,
         "FULL_NAME": "Josh Hart",
         "PLAYER_SLUG": "josh-hart",
-        "HEIGHT": "6-5",
+        "HEIGHT": "6-4",
         "JERSEY_NUM": "11",
         "POS": "G",
         "TEAM": "POR"
@@ -1689,13 +1698,13 @@
         "HEIGHT": "7-0",
         "JERSEY_NUM": "55",
         "POS": "C-F",
-        "TEAM": "LAC"
+        "TEAM": "NYK"
     },
     {
         "NBA_ID": 2617,
         "FULL_NAME": "Udonis Haslem",
         "PLAYER_SLUG": "udonis-haslem",
-        "HEIGHT": "6-8",
+        "HEIGHT": "6-7",
         "JERSEY_NUM": "40",
         "POS": "F",
         "TEAM": "MIA"
@@ -1713,7 +1722,7 @@
         "NBA_ID": 1629637,
         "FULL_NAME": "Jaxson Hayes",
         "PLAYER_SLUG": "jaxson-hayes",
-        "HEIGHT": "6-11",
+        "HEIGHT": "7-0",
         "JERSEY_NUM": "10",
         "POS": "C-F",
         "TEAM": "NOP"
@@ -1743,7 +1752,7 @@
         "HEIGHT": "6-9",
         "JERSEY_NUM": "41",
         "POS": "F",
-        "TEAM": "UTA"
+        "TEAM": "TOR"
     },
     {
         "NBA_ID": 1626195,
@@ -1776,7 +1785,7 @@
         "NBA_ID": 1629312,
         "FULL_NAME": "Haywood Highsmith",
         "PLAYER_SLUG": "haywood-highsmith",
-        "HEIGHT": "6-4",
+        "HEIGHT": "6-5",
         "JERSEY_NUM": "24",
         "POS": "F",
         "TEAM": "MIA"
@@ -1804,15 +1813,15 @@
         "FULL_NAME": "Aaron Holiday",
         "PLAYER_SLUG": "aaron-holiday",
         "HEIGHT": "6-0",
-        "JERSEY_NUM": "4",
+        "JERSEY_NUM": "3",
         "POS": "G",
-        "TEAM": "PHX"
+        "TEAM": "ATL"
     },
     {
         "NBA_ID": 201950,
         "FULL_NAME": "Jrue Holiday",
         "PLAYER_SLUG": "jrue-holiday",
-        "HEIGHT": "6-3",
+        "HEIGHT": "6-5",
         "JERSEY_NUM": "21",
         "POS": "G",
         "TEAM": "MIL"
@@ -1822,27 +1831,27 @@
         "FULL_NAME": "Justin Holiday",
         "PLAYER_SLUG": "justin-holiday",
         "HEIGHT": "6-6",
-        "JERSEY_NUM": "9",
+        "JERSEY_NUM": "8",
         "POS": "F-G",
-        "TEAM": "SAC"
+        "TEAM": "ATL"
     },
     {
         "NBA_ID": 1626158,
         "FULL_NAME": "Richaun Holmes",
         "PLAYER_SLUG": "richaun-holmes",
-        "HEIGHT": "6-10",
+        "HEIGHT": "6-8",
         "JERSEY_NUM": "22",
         "POS": "F",
         "TEAM": "SAC"
     },
     {
-        "NBA_ID": 203918,
-        "FULL_NAME": "Rodney Hood",
-        "PLAYER_SLUG": "rodney-hood",
-        "HEIGHT": "6-8",
-        "JERSEY_NUM": "22",
-        "POS": "G-F",
-        "TEAM": "LAC"
+        "NBA_ID": 1631096,
+        "FULL_NAME": "Chet Holmgren",
+        "PLAYER_SLUG": "chet-holmgren",
+        "HEIGHT": "7-1",
+        "JERSEY_NUM": "7",
+        "POS": "C-F",
+        "TEAM": "OKC"
     },
     {
         "NBA_ID": 201143,
@@ -1858,9 +1867,9 @@
         "FULL_NAME": "Talen Horton-Tucker",
         "PLAYER_SLUG": "talen-horton-tucker",
         "HEIGHT": "6-4",
-        "JERSEY_NUM": "5",
+        "JERSEY_NUM": "0",
         "POS": "G",
-        "TEAM": "LAL"
+        "TEAM": "UTA"
     },
     {
         "NBA_ID": 1627863,
@@ -1869,43 +1878,34 @@
         "HEIGHT": "6-6",
         "JERSEY_NUM": "25",
         "POS": "F-G",
-        "TEAM": "UTA"
+        "TEAM": "PHI"
     },
     {
-        "NBA_ID": 2730,
-        "FULL_NAME": "Dwight Howard",
-        "PLAYER_SLUG": "dwight-howard",
-        "HEIGHT": "6-10",
-        "JERSEY_NUM": "39",
-        "POS": "C-F",
-        "TEAM": "LAL"
-    },
-    {
-        "NBA_ID": 1630210,
-        "FULL_NAME": "Markus Howard",
-        "PLAYER_SLUG": "markus-howard",
-        "HEIGHT": "5-10",
-        "JERSEY_NUM": "00",
+        "NBA_ID": 1631216,
+        "FULL_NAME": "Caleb Houstan",
+        "PLAYER_SLUG": "caleb-houstan",
+        "HEIGHT": "6-8",
+        "JERSEY_NUM": "2",
         "POS": "G",
-        "TEAM": "DEN"
+        "TEAM": "ORL"
+    },
+    {
+        "NBA_ID": 1631309,
+        "FULL_NAME": "Trevor Hudgins",
+        "PLAYER_SLUG": "trevor-hudgins",
+        "HEIGHT": "6-0",
+        "JERSEY_NUM": "12",
+        "POS": "G",
+        "TEAM": "HOU"
     },
     {
         "NBA_ID": 1628989,
         "FULL_NAME": "Kevin Huerter",
         "PLAYER_SLUG": "kevin-huerter",
         "HEIGHT": "6-7",
-        "JERSEY_NUM": "3",
+        "JERSEY_NUM": "9",
         "POS": "G-F",
-        "TEAM": "ATL"
-    },
-    {
-        "NBA_ID": 1630190,
-        "FULL_NAME": "Elijah Hughes",
-        "PLAYER_SLUG": "elijah-hughes",
-        "HEIGHT": "6-5",
-        "JERSEY_NUM": "19",
-        "POS": "G",
-        "TEAM": "POR"
+        "TEAM": "SAC"
     },
     {
         "NBA_ID": 1629631,
@@ -1929,7 +1929,7 @@
         "NBA_ID": 201586,
         "FULL_NAME": "Serge Ibaka",
         "PLAYER_SLUG": "serge-ibaka",
-        "HEIGHT": "6-10",
+        "HEIGHT": "6-11",
         "JERSEY_NUM": "25",
         "POS": "F",
         "TEAM": "MIL"
@@ -1947,10 +1947,10 @@
         "NBA_ID": 204060,
         "FULL_NAME": "Joe Ingles",
         "PLAYER_SLUG": "joe-ingles",
-        "HEIGHT": "6-8",
-        "JERSEY_NUM": "00",
+        "HEIGHT": "6-9",
+        "JERSEY_NUM": "7",
         "POS": "F-G",
-        "TEAM": "POR"
+        "TEAM": "MIL"
     },
     {
         "NBA_ID": 1627742,
@@ -1980,11 +1980,11 @@
         "TEAM": "ORL"
     },
     {
-        "NBA_ID": 1628402,
-        "FULL_NAME": "Frank Jackson",
-        "PLAYER_SLUG": "frank-jackson",
-        "HEIGHT": "6-3",
-        "JERSEY_NUM": "5",
+        "NBA_ID": 1631093,
+        "FULL_NAME": "Jaden Ivey",
+        "PLAYER_SLUG": "jaden-ivey",
+        "HEIGHT": "6-4",
+        "JERSEY_NUM": "23",
         "POS": "G",
         "TEAM": "DET"
     },
@@ -1992,19 +1992,19 @@
         "NBA_ID": 1630543,
         "FULL_NAME": "Isaiah Jackson",
         "PLAYER_SLUG": "isaiah-jackson",
-        "HEIGHT": "6-10",
-        "JERSEY_NUM": "23",
+        "HEIGHT": "6-9",
+        "JERSEY_NUM": "22",
         "POS": "F",
         "TEAM": "IND"
     },
     {
-        "NBA_ID": 1628367,
-        "FULL_NAME": "Josh Jackson",
-        "PLAYER_SLUG": "josh-jackson",
+        "NBA_ID": 1628382,
+        "FULL_NAME": "Justin Jackson",
+        "PLAYER_SLUG": "justin-jackson",
         "HEIGHT": "6-8",
-        "JERSEY_NUM": "55",
-        "POS": "G-F",
-        "TEAM": "SAC"
+        "JERSEY_NUM": "43",
+        "POS": "F",
+        "TEAM": "BOS"
     },
     {
         "NBA_ID": 202704,
@@ -2019,7 +2019,7 @@
         "NBA_ID": 1628991,
         "FULL_NAME": "Jaren Jackson Jr.",
         "PLAYER_SLUG": "jaren-jackson-jr",
-        "HEIGHT": "6-11",
+        "HEIGHT": "6-10",
         "JERSEY_NUM": "13",
         "POS": "F-C",
         "TEAM": "MEM"
@@ -2034,22 +2034,40 @@
         "TEAM": "LAL"
     },
     {
+        "NBA_ID": 1629610,
+        "FULL_NAME": "DaQuan Jeffries",
+        "PLAYER_SLUG": "daquan-jeffries",
+        "HEIGHT": "6-5",
+        "JERSEY_NUM": "8",
+        "POS": "G-F",
+        "TEAM": "NYK"
+    },
+    {
         "NBA_ID": 1629660,
         "FULL_NAME": "Ty Jerome",
         "PLAYER_SLUG": "ty-jerome",
         "HEIGHT": "6-5",
-        "JERSEY_NUM": "16",
+        "JERSEY_NUM": "10",
         "POS": "G-F",
-        "TEAM": "OKC"
+        "TEAM": "GSW"
     },
     {
         "NBA_ID": 1630198,
         "FULL_NAME": "Isaiah Joe",
         "PLAYER_SLUG": "isaiah-joe",
-        "HEIGHT": "6-4",
-        "JERSEY_NUM": "7",
+        "HEIGHT": "6-3",
+        "JERSEY_NUM": "11",
         "POS": "G",
-        "TEAM": "PHI"
+        "TEAM": "OKC"
+    },
+    {
+        "NBA_ID": 1628993,
+        "FULL_NAME": "Alize Johnson",
+        "PLAYER_SLUG": "alize-johnson",
+        "HEIGHT": "6-8",
+        "JERSEY_NUM": "24",
+        "POS": "F",
+        "TEAM": "SAS"
     },
     {
         "NBA_ID": 1629661,
@@ -2059,15 +2077,6 @@
         "JERSEY_NUM": "23",
         "POS": "F",
         "TEAM": "PHX"
-    },
-    {
-        "NBA_ID": 1630525,
-        "FULL_NAME": "David Johnson",
-        "PLAYER_SLUG": "david-johnson",
-        "HEIGHT": "6-4",
-        "JERSEY_NUM": "13",
-        "POS": "G",
-        "TEAM": "TOR"
     },
     {
         "NBA_ID": 1630552,
@@ -2085,13 +2094,13 @@
         "HEIGHT": "6-7",
         "JERSEY_NUM": "16",
         "POS": "F",
-        "TEAM": "BKN"
+        "TEAM": "IND"
     },
     {
         "NBA_ID": 1629640,
         "FULL_NAME": "Keldon Johnson",
         "PLAYER_SLUG": "keldon-johnson",
-        "HEIGHT": "6-6",
+        "HEIGHT": "6-5",
         "JERSEY_NUM": "3",
         "POS": "F-G",
         "TEAM": "SAS"
@@ -2100,19 +2109,10 @@
         "NBA_ID": 1630553,
         "FULL_NAME": "Keon Johnson",
         "PLAYER_SLUG": "keon-johnson",
-        "HEIGHT": "6-4",
+        "HEIGHT": "6-3",
         "JERSEY_NUM": "6",
         "POS": "G",
         "TEAM": "POR"
-    },
-    {
-        "NBA_ID": 1626169,
-        "FULL_NAME": "Stanley Johnson",
-        "PLAYER_SLUG": "stanley-johnson",
-        "HEIGHT": "6-6",
-        "JERSEY_NUM": "14",
-        "POS": "F-G",
-        "TEAM": "LAL"
     },
     {
         "NBA_ID": 203999,
@@ -2130,7 +2130,7 @@
         "HEIGHT": "6-11",
         "JERSEY_NUM": "30",
         "POS": "C",
-        "TEAM": "SAC"
+        "TEAM": "LAL"
     },
     {
         "NBA_ID": 1630529,
@@ -2145,19 +2145,10 @@
         "NBA_ID": 1630539,
         "FULL_NAME": "Kai Jones",
         "PLAYER_SLUG": "kai-jones",
-        "HEIGHT": "6-10",
+        "HEIGHT": "6-11",
         "JERSEY_NUM": "23",
         "POS": "C-F",
         "TEAM": "CHA"
-    },
-    {
-        "NBA_ID": 1630222,
-        "FULL_NAME": "Mason Jones",
-        "PLAYER_SLUG": "mason-jones",
-        "HEIGHT": "6-4",
-        "JERSEY_NUM": "40",
-        "POS": "G",
-        "TEAM": "LAL"
     },
     {
         "NBA_ID": 1630200,
@@ -2172,7 +2163,7 @@
         "NBA_ID": 1626145,
         "FULL_NAME": "Tyus Jones",
         "PLAYER_SLUG": "tyus-jones",
-        "HEIGHT": "6-0",
+        "HEIGHT": "6-2",
         "JERSEY_NUM": "21",
         "POS": "G",
         "TEAM": "MEM"
@@ -2191,9 +2182,9 @@
         "FULL_NAME": "DeAndre Jordan",
         "PLAYER_SLUG": "deandre-jordan",
         "HEIGHT": "6-11",
-        "JERSEY_NUM": "9",
+        "JERSEY_NUM": "6",
         "POS": "C",
-        "TEAM": "PHI"
+        "TEAM": "DEN"
     },
     {
         "NBA_ID": 202709,
@@ -2205,13 +2196,49 @@
         "TEAM": "DET"
     },
     {
+        "NBA_ID": 1631107,
+        "FULL_NAME": "Nikola Jovic",
+        "PLAYER_SLUG": "nikola-jovic",
+        "HEIGHT": "6-10",
+        "JERSEY_NUM": "5",
+        "POS": "F",
+        "TEAM": "MIA"
+    },
+    {
+        "NBA_ID": 1630548,
+        "FULL_NAME": "Johnny Juzang",
+        "PLAYER_SLUG": "johnny-juzang",
+        "HEIGHT": "6-6",
+        "JERSEY_NUM": "33",
+        "POS": "G",
+        "TEAM": "UTA"
+    },
+    {
+        "NBA_ID": 1629662,
+        "FULL_NAME": "Mfiondu Kabengele",
+        "PLAYER_SLUG": "mfiondu-kabengele",
+        "HEIGHT": "6-10",
+        "JERSEY_NUM": "28",
+        "POS": "C",
+        "TEAM": "BOS"
+    },
+    {
         "NBA_ID": 1626163,
         "FULL_NAME": "Frank Kaminsky",
         "PLAYER_SLUG": "frank-kaminsky",
         "HEIGHT": "7-0",
-        "JERSEY_NUM": "8",
+        "JERSEY_NUM": "0",
         "POS": "F-C",
-        "TEAM": "PHX"
+        "TEAM": "ATL"
+    },
+    {
+        "NBA_ID": 1631211,
+        "FULL_NAME": "Trevor Keels",
+        "PLAYER_SLUG": "trevor-keels",
+        "HEIGHT": "6-4",
+        "JERSEY_NUM": "3",
+        "POS": "G",
+        "TEAM": "NYK"
     },
     {
         "NBA_ID": 1628379,
@@ -2223,11 +2250,20 @@
         "TEAM": "LAC"
     },
     {
+        "NBA_ID": 1631117,
+        "FULL_NAME": "Walker Kessler",
+        "PLAYER_SLUG": "walker-kessler",
+        "HEIGHT": "7-0",
+        "JERSEY_NUM": "24",
+        "POS": "C",
+        "TEAM": "UTA"
+    },
+    {
         "NBA_ID": 1630296,
         "FULL_NAME": "Braxton Key",
         "PLAYER_SLUG": "braxton-key",
         "HEIGHT": "6-8",
-        "JERSEY_NUM": "17",
+        "JERSEY_NUM": "8",
         "POS": "F",
         "TEAM": "DET"
     },
@@ -2253,7 +2289,7 @@
         "NBA_ID": 1630233,
         "FULL_NAME": "Nathan Knight",
         "PLAYER_SLUG": "nathan-knight",
-        "HEIGHT": "6-10",
+        "HEIGHT": "6-8",
         "JERSEY_NUM": "13",
         "POS": "F-C",
         "TEAM": "MIN"
@@ -2263,9 +2299,18 @@
         "FULL_NAME": "Kevin Knox II",
         "PLAYER_SLUG": "kevin-knox-ii",
         "HEIGHT": "6-7",
-        "JERSEY_NUM": "5",
+        "JERSEY_NUM": "20",
         "POS": "F",
-        "TEAM": "ATL"
+        "TEAM": "DET"
+    },
+    {
+        "NBA_ID": 1631132,
+        "FULL_NAME": "Christian Koloko",
+        "PLAYER_SLUG": "christian-koloko",
+        "HEIGHT": "7-0",
+        "JERSEY_NUM": "35",
+        "POS": "C",
+        "TEAM": "TOR"
     },
     {
         "NBA_ID": 1629723,
@@ -2301,16 +2346,7 @@
         "HEIGHT": "6-8",
         "JERSEY_NUM": "27",
         "POS": "G",
-        "TEAM": "OKC"
-    },
-    {
-        "NBA_ID": 1629083,
-        "FULL_NAME": "Arnoldas Kulboka",
-        "PLAYER_SLUG": "arnoldas-kulboka",
-        "HEIGHT": "6-10",
-        "JERSEY_NUM": "98",
-        "POS": "F",
-        "TEAM": "CHA"
+        "TEAM": "ATL"
     },
     {
         "NBA_ID": 1630228,
@@ -2331,6 +2367,15 @@
         "TEAM": "WAS"
     },
     {
+        "NBA_ID": 1631222,
+        "FULL_NAME": "Jake LaRavia",
+        "PLAYER_SLUG": "jake-laravia",
+        "HEIGHT": "6-7",
+        "JERSEY_NUM": "3",
+        "POS": "F",
+        "TEAM": "MEM"
+    },
+    {
         "NBA_ID": 203897,
         "FULL_NAME": "Zach LaVine",
         "PLAYER_SLUG": "zach-lavine",
@@ -2344,27 +2389,18 @@
         "FULL_NAME": "Anthony Lamb",
         "PLAYER_SLUG": "anthony-lamb",
         "HEIGHT": "6-6",
-        "JERSEY_NUM": "33",
+        "JERSEY_NUM": "40",
         "POS": "F",
-        "TEAM": "HOU"
-    },
-    {
-        "NBA_ID": 203087,
-        "FULL_NAME": "Jeremy Lamb",
-        "PLAYER_SLUG": "jeremy-lamb",
-        "HEIGHT": "6-5",
-        "JERSEY_NUM": "26",
-        "POS": "G-F",
-        "TEAM": "SAC"
+        "TEAM": "GSW"
     },
     {
         "NBA_ID": 1629111,
         "FULL_NAME": "Jock Landale",
         "PLAYER_SLUG": "jock-landale",
         "HEIGHT": "6-11",
-        "JERSEY_NUM": "34",
+        "JERSEY_NUM": "11",
         "POS": "C",
-        "TEAM": "SAS"
+        "TEAM": "PHX"
     },
     {
         "NBA_ID": 1629641,
@@ -2376,12 +2412,12 @@
         "TEAM": "SAS"
     },
     {
-        "NBA_ID": 1627774,
-        "FULL_NAME": "Jake Layman",
-        "PLAYER_SLUG": "jake-layman",
-        "HEIGHT": "6-8",
-        "JERSEY_NUM": "10",
-        "POS": "F",
+        "NBA_ID": 1630639,
+        "FULL_NAME": "A.J. Lawson",
+        "PLAYER_SLUG": "aj-lawson",
+        "HEIGHT": "6-6",
+        "JERSEY_NUM": "00",
+        "POS": "G",
         "TEAM": "MIN"
     },
     {
@@ -2398,24 +2434,24 @@
         "FULL_NAME": "Damion Lee",
         "PLAYER_SLUG": "damion-lee",
         "HEIGHT": "6-5",
-        "JERSEY_NUM": "1",
+        "JERSEY_NUM": "10",
         "POS": "G-F",
-        "TEAM": "GSW"
+        "TEAM": "PHX"
     },
     {
         "NBA_ID": 1630240,
         "FULL_NAME": "Saben Lee",
         "PLAYER_SLUG": "saben-lee",
         "HEIGHT": "6-2",
-        "JERSEY_NUM": "38",
+        "JERSEY_NUM": "9",
         "POS": "G",
-        "TEAM": "DET"
+        "TEAM": "PHI"
     },
     {
         "NBA_ID": 203458,
         "FULL_NAME": "Alex Len",
         "PLAYER_SLUG": "alex-len",
-        "HEIGHT": "7-0",
+        "HEIGHT": "7-2",
         "JERSEY_NUM": "25",
         "POS": "C",
         "TEAM": "SAC"
@@ -2428,15 +2464,6 @@
         "JERSEY_NUM": "2",
         "POS": "F",
         "TEAM": "LAC"
-    },
-    {
-        "NBA_ID": 1630575,
-        "FULL_NAME": "Scottie Lewis",
-        "PLAYER_SLUG": "scottie-lewis",
-        "HEIGHT": "6-5",
-        "JERSEY_NUM": "16",
-        "POS": "G",
-        "TEAM": "CHA"
     },
     {
         "NBA_ID": 1630184,
@@ -2461,7 +2488,7 @@
         "FULL_NAME": "Nassir Little",
         "PLAYER_SLUG": "nassir-little",
         "HEIGHT": "6-5",
-        "JERSEY_NUM": "9",
+        "JERSEY_NUM": "10",
         "POS": "F-G",
         "TEAM": "POR"
     },
@@ -2473,6 +2500,15 @@
         "JERSEY_NUM": "12",
         "POS": "F",
         "TEAM": "DET"
+    },
+    {
+        "NBA_ID": 1631254,
+        "FULL_NAME": "Kenneth Lofton Jr.",
+        "PLAYER_SLUG": "kenneth-lofton-jr",
+        "HEIGHT": "6-6",
+        "JERSEY_NUM": "6",
+        "POS": "F",
+        "TEAM": "MEM"
     },
     {
         "NBA_ID": 1626172,
@@ -2487,7 +2523,7 @@
         "NBA_ID": 201572,
         "FULL_NAME": "Brook Lopez",
         "PLAYER_SLUG": "brook-lopez",
-        "HEIGHT": "7-0",
+        "HEIGHT": "7-1",
         "JERSEY_NUM": "11",
         "POS": "C",
         "TEAM": "MIL"
@@ -2499,16 +2535,7 @@
         "HEIGHT": "7-0",
         "JERSEY_NUM": "33",
         "POS": "C",
-        "TEAM": "ORL"
-    },
-    {
-        "NBA_ID": 1629712,
-        "FULL_NAME": "Didi Louzada",
-        "PLAYER_SLUG": "didi-louzada",
-        "HEIGHT": "6-5",
-        "JERSEY_NUM": "35",
-        "POS": "G",
-        "TEAM": "POR"
+        "TEAM": "CLE"
     },
     {
         "NBA_ID": 201567,
@@ -2529,15 +2556,6 @@
         "TEAM": "MIA"
     },
     {
-        "NBA_ID": 1627789,
-        "FULL_NAME": "Timothe Luwawu-Cabarrot",
-        "PLAYER_SLUG": "timothe-luwawu-cabarrot",
-        "HEIGHT": "6-7",
-        "JERSEY_NUM": "7",
-        "POS": "G-F",
-        "TEAM": "ATL"
-    },
-    {
         "NBA_ID": 1626168,
         "FULL_NAME": "Trey Lyles",
         "PLAYER_SLUG": "trey-lyles",
@@ -2550,16 +2568,16 @@
         "NBA_ID": 1630177,
         "FULL_NAME": "Theo Maledon",
         "PLAYER_SLUG": "theo-maledon",
-        "HEIGHT": "6-4",
-        "JERSEY_NUM": "11",
+        "HEIGHT": "6-5",
+        "JERSEY_NUM": "9",
         "POS": "G",
-        "TEAM": "OKC"
+        "TEAM": "CHA"
     },
     {
         "NBA_ID": 1630572,
         "FULL_NAME": "Sandro Mamukelashvili",
         "PLAYER_SLUG": "sandro-mamukelashvili",
-        "HEIGHT": "6-9",
+        "HEIGHT": "6-10",
         "JERSEY_NUM": "54",
         "POS": "F-C",
         "TEAM": "MIL"
@@ -2586,19 +2604,19 @@
         "NBA_ID": 1626246,
         "FULL_NAME": "Boban Marjanovic",
         "PLAYER_SLUG": "boban-marjanovic",
-        "HEIGHT": "7-3",
+        "HEIGHT": "7-4",
         "JERSEY_NUM": "51",
         "POS": "C",
-        "TEAM": "DAL"
+        "TEAM": "HOU"
     },
     {
         "NBA_ID": 1628374,
         "FULL_NAME": "Lauri Markkanen",
         "PLAYER_SLUG": "lauri-markkanen",
-        "HEIGHT": "6-11",
-        "JERSEY_NUM": "24",
+        "HEIGHT": "7-0",
+        "JERSEY_NUM": "23",
         "POS": "F-C",
-        "TEAM": "CLE"
+        "TEAM": "UTA"
     },
     {
         "NBA_ID": 1630230,
@@ -2628,10 +2646,19 @@
         "TEAM": "CHA"
     },
     {
+        "NBA_ID": 1631213,
+        "FULL_NAME": "Tyrese Martin",
+        "PLAYER_SLUG": "tyrese-martin",
+        "HEIGHT": "6-6",
+        "JERSEY_NUM": "22",
+        "POS": "G",
+        "TEAM": "ATL"
+    },
+    {
         "NBA_ID": 1630231,
         "FULL_NAME": "Kenyon Martin Jr.",
         "PLAYER_SLUG": "kenyon-martin-jr",
-        "HEIGHT": "6-5",
+        "HEIGHT": "6-7",
         "JERSEY_NUM": "6",
         "POS": "F",
         "TEAM": "HOU"
@@ -2640,16 +2667,25 @@
         "NBA_ID": 1629726,
         "FULL_NAME": "Garrison Mathews",
         "PLAYER_SLUG": "garrison-mathews",
-        "HEIGHT": "6-5",
+        "HEIGHT": "6-6",
         "JERSEY_NUM": "25",
         "POS": "G",
         "TEAM": "HOU"
     },
     {
+        "NBA_ID": 1631097,
+        "FULL_NAME": "Bennedict Mathurin",
+        "PLAYER_SLUG": "bennedict-mathurin",
+        "HEIGHT": "6-5",
+        "JERSEY_NUM": "00",
+        "POS": "G-F",
+        "TEAM": "IND"
+    },
+    {
         "NBA_ID": 202083,
         "FULL_NAME": "Wesley Matthews",
         "PLAYER_SLUG": "wesley-matthews",
-        "HEIGHT": "6-4",
+        "HEIGHT": "6-5",
         "JERSEY_NUM": "23",
         "POS": "G",
         "TEAM": "MIL"
@@ -2664,19 +2700,10 @@
         "TEAM": "PHI"
     },
     {
-        "NBA_ID": 1630219,
-        "FULL_NAME": "Skylar Mays",
-        "PLAYER_SLUG": "skylar-mays",
-        "HEIGHT": "6-4",
-        "JERSEY_NUM": "4",
-        "POS": "G",
-        "TEAM": "ATL"
-    },
-    {
         "NBA_ID": 1630540,
         "FULL_NAME": "Miles McBride",
         "PLAYER_SLUG": "miles-mcbride",
-        "HEIGHT": "6-1",
+        "HEIGHT": "6-2",
         "JERSEY_NUM": "2",
         "POS": "G",
         "TEAM": "NYK"
@@ -2721,7 +2748,7 @@
         "NBA_ID": 203926,
         "FULL_NAME": "Doug McDermott",
         "PLAYER_SLUG": "doug-mcdermott",
-        "HEIGHT": "6-7",
+        "HEIGHT": "6-6",
         "JERSEY_NUM": "17",
         "POS": "F",
         "TEAM": "SAS"
@@ -2733,7 +2760,16 @@
         "HEIGHT": "7-0",
         "JERSEY_NUM": "00",
         "POS": "C-F",
-        "TEAM": "PHX"
+        "TEAM": "DAL"
+    },
+    {
+        "NBA_ID": 1631121,
+        "FULL_NAME": "Bryce McGowens",
+        "PLAYER_SLUG": "bryce-mcgowens",
+        "HEIGHT": "6-6",
+        "JERSEY_NUM": "7",
+        "POS": "G",
+        "TEAM": "CHA"
     },
     {
         "NBA_ID": 203585,
@@ -2748,28 +2784,19 @@
         "NBA_ID": 1629162,
         "FULL_NAME": "Jordan McLaughlin",
         "PLAYER_SLUG": "jordan-mclaughlin",
-        "HEIGHT": "5-11",
+        "HEIGHT": "6-0",
         "JERSEY_NUM": "6",
         "POS": "G",
         "TEAM": "MIN"
-    },
-    {
-        "NBA_ID": 203463,
-        "FULL_NAME": "Ben McLemore",
-        "PLAYER_SLUG": "ben-mclemore",
-        "HEIGHT": "6-3",
-        "JERSEY_NUM": "23",
-        "POS": "G",
-        "TEAM": "POR"
     },
     {
         "NBA_ID": 1629001,
         "FULL_NAME": "De'Anthony Melton",
         "PLAYER_SLUG": "deanthony-melton",
         "HEIGHT": "6-2",
-        "JERSEY_NUM": "0",
+        "JERSEY_NUM": "8",
         "POS": "G",
-        "TEAM": "MEM"
+        "TEAM": "PHI"
     },
     {
         "NBA_ID": 1629002,
@@ -2799,15 +2826,6 @@
         "TEAM": "BKN"
     },
     {
-        "NBA_ID": 200794,
-        "FULL_NAME": "Paul Millsap",
-        "PLAYER_SLUG": "paul-millsap",
-        "HEIGHT": "6-7",
-        "JERSEY_NUM": "8",
-        "POS": "F",
-        "TEAM": "PHI"
-    },
-    {
         "NBA_ID": 1629003,
         "FULL_NAME": "Shake Milton",
         "PLAYER_SLUG": "shake-milton",
@@ -2815,6 +2833,15 @@
         "JERSEY_NUM": "18",
         "POS": "G-F",
         "TEAM": "PHI"
+    },
+    {
+        "NBA_ID": 1631169,
+        "FULL_NAME": "Josh Minott",
+        "PLAYER_SLUG": "josh-minott",
+        "HEIGHT": "6-8",
+        "JERSEY_NUM": "8",
+        "POS": "F",
+        "TEAM": "MIN"
     },
     {
         "NBA_ID": 1630558,
@@ -2832,7 +2859,7 @@
         "HEIGHT": "6-1",
         "JERSEY_NUM": "45",
         "POS": "G",
-        "TEAM": "UTA"
+        "TEAM": "CLE"
     },
     {
         "NBA_ID": 1630596,
@@ -2844,22 +2871,31 @@
         "TEAM": "CLE"
     },
     {
+        "NBA_ID": 1630600,
+        "FULL_NAME": "Isaiah Mobley",
+        "PLAYER_SLUG": "isaiah-mobley",
+        "HEIGHT": "6-8",
+        "JERSEY_NUM": "15",
+        "POS": "F",
+        "TEAM": "CLE"
+    },
+    {
+        "NBA_ID": 1631320,
+        "FULL_NAME": "Chima Moneke",
+        "PLAYER_SLUG": "chima-moneke",
+        "HEIGHT": "6-5",
+        "JERSEY_NUM": "19",
+        "POS": "F",
+        "TEAM": "SAC"
+    },
+    {
         "NBA_ID": 1628370,
         "FULL_NAME": "Malik Monk",
         "PLAYER_SLUG": "malik-monk",
         "HEIGHT": "6-3",
-        "JERSEY_NUM": "11",
+        "JERSEY_NUM": "0",
         "POS": "G",
-        "TEAM": "LAL"
-    },
-    {
-        "NBA_ID": 202328,
-        "FULL_NAME": "Greg Monroe",
-        "PLAYER_SLUG": "greg-monroe",
-        "HEIGHT": "6-10",
-        "JERSEY_NUM": "15",
-        "POS": "F-C",
-        "TEAM": "UTA"
+        "TEAM": "SAC"
     },
     {
         "NBA_ID": 1630541,
@@ -2871,49 +2907,40 @@
         "TEAM": "GSW"
     },
     {
-        "NBA_ID": 1629875,
-        "FULL_NAME": "Xavier Moon",
-        "PLAYER_SLUG": "xavier-moon",
-        "HEIGHT": "6-2",
-        "JERSEY_NUM": "15",
+        "NBA_ID": 1631111,
+        "FULL_NAME": "Wendell Moore Jr.",
+        "PLAYER_SLUG": "wendell-moore-jr",
+        "HEIGHT": "6-5",
+        "JERSEY_NUM": "7",
         "POS": "G",
-        "TEAM": "LAC"
+        "TEAM": "MIN"
     },
     {
         "NBA_ID": 1629630,
         "FULL_NAME": "Ja Morant",
         "PLAYER_SLUG": "ja-morant",
-        "HEIGHT": "6-3",
+        "HEIGHT": "6-2",
         "JERSEY_NUM": "12",
         "POS": "G",
         "TEAM": "MEM"
-    },
-    {
-        "NBA_ID": 1629752,
-        "FULL_NAME": "Juwan Morgan",
-        "PLAYER_SLUG": "juwan-morgan",
-        "HEIGHT": "6-7",
-        "JERSEY_NUM": "16",
-        "POS": "F",
-        "TEAM": "BOS"
     },
     {
         "NBA_ID": 202693,
         "FULL_NAME": "Markieff Morris",
         "PLAYER_SLUG": "markieff-morris",
         "HEIGHT": "6-9",
-        "JERSEY_NUM": "8",
+        "JERSEY_NUM": "13",
         "POS": "F",
-        "TEAM": "MIA"
+        "TEAM": "BKN"
     },
     {
         "NBA_ID": 1628420,
         "FULL_NAME": "Monte Morris",
         "PLAYER_SLUG": "monte-morris",
         "HEIGHT": "6-2",
-        "JERSEY_NUM": "11",
+        "JERSEY_NUM": "22",
         "POS": "G",
-        "TEAM": "DEN"
+        "TEAM": "WAS"
     },
     {
         "NBA_ID": 202694,
@@ -2923,15 +2950,6 @@
         "JERSEY_NUM": "8",
         "POS": "F",
         "TEAM": "LAC"
-    },
-    {
-        "NBA_ID": 1628539,
-        "FULL_NAME": "Mychal Mulder",
-        "PLAYER_SLUG": "mychal-mulder",
-        "HEIGHT": "6-3",
-        "JERSEY_NUM": "12",
-        "POS": "G",
-        "TEAM": "MIA"
     },
     {
         "NBA_ID": 1630530,
@@ -2946,25 +2964,34 @@
         "NBA_ID": 1627749,
         "FULL_NAME": "Dejounte Murray",
         "PLAYER_SLUG": "dejounte-murray",
-        "HEIGHT": "6-4",
+        "HEIGHT": "6-5",
         "JERSEY_NUM": "5",
         "POS": "G",
-        "TEAM": "SAS"
+        "TEAM": "ATL"
     },
     {
         "NBA_ID": 1627750,
         "FULL_NAME": "Jamal Murray",
         "PLAYER_SLUG": "jamal-murray",
-        "HEIGHT": "6-3",
+        "HEIGHT": "6-4",
         "JERSEY_NUM": "27",
         "POS": "G",
         "TEAM": "DEN"
     },
     {
+        "NBA_ID": 1631099,
+        "FULL_NAME": "Keegan Murray",
+        "PLAYER_SLUG": "keegan-murray",
+        "HEIGHT": "6-8",
+        "JERSEY_NUM": "13",
+        "POS": "F",
+        "TEAM": "SAC"
+    },
+    {
         "NBA_ID": 203488,
         "FULL_NAME": "Mike Muscala",
         "PLAYER_SLUG": "mike-muscala",
-        "HEIGHT": "6-10",
+        "HEIGHT": "6-11",
         "JERSEY_NUM": "33",
         "POS": "F-C",
         "TEAM": "OKC"
@@ -2974,36 +3001,36 @@
         "FULL_NAME": "Svi Mykhailiuk",
         "PLAYER_SLUG": "svi-mykhailiuk",
         "HEIGHT": "6-7",
-        "JERSEY_NUM": "14",
+        "JERSEY_NUM": "17",
         "POS": "G-F",
-        "TEAM": "TOR"
+        "TEAM": "NYK"
     },
     {
         "NBA_ID": 1626204,
         "FULL_NAME": "Larry Nance Jr.",
         "PLAYER_SLUG": "larry-nance-jr",
-        "HEIGHT": "6-7",
+        "HEIGHT": "6-8",
         "JERSEY_NUM": "22",
         "POS": "F-C",
         "TEAM": "NOP"
     },
     {
-        "NBA_ID": 1630612,
-        "FULL_NAME": "RJ Nembhard Jr.",
-        "PLAYER_SLUG": "rj-nembhard-jr",
-        "HEIGHT": "6-4",
-        "JERSEY_NUM": "5",
-        "POS": "G",
-        "TEAM": "CLE"
+        "NBA_ID": 1629614,
+        "FULL_NAME": "Andrew Nembhard",
+        "PLAYER_SLUG": "andrew-nembhard",
+        "HEIGHT": "6-3",
+        "JERSEY_NUM": "2",
+        "POS": "G-F",
+        "TEAM": "IND"
     },
     {
         "NBA_ID": 1630174,
         "FULL_NAME": "Aaron Nesmith",
         "PLAYER_SLUG": "aaron-nesmith",
         "HEIGHT": "6-5",
-        "JERSEY_NUM": "26",
+        "JERSEY_NUM": "23",
         "POS": "G-F",
-        "TEAM": "BOS"
+        "TEAM": "IND"
     },
     {
         "NBA_ID": 203526,
@@ -3012,7 +3039,7 @@
         "HEIGHT": "6-2",
         "JERSEY_NUM": "19",
         "POS": "G",
-        "TEAM": "WAS"
+        "TEAM": "CLE"
     },
     {
         "NBA_ID": 1627777,
@@ -3045,10 +3072,10 @@
         "NBA_ID": 203457,
         "FULL_NAME": "Nerlens Noel",
         "PLAYER_SLUG": "nerlens-noel",
-        "HEIGHT": "6-11",
+        "HEIGHT": "6-10",
         "JERSEY_NUM": "3",
         "POS": "C-F",
-        "TEAM": "NYK"
+        "TEAM": "DET"
     },
     {
         "NBA_ID": 1629669,
@@ -3072,7 +3099,7 @@
         "NBA_ID": 1629134,
         "FULL_NAME": "Kendrick Nunn",
         "PLAYER_SLUG": "kendrick-nunn",
-        "HEIGHT": "6-2",
+        "HEIGHT": "6-3",
         "JERSEY_NUM": "12",
         "POS": "G",
         "TEAM": "LAL"
@@ -3081,25 +3108,16 @@
         "NBA_ID": 203994,
         "FULL_NAME": "Jusuf Nurkic",
         "PLAYER_SLUG": "jusuf-nurkic",
-        "HEIGHT": "6-11",
+        "HEIGHT": "7-0",
         "JERSEY_NUM": "27",
         "POS": "C",
         "TEAM": "POR"
     },
     {
-        "NBA_ID": 1628021,
-        "FULL_NAME": "David Nwaba",
-        "PLAYER_SLUG": "david-nwaba",
-        "HEIGHT": "6-5",
-        "JERSEY_NUM": "2",
-        "POS": "G-F",
-        "TEAM": "HOU"
-    },
-    {
         "NBA_ID": 1629670,
         "FULL_NAME": "Jordan Nwora",
         "PLAYER_SLUG": "jordan-nwora",
-        "HEIGHT": "6-8",
+        "HEIGHT": "6-9",
         "JERSEY_NUM": "13",
         "POS": "F",
         "TEAM": "MIL"
@@ -3108,16 +3126,16 @@
         "NBA_ID": 1626220,
         "FULL_NAME": "Royce O'Neale",
         "PLAYER_SLUG": "royce-oneale",
-        "HEIGHT": "6-5",
-        "JERSEY_NUM": "23",
+        "HEIGHT": "6-6",
+        "JERSEY_NUM": "00",
         "POS": "F",
-        "TEAM": "UTA"
+        "TEAM": "BKN"
     },
     {
         "NBA_ID": 1629643,
         "FULL_NAME": "Chuma Okeke",
         "PLAYER_SLUG": "chuma-okeke",
-        "HEIGHT": "6-6",
+        "HEIGHT": "6-8",
         "JERSEY_NUM": "3",
         "POS": "F",
         "TEAM": "ORL"
@@ -3127,15 +3145,15 @@
         "FULL_NAME": "Josh Okogie",
         "PLAYER_SLUG": "josh-okogie",
         "HEIGHT": "6-4",
-        "JERSEY_NUM": "20",
+        "JERSEY_NUM": "2",
         "POS": "G",
-        "TEAM": "MIN"
+        "TEAM": "PHX"
     },
     {
         "NBA_ID": 1630168,
         "FULL_NAME": "Onyeka Okongwu",
         "PLAYER_SLUG": "onyeka-okongwu",
-        "HEIGHT": "6-8",
+        "HEIGHT": "6-9",
         "JERSEY_NUM": "17",
         "POS": "F-C",
         "TEAM": "ATL"
@@ -3150,10 +3168,19 @@
         "TEAM": "CLE"
     },
     {
+        "NBA_ID": 1629644,
+        "FULL_NAME": "KZ Okpala",
+        "PLAYER_SLUG": "kz-okpala",
+        "HEIGHT": "6-8",
+        "JERSEY_NUM": "30",
+        "POS": "F-G",
+        "TEAM": "SAC"
+    },
+    {
         "NBA_ID": 203506,
         "FULL_NAME": "Victor Oladipo",
         "PLAYER_SLUG": "victor-oladipo",
-        "HEIGHT": "6-4",
+        "HEIGHT": "6-3",
         "JERSEY_NUM": "4",
         "POS": "G",
         "TEAM": "MIA"
@@ -3163,9 +3190,18 @@
         "FULL_NAME": "Kelly Olynyk",
         "PLAYER_SLUG": "kelly-olynyk",
         "HEIGHT": "6-11",
-        "JERSEY_NUM": "13",
+        "JERSEY_NUM": "41",
         "POS": "F-C",
-        "TEAM": "DET"
+        "TEAM": "UTA"
+    },
+    {
+        "NBA_ID": 1630647,
+        "FULL_NAME": "Eugene Omoruyi",
+        "PLAYER_SLUG": "eugene-omoruyi",
+        "HEIGHT": "6-6",
+        "JERSEY_NUM": "97",
+        "POS": "F",
+        "TEAM": "OKC"
     },
     {
         "NBA_ID": 1626224,
@@ -3186,15 +3222,6 @@
         "TEAM": "CHA"
     },
     {
-        "NBA_ID": 1629672,
-        "FULL_NAME": "Eric Paschall",
-        "PLAYER_SLUG": "eric-paschall",
-        "HEIGHT": "6-6",
-        "JERSEY_NUM": "0",
-        "POS": "F",
-        "TEAM": "UTA"
-    },
-    {
         "NBA_ID": 101108,
         "FULL_NAME": "Chris Paul",
         "PLAYER_SLUG": "chris-paul",
@@ -3213,46 +3240,37 @@
         "TEAM": "PHX"
     },
     {
-        "NBA_ID": 203901,
-        "FULL_NAME": "Elfrid Payton",
-        "PLAYER_SLUG": "elfrid-payton",
-        "HEIGHT": "6-3",
-        "JERSEY_NUM": "2",
-        "POS": "G",
-        "TEAM": "PHX"
-    },
-    {
         "NBA_ID": 1627780,
         "FULL_NAME": "Gary Payton II",
         "PLAYER_SLUG": "gary-payton-ii",
-        "HEIGHT": "6-3",
-        "JERSEY_NUM": "0",
+        "HEIGHT": "6-2",
+        "JERSEY_NUM": "00",
         "POS": "G",
-        "TEAM": "GSW"
-    },
-    {
-        "NBA_ID": 1630691,
-        "FULL_NAME": "Jamorko Pickett",
-        "PLAYER_SLUG": "jamorko-pickett",
-        "HEIGHT": "6-9",
-        "JERSEY_NUM": "24",
-        "POS": "F",
-        "TEAM": "DET"
+        "TEAM": "POR"
     },
     {
         "NBA_ID": 1629033,
         "FULL_NAME": "Theo Pinson",
         "PLAYER_SLUG": "theo-pinson",
-        "HEIGHT": "6-5",
-        "JERSEY_NUM": "21",
+        "HEIGHT": "6-7",
+        "JERSEY_NUM": "1",
         "POS": "G-F",
         "TEAM": "DAL"
+    },
+    {
+        "NBA_ID": 1630590,
+        "FULL_NAME": "Scotty Pippen Jr.",
+        "PLAYER_SLUG": "scotty-pippen-jr",
+        "HEIGHT": "6-1",
+        "JERSEY_NUM": "14",
+        "POS": "G",
+        "TEAM": "LAL"
     },
     {
         "NBA_ID": 203486,
         "FULL_NAME": "Mason Plumlee",
         "PLAYER_SLUG": "mason-plumlee",
-        "HEIGHT": "6-11",
+        "HEIGHT": "7-0",
         "JERSEY_NUM": "24",
         "POS": "F-C",
         "TEAM": "CHA"
@@ -3274,15 +3292,6 @@
         "JERSEY_NUM": "17",
         "POS": "F",
         "TEAM": "OKC"
-    },
-    {
-        "NBA_ID": 1630582,
-        "FULL_NAME": "Yves Pons",
-        "PLAYER_SLUG": "yves-pons",
-        "HEIGHT": "6-5",
-        "JERSEY_NUM": "5",
-        "POS": "F",
-        "TEAM": "MEM"
     },
     {
         "NBA_ID": 1629673,
@@ -3318,13 +3327,13 @@
         "HEIGHT": "6-8",
         "JERSEY_NUM": "32",
         "POS": "F",
-        "TEAM": "GSW"
+        "TEAM": "TOR"
     },
     {
         "NBA_ID": 1626171,
         "FULL_NAME": "Bobby Portis",
         "PLAYER_SLUG": "bobby-portis",
-        "HEIGHT": "6-10",
+        "HEIGHT": "6-11",
         "JERSEY_NUM": "9",
         "POS": "F",
         "TEAM": "MIL"
@@ -3339,6 +3348,15 @@
         "TEAM": "WAS"
     },
     {
+        "NBA_ID": 1630695,
+        "FULL_NAME": "Micah Potter",
+        "PLAYER_SLUG": "micah-potter",
+        "HEIGHT": "6-8",
+        "JERSEY_NUM": "25",
+        "POS": "C",
+        "TEAM": "UTA"
+    },
+    {
         "NBA_ID": 203939,
         "FULL_NAME": "Dwight Powell",
         "PLAYER_SLUG": "dwight-powell",
@@ -3348,19 +3366,10 @@
         "TEAM": "DAL"
     },
     {
-        "NBA_ID": 1629619,
-        "FULL_NAME": "Myles Powell",
-        "PLAYER_SLUG": "myles-powell",
-        "HEIGHT": "6-2",
-        "JERSEY_NUM": "5",
-        "POS": "G",
-        "TEAM": "PHI"
-    },
-    {
         "NBA_ID": 1626181,
         "FULL_NAME": "Norman Powell",
         "PLAYER_SLUG": "norman-powell",
-        "HEIGHT": "6-3",
+        "HEIGHT": "6-4",
         "JERSEY_NUM": "24",
         "POS": "G",
         "TEAM": "LAC"
@@ -3373,15 +3382,6 @@
         "JERSEY_NUM": "17",
         "POS": "G",
         "TEAM": "LAC"
-    },
-    {
-        "NBA_ID": 1630563,
-        "FULL_NAME": "Joshua Primo",
-        "PLAYER_SLUG": "joshua-primo",
-        "HEIGHT": "6-4",
-        "JERSEY_NUM": "11",
-        "POS": "G",
-        "TEAM": "SAS"
     },
     {
         "NBA_ID": 1627752,
@@ -3406,9 +3406,9 @@
         "FULL_NAME": "Trevelin Queen",
         "PLAYER_SLUG": "trevelin-queen",
         "HEIGHT": "6-6",
-        "JERSEY_NUM": "21",
+        "JERSEY_NUM": "8",
         "POS": "G",
-        "TEAM": "HOU"
+        "TEAM": "IND"
     },
     {
         "NBA_ID": 1629674,
@@ -3423,7 +3423,7 @@
         "NBA_ID": 1630193,
         "FULL_NAME": "Immanuel Quickley",
         "PLAYER_SLUG": "immanuel-quickley",
-        "HEIGHT": "6-3",
+        "HEIGHT": "6-2",
         "JERSEY_NUM": "5",
         "POS": "G",
         "TEAM": "NYK"
@@ -3450,8 +3450,8 @@
         "NBA_ID": 1629629,
         "FULL_NAME": "Cam Reddish",
         "PLAYER_SLUG": "cam-reddish",
-        "HEIGHT": "6-8",
-        "JERSEY_NUM": "21",
+        "HEIGHT": "6-7",
+        "JERSEY_NUM": "0",
         "POS": "F-G",
         "TEAM": "NYK"
     },
@@ -3487,7 +3487,7 @@
         "FULL_NAME": "Nick Richards",
         "PLAYER_SLUG": "nick-richards",
         "HEIGHT": "7-0",
-        "JERSEY_NUM": "14",
+        "JERSEY_NUM": "4",
         "POS": "C",
         "TEAM": "CHA"
     },
@@ -3495,7 +3495,7 @@
         "NBA_ID": 1626196,
         "FULL_NAME": "Josh Richardson",
         "PLAYER_SLUG": "josh-richardson",
-        "HEIGHT": "6-5",
+        "HEIGHT": "6-6",
         "JERSEY_NUM": "7",
         "POS": "G",
         "TEAM": "SAS"
@@ -3507,7 +3507,7 @@
         "HEIGHT": "6-4",
         "JERSEY_NUM": "25",
         "POS": "G",
-        "TEAM": "DEN"
+        "TEAM": "MIN"
     },
     {
         "NBA_ID": 1629130,
@@ -3541,24 +3541,33 @@
         "FULL_NAME": "Isaiah Roby",
         "PLAYER_SLUG": "isaiah-roby",
         "HEIGHT": "6-8",
-        "JERSEY_NUM": "22",
+        "JERSEY_NUM": "18",
         "POS": "F",
-        "TEAM": "OKC"
+        "TEAM": "SAS"
     },
     {
-        "NBA_ID": 200765,
-        "FULL_NAME": "Rajon Rondo",
-        "PLAYER_SLUG": "rajon-rondo",
-        "HEIGHT": "6-1",
-        "JERSEY_NUM": "1",
+        "NBA_ID": 1631223,
+        "FULL_NAME": "David Roddy",
+        "PLAYER_SLUG": "david-roddy",
+        "HEIGHT": "6-4",
+        "JERSEY_NUM": "27",
+        "POS": "F",
+        "TEAM": "MEM"
+    },
+    {
+        "NBA_ID": 1631157,
+        "FULL_NAME": "Ryan Rollins",
+        "PLAYER_SLUG": "ryan-rollins",
+        "HEIGHT": "6-3",
+        "JERSEY_NUM": "2",
         "POS": "G",
-        "TEAM": "CLE"
+        "TEAM": "GSW"
     },
     {
         "NBA_ID": 201565,
         "FULL_NAME": "Derrick Rose",
         "PLAYER_SLUG": "derrick-rose",
-        "HEIGHT": "6-2",
+        "HEIGHT": "6-3",
         "JERSEY_NUM": "4",
         "POS": "G",
         "TEAM": "NYK"
@@ -3567,7 +3576,7 @@
         "NBA_ID": 203082,
         "FULL_NAME": "Terrence Ross",
         "PLAYER_SLUG": "terrence-ross",
-        "HEIGHT": "6-6",
+        "HEIGHT": "6-7",
         "JERSEY_NUM": "31",
         "POS": "G-F",
         "TEAM": "ORL"
@@ -3586,9 +3595,9 @@
         "FULL_NAME": "Ricky Rubio",
         "PLAYER_SLUG": "ricky-rubio",
         "HEIGHT": "6-2",
-        "JERSEY_NUM": "99",
+        "JERSEY_NUM": "13",
         "POS": "G",
-        "TEAM": "IND"
+        "TEAM": "CLE"
     },
     {
         "NBA_ID": 1626156,
@@ -3603,7 +3612,7 @@
         "NBA_ID": 1627734,
         "FULL_NAME": "Domantas Sabonis",
         "PLAYER_SLUG": "domantas-sabonis",
-        "HEIGHT": "6-11",
+        "HEIGHT": "7-1",
         "JERSEY_NUM": "10",
         "POS": "F-C",
         "TEAM": "SAC"
@@ -3616,33 +3625,6 @@
         "JERSEY_NUM": "20",
         "POS": "F-C",
         "TEAM": "PHX"
-    },
-    {
-        "NBA_ID": 1630846,
-        "FULL_NAME": "Olivier Sarr",
-        "PLAYER_SLUG": "olivier-sarr",
-        "HEIGHT": "7-0",
-        "JERSEY_NUM": "30",
-        "POS": "C",
-        "TEAM": "OKC"
-    },
-    {
-        "NBA_ID": 203107,
-        "FULL_NAME": "Tomas Satoransky",
-        "PLAYER_SLUG": "tomas-satoransky",
-        "HEIGHT": "6-7",
-        "JERSEY_NUM": "31",
-        "POS": "G",
-        "TEAM": "WAS"
-    },
-    {
-        "NBA_ID": 1630648,
-        "FULL_NAME": "Jordan Schakel",
-        "PLAYER_SLUG": "jordan-schakel",
-        "HEIGHT": "6-6",
-        "JERSEY_NUM": "20",
-        "POS": "G",
-        "TEAM": "WAS"
     },
     {
         "NBA_ID": 1629678,
@@ -3660,22 +3642,22 @@
         "HEIGHT": "6-1",
         "JERSEY_NUM": "17",
         "POS": "G",
-        "TEAM": "HOU"
+        "TEAM": "LAL"
     },
     {
-        "NBA_ID": 1630206,
-        "FULL_NAME": "Jay Scrubb",
-        "PLAYER_SLUG": "jay-scrubb",
+        "NBA_ID": 1631220,
+        "FULL_NAME": "Dereon Seabron",
+        "PLAYER_SLUG": "dereon-seabron",
         "HEIGHT": "6-5",
         "JERSEY_NUM": "0",
         "POS": "G",
-        "TEAM": "LAC"
+        "TEAM": "NOP"
     },
     {
         "NBA_ID": 1630578,
         "FULL_NAME": "Alperen Sengun",
         "PLAYER_SLUG": "alperen-sengun",
-        "HEIGHT": "6-10",
+        "HEIGHT": "6-11",
         "JERSEY_NUM": "28",
         "POS": "C",
         "TEAM": "HOU"
@@ -3684,10 +3666,10 @@
         "NBA_ID": 1629012,
         "FULL_NAME": "Collin Sexton",
         "PLAYER_SLUG": "collin-sexton",
-        "HEIGHT": "6-1",
+        "HEIGHT": "6-2",
         "JERSEY_NUM": "2",
         "POS": "G",
-        "TEAM": "CLE"
+        "TEAM": "UTA"
     },
     {
         "NBA_ID": 1629013,
@@ -3704,8 +3686,17 @@
         "PLAYER_SLUG": "dayron-sharpe",
         "HEIGHT": "6-9",
         "JERSEY_NUM": "20",
-        "POS": "F",
+        "POS": "C",
         "TEAM": "BKN"
+    },
+    {
+        "NBA_ID": 1631101,
+        "FULL_NAME": "Shaedon Sharpe",
+        "PLAYER_SLUG": "shaedon-sharpe",
+        "HEIGHT": "6-5",
+        "JERSEY_NUM": "17",
+        "POS": "G",
+        "TEAM": "POR"
     },
     {
         "NBA_ID": 1627783,
@@ -3720,7 +3711,7 @@
         "NBA_ID": 1627732,
         "FULL_NAME": "Ben Simmons",
         "PLAYER_SLUG": "ben-simmons",
-        "HEIGHT": "6-11",
+        "HEIGHT": "6-10",
         "JERSEY_NUM": "10",
         "POS": "G-F",
         "TEAM": "BKN"
@@ -3729,7 +3720,7 @@
         "NBA_ID": 1630250,
         "FULL_NAME": "Marko Simonovic",
         "PLAYER_SLUG": "marko-simonovic",
-        "HEIGHT": "6-11",
+        "HEIGHT": "7-0",
         "JERSEY_NUM": "19",
         "POS": "C",
         "TEAM": "CHI"
@@ -3747,19 +3738,10 @@
         "NBA_ID": 1630579,
         "FULL_NAME": "Jericho Sims",
         "PLAYER_SLUG": "jericho-sims",
-        "HEIGHT": "6-9",
+        "HEIGHT": "6-10",
         "JERSEY_NUM": "45",
         "POS": "C",
         "TEAM": "NYK"
-    },
-    {
-        "NBA_ID": 1630606,
-        "FULL_NAME": "Javonte Smart",
-        "PLAYER_SLUG": "javonte-smart",
-        "HEIGHT": "6-4",
-        "JERSEY_NUM": "15",
-        "POS": "G",
-        "TEAM": "MIA"
     },
     {
         "NBA_ID": 203935,
@@ -3771,49 +3753,58 @@
         "TEAM": "BOS"
     },
     {
-        "NBA_ID": 1630607,
-        "FULL_NAME": "Chris Smith",
-        "PLAYER_SLUG": "chris-smith",
-        "HEIGHT": "6-9",
-        "JERSEY_NUM": "0",
-        "POS": "F",
-        "TEAM": "DET"
+        "NBA_ID": 1630696,
+        "FULL_NAME": "Dru Smith",
+        "PLAYER_SLUG": "dru-smith",
+        "HEIGHT": "6-3",
+        "JERSEY_NUM": "9",
+        "POS": "G",
+        "TEAM": "MIA"
     },
     {
         "NBA_ID": 202397,
         "FULL_NAME": "Ish Smith",
         "PLAYER_SLUG": "ish-smith",
         "HEIGHT": "6-0",
-        "JERSEY_NUM": "4",
+        "JERSEY_NUM": "14",
         "POS": "G",
-        "TEAM": "WAS"
+        "TEAM": "DEN"
     },
     {
         "NBA_ID": 1630188,
         "FULL_NAME": "Jalen Smith",
         "PLAYER_SLUG": "jalen-smith",
-        "HEIGHT": "6-10",
+        "HEIGHT": "6-9",
         "JERSEY_NUM": "25",
         "POS": "F-C",
         "TEAM": "IND"
     },
     {
-        "NBA_ID": 1630270,
-        "FULL_NAME": "Xavier Sneed",
-        "PLAYER_SLUG": "xavier-sneed",
-        "HEIGHT": "6-5",
-        "JERSEY_NUM": "19",
-        "POS": "F",
-        "TEAM": "UTA"
+        "NBA_ID": 1628372,
+        "FULL_NAME": "Dennis Smith Jr.",
+        "PLAYER_SLUG": "dennis-smith-jr",
+        "HEIGHT": "6-2",
+        "JERSEY_NUM": "8",
+        "POS": "G",
+        "TEAM": "CHA"
     },
     {
-        "NBA_ID": 203503,
-        "FULL_NAME": "Tony Snell",
-        "PLAYER_SLUG": "tony-snell",
-        "HEIGHT": "6-6",
-        "JERSEY_NUM": "21",
-        "POS": "G",
-        "TEAM": "NOP"
+        "NBA_ID": 1631095,
+        "FULL_NAME": "Jabari Smith Jr.",
+        "PLAYER_SLUG": "jabari-smith-jr",
+        "HEIGHT": "6-11",
+        "JERSEY_NUM": "1",
+        "POS": "F",
+        "TEAM": "HOU"
+    },
+    {
+        "NBA_ID": 1631110,
+        "FULL_NAME": "Jeremy Sochan",
+        "PLAYER_SLUG": "jeremy-sochan",
+        "HEIGHT": "6-8",
+        "JERSEY_NUM": "10",
+        "POS": "F",
+        "TEAM": "SAS"
     },
     {
         "NBA_ID": 1630531,
@@ -3825,24 +3816,6 @@
         "TEAM": "PHI"
     },
     {
-        "NBA_ID": 203917,
-        "FULL_NAME": "Nik Stauskas",
-        "PLAYER_SLUG": "nik-stauskas",
-        "HEIGHT": "6-6",
-        "JERSEY_NUM": "13",
-        "POS": "G",
-        "TEAM": "BOS"
-    },
-    {
-        "NBA_ID": 202362,
-        "FULL_NAME": "Lance Stephenson",
-        "PLAYER_SLUG": "lance-stephenson",
-        "HEIGHT": "6-5",
-        "JERSEY_NUM": "6",
-        "POS": "F",
-        "TEAM": "IND"
-    },
-    {
         "NBA_ID": 1630205,
         "FULL_NAME": "Lamar Stevens",
         "PLAYER_SLUG": "lamar-stevens",
@@ -3850,15 +3823,6 @@
         "JERSEY_NUM": "8",
         "POS": "F",
         "TEAM": "CLE"
-    },
-    {
-        "NBA_ID": 1630597,
-        "FULL_NAME": "DJ Stewart",
-        "PLAYER_SLUG": "dj-stewart",
-        "HEIGHT": "6-5",
-        "JERSEY_NUM": "18",
-        "POS": "G",
-        "TEAM": "SAS"
     },
     {
         "NBA_ID": 1630191,
@@ -3888,19 +3852,28 @@
         "TEAM": "ORL"
     },
     {
-        "NBA_ID": 1626208,
-        "FULL_NAME": "Keifer Sykes",
-        "PLAYER_SLUG": "keifer-sykes",
-        "HEIGHT": "5-11",
-        "JERSEY_NUM": "28",
+        "NBA_ID": 1628410,
+        "FULL_NAME": "Edmond Sumner",
+        "PLAYER_SLUG": "edmond-sumner",
+        "HEIGHT": "6-4",
+        "JERSEY_NUM": "4",
         "POS": "G",
-        "TEAM": "IND"
+        "TEAM": "BKN"
+    },
+    {
+        "NBA_ID": 1631306,
+        "FULL_NAME": "Cole Swider",
+        "PLAYER_SLUG": "cole-swider",
+        "HEIGHT": "6-9",
+        "JERSEY_NUM": "20",
+        "POS": "F",
+        "TEAM": "LAL"
     },
     {
         "NBA_ID": 1630256,
         "FULL_NAME": "Jae'Sean Tate",
         "PLAYER_SLUG": "jaesean-tate",
-        "HEIGHT": "6-4",
+        "HEIGHT": "6-5",
         "JERSEY_NUM": "8",
         "POS": "F",
         "TEAM": "HOU"
@@ -3918,8 +3891,8 @@
         "NBA_ID": 1630678,
         "FULL_NAME": "Terry Taylor",
         "PLAYER_SLUG": "terry-taylor",
-        "HEIGHT": "6-5",
-        "JERSEY_NUM": "32",
+        "HEIGHT": "6-4",
+        "JERSEY_NUM": "21",
         "POS": "F",
         "TEAM": "IND"
     },
@@ -3927,37 +3900,28 @@
         "NBA_ID": 202066,
         "FULL_NAME": "Garrett Temple",
         "PLAYER_SLUG": "garrett-temple",
-        "HEIGHT": "6-5",
+        "HEIGHT": "6-6",
         "JERSEY_NUM": "41",
         "POS": "G-F",
         "TEAM": "NOP"
     },
     {
-        "NBA_ID": 1630179,
-        "FULL_NAME": "Tyrell Terry",
-        "PLAYER_SLUG": "tyrell-terry",
-        "HEIGHT": "6-2",
-        "JERSEY_NUM": "3",
-        "POS": "G",
-        "TEAM": "MEM"
+        "NBA_ID": 1631207,
+        "FULL_NAME": "Dalen Terry",
+        "PLAYER_SLUG": "dalen-terry",
+        "HEIGHT": "6-7",
+        "JERSEY_NUM": "25",
+        "POS": "F",
+        "TEAM": "CHI"
     },
     {
         "NBA_ID": 1628464,
         "FULL_NAME": "Daniel Theis",
         "PLAYER_SLUG": "daniel-theis",
-        "HEIGHT": "6-9",
+        "HEIGHT": "6-8",
         "JERSEY_NUM": "27",
         "POS": "F-C",
-        "TEAM": "BOS"
-    },
-    {
-        "NBA_ID": 1630271,
-        "FULL_NAME": "Brodric Thomas",
-        "PLAYER_SLUG": "brodric-thomas",
-        "HEIGHT": "6-5",
-        "JERSEY_NUM": "97",
-        "POS": "G",
-        "TEAM": "BOS"
+        "TEAM": "IND"
     },
     {
         "NBA_ID": 1630560,
@@ -3969,24 +3933,6 @@
         "TEAM": "BKN"
     },
     {
-        "NBA_ID": 202738,
-        "FULL_NAME": "Isaiah Thomas",
-        "PLAYER_SLUG": "isaiah-thomas",
-        "HEIGHT": "5-9",
-        "JERSEY_NUM": "4",
-        "POS": "G",
-        "TEAM": "CHA"
-    },
-    {
-        "NBA_ID": 1629744,
-        "FULL_NAME": "Matt Thomas",
-        "PLAYER_SLUG": "matt-thomas",
-        "HEIGHT": "6-3",
-        "JERSEY_NUM": "21",
-        "POS": "G",
-        "TEAM": "CHI"
-    },
-    {
         "NBA_ID": 202691,
         "FULL_NAME": "Klay Thompson",
         "PLAYER_SLUG": "klay-thompson",
@@ -3994,15 +3940,6 @@
         "JERSEY_NUM": "11",
         "POS": "G",
         "TEAM": "GSW"
-    },
-    {
-        "NBA_ID": 202684,
-        "FULL_NAME": "Tristan Thompson",
-        "PLAYER_SLUG": "tristan-thompson",
-        "HEIGHT": "6-9",
-        "JERSEY_NUM": "3",
-        "POS": "C-F",
-        "TEAM": "CHI"
     },
     {
         "NBA_ID": 1630550,
@@ -4023,19 +3960,10 @@
         "TEAM": "PHI"
     },
     {
-        "NBA_ID": 1629681,
-        "FULL_NAME": "Killian Tillie",
-        "PLAYER_SLUG": "killian-tillie",
-        "HEIGHT": "6-9",
-        "JERSEY_NUM": "35",
-        "POS": "F-C",
-        "TEAM": "MEM"
-    },
-    {
         "NBA_ID": 1630214,
         "FULL_NAME": "Xavier Tillman",
         "PLAYER_SLUG": "xavier-tillman",
-        "HEIGHT": "6-8",
+        "HEIGHT": "6-7",
         "JERSEY_NUM": "2",
         "POS": "F",
         "TEAM": "MEM"
@@ -4065,13 +3993,13 @@
         "HEIGHT": "6-6",
         "JERSEY_NUM": "95",
         "POS": "F",
-        "TEAM": "GSW"
+        "TEAM": "LAL"
     },
     {
         "NBA_ID": 1626157,
         "FULL_NAME": "Karl-Anthony Towns",
         "PLAYER_SLUG": "karl-anthony-towns",
-        "HEIGHT": "6-11",
+        "HEIGHT": "7-0",
         "JERSEY_NUM": "32",
         "POS": "C-F",
         "TEAM": "MIN"
@@ -4092,7 +4020,7 @@
         "HEIGHT": "6-5",
         "JERSEY_NUM": "17",
         "POS": "F",
-        "TEAM": "MIA"
+        "TEAM": "PHI"
     },
     {
         "NBA_ID": 1626167,
@@ -4116,7 +4044,7 @@
         "NBA_ID": 1627832,
         "FULL_NAME": "Fred VanVleet",
         "PLAYER_SLUG": "fred-vanvleet",
-        "HEIGHT": "6-1",
+        "HEIGHT": "6-0",
         "JERSEY_NUM": "23",
         "POS": "G",
         "TEAM": "TOR"
@@ -4125,10 +4053,10 @@
         "NBA_ID": 1629020,
         "FULL_NAME": "Jarred Vanderbilt",
         "PLAYER_SLUG": "jarred-vanderbilt",
-        "HEIGHT": "6-9",
+        "HEIGHT": "6-8",
         "JERSEY_NUM": "8",
         "POS": "F",
-        "TEAM": "MIN"
+        "TEAM": "UTA"
     },
     {
         "NBA_ID": 1630170,
@@ -4143,10 +4071,19 @@
         "NBA_ID": 1629216,
         "FULL_NAME": "Gabe Vincent",
         "PLAYER_SLUG": "gabe-vincent",
-        "HEIGHT": "6-3",
+        "HEIGHT": "6-2",
         "JERSEY_NUM": "2",
         "POS": "G",
         "TEAM": "MIA"
+    },
+    {
+        "NBA_ID": 203943,
+        "FULL_NAME": "Noah Vonleh",
+        "PLAYER_SLUG": "noah-vonleh",
+        "HEIGHT": "6-10",
+        "JERSEY_NUM": "4",
+        "POS": "F",
+        "TEAM": "BOS"
     },
     {
         "NBA_ID": 202696,
@@ -4194,31 +4131,40 @@
         "TEAM": "PHX"
     },
     {
+        "NBA_ID": 1631133,
+        "FULL_NAME": "Jabari Walker",
+        "PLAYER_SLUG": "jabari-walker",
+        "HEIGHT": "6-7",
+        "JERSEY_NUM": "34",
+        "POS": "F",
+        "TEAM": "POR"
+    },
+    {
         "NBA_ID": 202689,
         "FULL_NAME": "Kemba Walker",
         "PLAYER_SLUG": "kemba-walker",
         "HEIGHT": "6-0",
         "JERSEY_NUM": "8",
         "POS": "G",
-        "TEAM": "NYK"
+        "TEAM": "DAL"
     },
     {
         "NBA_ID": 1629022,
         "FULL_NAME": "Lonnie Walker IV",
         "PLAYER_SLUG": "lonnie-walker-iv",
         "HEIGHT": "6-4",
-        "JERSEY_NUM": "1",
+        "JERSEY_NUM": "4",
         "POS": "G-F",
-        "TEAM": "SAS"
+        "TEAM": "LAL"
     },
     {
         "NBA_ID": 202322,
         "FULL_NAME": "John Wall",
         "PLAYER_SLUG": "john-wall",
         "HEIGHT": "6-3",
-        "JERSEY_NUM": "1",
+        "JERSEY_NUM": "11",
         "POS": "G",
-        "TEAM": "HOU"
+        "TEAM": "LAC"
     },
     {
         "NBA_ID": 203933,
@@ -4227,7 +4173,7 @@
         "HEIGHT": "6-8",
         "JERSEY_NUM": "1",
         "POS": "F",
-        "TEAM": "IND"
+        "TEAM": "BKN"
     },
     {
         "NBA_ID": 1629023,
@@ -4242,19 +4188,28 @@
         "NBA_ID": 1630613,
         "FULL_NAME": "Duane Washington Jr.",
         "PLAYER_SLUG": "duane-washington-jr",
-        "HEIGHT": "6-3",
+        "HEIGHT": "6-2",
         "JERSEY_NUM": "4",
         "POS": "G",
-        "TEAM": "IND"
+        "TEAM": "PHX"
+    },
+    {
+        "NBA_ID": 1631102,
+        "FULL_NAME": "TyTy Washington Jr.",
+        "PLAYER_SLUG": "tyty-washington-jr",
+        "HEIGHT": "6-3",
+        "JERSEY_NUM": "0",
+        "POS": "G",
+        "TEAM": "HOU"
     },
     {
         "NBA_ID": 1629139,
         "FULL_NAME": "Yuta Watanabe",
         "PLAYER_SLUG": "yuta-watanabe",
-        "HEIGHT": "6-9",
+        "HEIGHT": "6-8",
         "JERSEY_NUM": "18",
         "POS": "G-F",
-        "TEAM": "TOR"
+        "TEAM": "BKN"
     },
     {
         "NBA_ID": 1630322,
@@ -4275,13 +4230,22 @@
         "TEAM": "POR"
     },
     {
-        "NBA_ID": 1629683,
-        "FULL_NAME": "Quinndary Weatherspoon",
-        "PLAYER_SLUG": "quinndary-weatherspoon",
-        "HEIGHT": "6-3",
-        "JERSEY_NUM": "15",
+        "NBA_ID": 1631212,
+        "FULL_NAME": "Peyton Watson",
+        "PLAYER_SLUG": "peyton-watson",
+        "HEIGHT": "6-7",
+        "JERSEY_NUM": "8",
         "POS": "G",
-        "TEAM": "GSW"
+        "TEAM": "DEN"
+    },
+    {
+        "NBA_ID": 1631104,
+        "FULL_NAME": "Blake Wesley",
+        "PLAYER_SLUG": "blake-wesley",
+        "HEIGHT": "6-4",
+        "JERSEY_NUM": "14",
+        "POS": "G",
+        "TEAM": "SAS"
     },
     {
         "NBA_ID": 201566,
@@ -4296,7 +4260,7 @@
         "NBA_ID": 1629632,
         "FULL_NAME": "Coby White",
         "PLAYER_SLUG": "coby-white",
-        "HEIGHT": "6-4",
+        "HEIGHT": "6-5",
         "JERSEY_NUM": "0",
         "POS": "G",
         "TEAM": "CHI"
@@ -4311,28 +4275,19 @@
         "TEAM": "BOS"
     },
     {
-        "NBA_ID": 202355,
-        "FULL_NAME": "Hassan Whiteside",
-        "PLAYER_SLUG": "hassan-whiteside",
-        "HEIGHT": "7-0",
-        "JERSEY_NUM": "21",
-        "POS": "C",
-        "TEAM": "UTA"
-    },
-    {
-        "NBA_ID": 1630580,
-        "FULL_NAME": "Joe Wieskamp",
-        "PLAYER_SLUG": "joe-wieskamp",
-        "HEIGHT": "6-6",
-        "JERSEY_NUM": "15",
-        "POS": "G-F",
-        "TEAM": "SAS"
+        "NBA_ID": 1631298,
+        "FULL_NAME": "Jack White",
+        "PLAYER_SLUG": "jack-white",
+        "HEIGHT": "6-7",
+        "JERSEY_NUM": "10",
+        "POS": "F",
+        "TEAM": "DEN"
     },
     {
         "NBA_ID": 1630598,
         "FULL_NAME": "Aaron Wiggins",
         "PLAYER_SLUG": "aaron-wiggins",
-        "HEIGHT": "6-4",
+        "HEIGHT": "6-5",
         "JERSEY_NUM": "21",
         "POS": "G",
         "TEAM": "OKC"
@@ -4347,22 +4302,13 @@
         "TEAM": "GSW"
     },
     {
-        "NBA_ID": 1629623,
-        "FULL_NAME": "Lindell Wigginton",
-        "PLAYER_SLUG": "lindell-wigginton",
-        "HEIGHT": "6-1",
-        "JERSEY_NUM": "28",
+        "NBA_ID": 1631214,
+        "FULL_NAME": "Alondes Williams",
+        "PLAYER_SLUG": "alondes-williams",
+        "HEIGHT": "6-4",
+        "JERSEY_NUM": "31",
         "POS": "G",
-        "TEAM": "MIL"
-    },
-    {
-        "NBA_ID": 1630314,
-        "FULL_NAME": "Brandon Williams",
-        "PLAYER_SLUG": "brandon-williams",
-        "HEIGHT": "6-2",
-        "JERSEY_NUM": "8",
-        "POS": "G",
-        "TEAM": "POR"
+        "TEAM": "BKN"
     },
     {
         "NBA_ID": 1629684,
@@ -4374,6 +4320,24 @@
         "TEAM": "BOS"
     },
     {
+        "NBA_ID": 1631114,
+        "FULL_NAME": "Jalen Williams",
+        "PLAYER_SLUG": "jalen-williams",
+        "HEIGHT": "6-5",
+        "JERSEY_NUM": "8",
+        "POS": "G-F",
+        "TEAM": "OKC"
+    },
+    {
+        "NBA_ID": 1631119,
+        "FULL_NAME": "Jaylin Williams",
+        "PLAYER_SLUG": "jaylin-williams",
+        "HEIGHT": "6-9",
+        "JERSEY_NUM": "6",
+        "POS": "F",
+        "TEAM": "OKC"
+    },
+    {
         "NBA_ID": 1629026,
         "FULL_NAME": "Kenrich Williams",
         "PLAYER_SLUG": "kenrich-williams",
@@ -4383,13 +4347,13 @@
         "TEAM": "OKC"
     },
     {
-        "NBA_ID": 101150,
-        "FULL_NAME": "Lou Williams",
-        "PLAYER_SLUG": "lou-williams",
-        "HEIGHT": "6-2",
-        "JERSEY_NUM": "6",
-        "POS": "G",
-        "TEAM": "ATL"
+        "NBA_ID": 1631109,
+        "FULL_NAME": "Mark Williams",
+        "PLAYER_SLUG": "mark-williams",
+        "HEIGHT": "7-0",
+        "JERSEY_NUM": "5",
+        "POS": "C",
+        "TEAM": "CHA"
     },
     {
         "NBA_ID": 1630172,
@@ -4419,6 +4383,15 @@
         "TEAM": "BOS"
     },
     {
+        "NBA_ID": 1631246,
+        "FULL_NAME": "Vince Williams Jr.",
+        "PLAYER_SLUG": "vince-williams-jr",
+        "HEIGHT": "6-4",
+        "JERSEY_NUM": "5",
+        "POS": "G",
+        "TEAM": "MEM"
+    },
+    {
         "NBA_ID": 1629627,
         "FULL_NAME": "Zion Williamson",
         "PLAYER_SLUG": "zion-williamson",
@@ -4431,7 +4404,7 @@
         "NBA_ID": 1629685,
         "FULL_NAME": "Dylan Windler",
         "PLAYER_SLUG": "dylan-windler",
-        "HEIGHT": "6-6",
+        "HEIGHT": "6-7",
         "JERSEY_NUM": "9",
         "POS": "G-F",
         "TEAM": "CLE"
@@ -4444,15 +4417,6 @@
         "JERSEY_NUM": "26",
         "POS": "F-G",
         "TEAM": "POR"
-    },
-    {
-        "NBA_ID": 1630216,
-        "FULL_NAME": "Cassius Winston",
-        "PLAYER_SLUG": "cassius-winston",
-        "HEIGHT": "6-1",
-        "JERSEY_NUM": "5",
-        "POS": "G",
-        "TEAM": "WAS"
     },
     {
         "NBA_ID": 1630164,
@@ -4470,25 +4434,16 @@
         "HEIGHT": "6-9",
         "JERSEY_NUM": "35",
         "POS": "F",
-        "TEAM": "HOU"
-    },
-    {
-        "NBA_ID": 1630218,
-        "FULL_NAME": "Robert Woodard II",
-        "PLAYER_SLUG": "robert-woodard-ii",
-        "HEIGHT": "6-6",
-        "JERSEY_NUM": "17",
-        "POS": "F",
-        "TEAM": "SAS"
+        "TEAM": "DAL"
     },
     {
         "NBA_ID": 1626153,
         "FULL_NAME": "Delon Wright",
         "PLAYER_SLUG": "delon-wright",
         "HEIGHT": "6-5",
-        "JERSEY_NUM": "0",
+        "JERSEY_NUM": "55",
         "POS": "G",
-        "TEAM": "ATL"
+        "TEAM": "WAS"
     },
     {
         "NBA_ID": 1630593,
@@ -4497,7 +4452,7 @@
         "HEIGHT": "5-11",
         "JERSEY_NUM": "25",
         "POS": "G",
-        "TEAM": "MIN"
+        "TEAM": "DAL"
     },
     {
         "NBA_ID": 201152,
